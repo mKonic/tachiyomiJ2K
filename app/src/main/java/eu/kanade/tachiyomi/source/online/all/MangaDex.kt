@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.source.online.all
+package eu.mkonic.tachiyomi.source.online.all
 
 import android.net.Uri
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.network.GET
-import eu.kanade.tachiyomi.network.await
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.source.model.SChapter
-import eu.kanade.tachiyomi.source.online.DelegatedHttpSource
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.network.GET
+import eu.mkonic.tachiyomi.network.await
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.source.model.SChapter
+import eu.mkonic.tachiyomi.source.online.DelegatedHttpSource
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.withContext

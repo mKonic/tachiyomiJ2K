@@ -1,10 +1,10 @@
-package eu.kanade.tachiyomi.ui.category
+package eu.mkonic.tachiyomi.ui.category
 
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.DatabaseHelper
-import eu.kanade.tachiyomi.data.database.models.Category
-import eu.kanade.tachiyomi.ui.library.LibrarySort
-import eu.kanade.tachiyomi.util.system.executeOnIO
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.DatabaseHelper
+import eu.mkonic.tachiyomi.data.database.models.Category
+import eu.mkonic.tachiyomi.ui.library.LibrarySort
+import eu.mkonic.tachiyomi.util.system.executeOnIO
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

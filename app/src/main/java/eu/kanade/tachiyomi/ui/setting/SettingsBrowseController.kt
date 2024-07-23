@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.setting
+package eu.mkonic.tachiyomi.ui.setting
 
 import android.app.Activity
 import android.content.Intent
@@ -6,21 +6,21 @@ import android.os.Build
 import android.provider.Settings
 import androidx.preference.PreferenceScreen
 import androidx.preference.SwitchPreferenceCompat
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.notification.Notifications
-import eu.kanade.tachiyomi.data.preference.PreferenceKeys
-import eu.kanade.tachiyomi.data.preference.asImmediateFlowIn
-import eu.kanade.tachiyomi.data.updater.AppDownloadInstallJob
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.extension.ExtensionUpdateJob
-import eu.kanade.tachiyomi.extension.util.ExtensionInstaller
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.ui.migration.MigrationController
-import eu.kanade.tachiyomi.ui.source.browse.repos.RepoController
-import eu.kanade.tachiyomi.util.view.snack
-import eu.kanade.tachiyomi.util.view.withFadeTransaction
+import eu.mkonic.tachiyomi.BuildConfig
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.notification.Notifications
+import eu.mkonic.tachiyomi.data.preference.PreferenceKeys
+import eu.mkonic.tachiyomi.data.preference.asImmediateFlowIn
+import eu.mkonic.tachiyomi.data.updater.AppDownloadInstallJob
+import eu.mkonic.tachiyomi.extension.ExtensionManager
+import eu.mkonic.tachiyomi.extension.ExtensionUpdateJob
+import eu.mkonic.tachiyomi.extension.util.ExtensionInstaller
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.ui.migration.MigrationController
+import eu.mkonic.tachiyomi.ui.source.browse.repos.RepoController
+import eu.mkonic.tachiyomi.util.view.snack
+import eu.mkonic.tachiyomi.util.view.withFadeTransaction
 import uy.kohesive.injekt.injectLazy
 
 class SettingsBrowseController : SettingsController() {

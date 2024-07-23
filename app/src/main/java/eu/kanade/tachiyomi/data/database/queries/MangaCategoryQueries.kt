@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.data.database.queries
+package eu.mkonic.tachiyomi.data.database.queries
 
 import com.pushtorefresh.storio.Queries
 import com.pushtorefresh.storio.sqlite.queries.DeleteQuery
-import eu.kanade.tachiyomi.data.database.DbProvider
-import eu.kanade.tachiyomi.data.database.inTransaction
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.database.models.MangaCategory
-import eu.kanade.tachiyomi.data.database.tables.MangaCategoryTable
+import eu.mkonic.tachiyomi.data.database.DbProvider
+import eu.mkonic.tachiyomi.data.database.inTransaction
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.database.models.MangaCategory
+import eu.mkonic.tachiyomi.data.database.tables.MangaCategoryTable
 
 interface MangaCategoryQueries : DbProvider {
 

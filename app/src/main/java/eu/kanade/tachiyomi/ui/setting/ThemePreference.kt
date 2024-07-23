@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.setting
+package eu.mkonic.tachiyomi.ui.setting
 
 import android.app.Activity
 import android.content.Context
@@ -23,16 +23,16 @@ import com.mikepenz.fastadapter.adapters.ItemAdapter
 import com.mikepenz.fastadapter.items.AbstractItem
 import com.mikepenz.fastadapter.select.SelectExtension
 import com.mikepenz.fastadapter.select.getSelectExtension
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.databinding.ThemeItemBinding
-import eu.kanade.tachiyomi.databinding.ThemesPreferenceBinding
-import eu.kanade.tachiyomi.util.system.ThemeUtil
-import eu.kanade.tachiyomi.util.system.Themes
-import eu.kanade.tachiyomi.util.system.appDelegateNightMode
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.system.isInNightMode
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.databinding.ThemeItemBinding
+import eu.mkonic.tachiyomi.databinding.ThemesPreferenceBinding
+import eu.mkonic.tachiyomi.util.system.ThemeUtil
+import eu.mkonic.tachiyomi.util.system.Themes
+import eu.mkonic.tachiyomi.util.system.appDelegateNightMode
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.isInNightMode
 import uy.kohesive.injekt.injectLazy
 import kotlin.math.max
 

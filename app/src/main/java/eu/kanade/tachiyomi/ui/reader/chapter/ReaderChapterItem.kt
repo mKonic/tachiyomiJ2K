@@ -1,17 +1,17 @@
-package eu.kanade.tachiyomi.ui.reader.chapter
+package eu.mkonic.tachiyomi.ui.reader.chapter
 
 import android.graphics.Typeface
 import android.view.View
 import androidx.core.graphics.drawable.DrawableCompat
 import com.mikepenz.fastadapter.FastAdapter
 import com.mikepenz.fastadapter.items.AbstractItem
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.databinding.ReaderChapterItemBinding
-import eu.kanade.tachiyomi.util.chapter.ChapterUtil
-import eu.kanade.tachiyomi.util.chapter.ChapterUtil.Companion.preferredChapterName
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.databinding.ReaderChapterItemBinding
+import eu.mkonic.tachiyomi.util.chapter.ChapterUtil
+import eu.mkonic.tachiyomi.util.chapter.ChapterUtil.Companion.preferredChapterName
 import uy.kohesive.injekt.injectLazy
 
 class ReaderChapterItem(val chapter: Chapter, val manga: Manga, val isCurrent: Boolean) :

@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.data.track.anilist
+package eu.mkonic.tachiyomi.data.track.anilist
 
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.data.track.TrackManager
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
+import eu.mkonic.tachiyomi.data.database.models.Track
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.data.track.TrackManager
+import eu.mkonic.tachiyomi.data.track.model.TrackSearch
 import uy.kohesive.injekt.injectLazy
 import java.text.SimpleDateFormat
 import java.util.Locale

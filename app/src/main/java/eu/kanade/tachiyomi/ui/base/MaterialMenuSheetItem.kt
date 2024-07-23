@@ -1,10 +1,10 @@
-package eu.kanade.tachiyomi.ui.base
+package eu.mkonic.tachiyomi.ui.base
 
 import android.view.View
 import com.mikepenz.fastadapter.FastAdapter
 import com.mikepenz.fastadapter.items.AbstractItem
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.MenuSheetItemBinding
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.MenuSheetItemBinding
 
 class MaterialMenuSheetItem(val sheetItem: MaterialMenuSheet.MenuSheetItem) : AbstractItem<MaterialMenuSheetItem.ViewHolder>() {
 

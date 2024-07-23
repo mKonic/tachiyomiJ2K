@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.base.presenter
+package eu.mkonic.tachiyomi.ui.base.presenter
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

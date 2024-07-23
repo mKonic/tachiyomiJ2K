@@ -1,13 +1,13 @@
-package eu.kanade.tachiyomi.data.database.resolvers
+package eu.mkonic.tachiyomi.data.database.resolvers
 
 import androidx.core.content.contentValuesOf
 import com.pushtorefresh.storio.sqlite.StorIOSQLite
 import com.pushtorefresh.storio.sqlite.operations.put.PutResolver
 import com.pushtorefresh.storio.sqlite.operations.put.PutResult
 import com.pushtorefresh.storio.sqlite.queries.UpdateQuery
-import eu.kanade.tachiyomi.data.database.inTransactionReturn
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.database.tables.MangaTable
+import eu.mkonic.tachiyomi.data.database.inTransactionReturn
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable
 import kotlin.reflect.KProperty1
 
 class MangaFlagsPutResolver(private val colName: String, private val fieldGetter: KProperty1<Manga, Int>, private val updateAll: Boolean = false) : PutResolver<Manga>() {

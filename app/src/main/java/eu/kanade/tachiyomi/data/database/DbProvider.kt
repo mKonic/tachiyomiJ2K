@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.database
+package eu.mkonic.tachiyomi.data.database
 
 import com.pushtorefresh.storio.sqlite.impl.DefaultStorIOSQLite
 

@@ -1,16 +1,16 @@
-package eu.kanade.tachiyomi.ui.reader.loader
+package eu.mkonic.tachiyomi.ui.reader.loader
 
 import android.content.Context
 import com.github.junrar.exception.UnsupportedRarV5Exception
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.data.download.DownloadProvider
-import eu.kanade.tachiyomi.source.LocalSource
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.ui.reader.model.ReaderChapter
-import eu.kanade.tachiyomi.util.system.withIOContext
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.download.DownloadManager
+import eu.mkonic.tachiyomi.data.download.DownloadProvider
+import eu.mkonic.tachiyomi.source.LocalSource
+import eu.mkonic.tachiyomi.source.Source
+import eu.mkonic.tachiyomi.source.online.HttpSource
+import eu.mkonic.tachiyomi.ui.reader.model.ReaderChapter
+import eu.mkonic.tachiyomi.util.system.withIOContext
 import timber.log.Timber
 
 /**

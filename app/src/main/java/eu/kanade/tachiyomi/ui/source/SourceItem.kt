@@ -1,13 +1,13 @@
-package eu.kanade.tachiyomi.ui.source
+package eu.mkonic.tachiyomi.ui.source
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractSectionableItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.LocalSource
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.source.CatalogueSource
+import eu.mkonic.tachiyomi.source.LocalSource
 
 /**
  * Item that contains source information.

@@ -1,14 +1,14 @@
-package eu.kanade.tachiyomi.ui.recents
+package eu.mkonic.tachiyomi.ui.recents
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractHeaderItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.RecentsHeaderItemBinding
-import eu.kanade.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
-import eu.kanade.tachiyomi.ui.library.LibraryHeaderItem
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.RecentsHeaderItemBinding
+import eu.mkonic.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
+import eu.mkonic.tachiyomi.ui.library.LibraryHeaderItem
 
 class RecentMangaHeaderItem(val recentsType: Int) :
     AbstractHeaderItem<RecentMangaHeaderItem.Holder>() {

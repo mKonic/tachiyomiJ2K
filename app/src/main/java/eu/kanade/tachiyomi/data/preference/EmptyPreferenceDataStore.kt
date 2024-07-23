@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.preference
+package eu.mkonic.tachiyomi.data.preference
 
 import androidx.preference.PreferenceDataStore
 

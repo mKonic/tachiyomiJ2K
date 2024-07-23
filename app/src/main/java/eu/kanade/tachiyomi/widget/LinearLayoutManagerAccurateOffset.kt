@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget
+package eu.mkonic.tachiyomi.widget
 
 import android.content.Context
 import android.widget.TextView
@@ -6,8 +6,8 @@ import androidx.core.view.WindowInsetsCompat.Type.systemBars
 import androidx.core.view.marginTop
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.rootWindowInsetsCompat
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.system.rootWindowInsetsCompat
 import kotlin.math.roundToInt
 
 class LinearLayoutManagerAccurateOffset(context: Context?) : LinearLayoutManager(context) {

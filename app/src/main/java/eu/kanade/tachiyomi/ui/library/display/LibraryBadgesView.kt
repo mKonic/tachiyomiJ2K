@@ -1,10 +1,10 @@
-package eu.kanade.tachiyomi.ui.library.display
+package eu.mkonic.tachiyomi.ui.library.display
 
 import android.content.Context
 import android.util.AttributeSet
-import eu.kanade.tachiyomi.databinding.LibraryBadgesLayoutBinding
-import eu.kanade.tachiyomi.util.bindToPreference
-import eu.kanade.tachiyomi.widget.BaseLibraryDisplayView
+import eu.mkonic.tachiyomi.databinding.LibraryBadgesLayoutBinding
+import eu.mkonic.tachiyomi.util.bindToPreference
+import eu.mkonic.tachiyomi.widget.BaseLibraryDisplayView
 
 class LibraryBadgesView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :
     BaseLibraryDisplayView<LibraryBadgesLayoutBinding>(context, attrs) {

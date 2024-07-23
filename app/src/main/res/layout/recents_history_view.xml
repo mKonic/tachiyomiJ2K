@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<eu.kanade.tachiyomi.ui.recents.options.RecentsHistoryView xmlns:android="http://schemas.android.com/apk/res/android"
+<eu.mkonic.tachiyomi.ui.recents.options.RecentsHistoryView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
@@ -13,7 +13,7 @@
         android:orientation="vertical"
         android:background="@android:color/transparent">
 
-        <eu.kanade.tachiyomi.widget.MaterialSpinnerView
+        <eu.mkonic.tachiyomi.widget.MaterialSpinnerView
             android:id="@+id/group_chapters"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,4 +36,4 @@
             android:layout_height="wrap_content"
             android:text="@string/clear_history" />
     </LinearLayout>
-</eu.kanade.tachiyomi.ui.recents.options.RecentsHistoryView>
+</eu.mkonic.tachiyomi.ui.recents.options.RecentsHistoryView>

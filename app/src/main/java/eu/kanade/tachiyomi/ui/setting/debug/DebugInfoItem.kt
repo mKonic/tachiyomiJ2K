@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.setting.debug
+package eu.mkonic.tachiyomi.ui.setting.debug
 
 import android.view.View
 import androidx.core.view.isVisible
 import com.mikepenz.fastadapter.FastAdapter
 import com.mikepenz.fastadapter.items.AbstractItem
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.DebugInfoItemBinding
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.DebugInfoItemBinding
 
 class DebugInfoItem(val text: String, val header: Boolean) : AbstractItem<FastAdapter.ViewHolder<DebugInfoItem>>() {
 

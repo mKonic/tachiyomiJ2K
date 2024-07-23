@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.library.filter
+package eu.mkonic.tachiyomi.ui.library.filter
 
 import android.content.Context
 import android.util.AttributeSet
@@ -7,10 +7,10 @@ import android.view.ViewGroup
 import android.widget.LinearLayout
 import androidx.core.view.isVisible
 import com.fredporciuncula.flow.preferences.Preference
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.FilterTagGroupBinding
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.FilterTagGroupBinding
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.getResourceColor
 
 class FilterTagGroup@JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) : LinearLayout
 (context, attrs) {

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.main
+package eu.mkonic.tachiyomi.ui.main
 
 import android.animation.ObjectAnimator
 import android.view.ViewTreeObserver

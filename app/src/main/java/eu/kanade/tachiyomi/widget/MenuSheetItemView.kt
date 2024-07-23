@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget
+package eu.mkonic.tachiyomi.widget
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -11,9 +11,9 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.core.view.isGone
 import androidx.core.widget.TextViewCompat
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.MenuSheetItemBinding
-import eu.kanade.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.MenuSheetItemBinding
+import eu.mkonic.tachiyomi.util.system.getResourceColor
 
 class MenuSheetItemView constructor(context: Context, attrs: AttributeSet?) :
     LinearLayout(context, attrs) {

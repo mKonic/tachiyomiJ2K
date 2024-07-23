@@ -1,29 +1,29 @@
-package eu.kanade.tachiyomi.ui.setting
+package eu.mkonic.tachiyomi.ui.setting
 
 import android.app.Activity
 import androidx.preference.PreferenceGroup
 import androidx.preference.PreferenceScreen
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.preference.asImmediateFlowIn
-import eu.kanade.tachiyomi.data.track.EnhancedTrackService
-import eu.kanade.tachiyomi.data.track.TrackManager
-import eu.kanade.tachiyomi.data.track.TrackPreferences
-import eu.kanade.tachiyomi.data.track.TrackService
-import eu.kanade.tachiyomi.data.track.anilist.AnilistApi
-import eu.kanade.tachiyomi.data.track.bangumi.BangumiApi
-import eu.kanade.tachiyomi.data.track.myanimelist.MyAnimeListApi
-import eu.kanade.tachiyomi.data.track.shikimori.ShikimoriApi
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.util.system.launchIO
-import eu.kanade.tachiyomi.util.system.openInBrowser
-import eu.kanade.tachiyomi.util.view.snack
-import eu.kanade.tachiyomi.widget.preference.TrackLoginDialog
-import eu.kanade.tachiyomi.widget.preference.TrackLogoutDialog
-import eu.kanade.tachiyomi.widget.preference.TrackerPreference
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.preference.asImmediateFlowIn
+import eu.mkonic.tachiyomi.data.track.EnhancedTrackService
+import eu.mkonic.tachiyomi.data.track.TrackManager
+import eu.mkonic.tachiyomi.data.track.TrackPreferences
+import eu.mkonic.tachiyomi.data.track.TrackService
+import eu.mkonic.tachiyomi.data.track.anilist.AnilistApi
+import eu.mkonic.tachiyomi.data.track.bangumi.BangumiApi
+import eu.mkonic.tachiyomi.data.track.myanimelist.MyAnimeListApi
+import eu.mkonic.tachiyomi.data.track.shikimori.ShikimoriApi
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.util.system.launchIO
+import eu.mkonic.tachiyomi.util.system.openInBrowser
+import eu.mkonic.tachiyomi.util.view.snack
+import eu.mkonic.tachiyomi.widget.preference.TrackLoginDialog
+import eu.mkonic.tachiyomi.widget.preference.TrackLogoutDialog
+import eu.mkonic.tachiyomi.widget.preference.TrackerPreference
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 import uy.kohesive.injekt.injectLazy
-import eu.kanade.tachiyomi.data.preference.PreferenceKeys as Keys
+import eu.mkonic.tachiyomi.data.preference.PreferenceKeys as Keys
 
 class SettingsTrackingController :
     SettingsController(),

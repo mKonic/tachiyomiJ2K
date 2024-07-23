@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.track.anilist
+package eu.mkonic.tachiyomi.data.track.anilist
 
 import okhttp3.Interceptor
 import okhttp3.Response

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget
+package eu.mkonic.tachiyomi.widget
 
 import android.view.View
 import android.widget.AdapterView

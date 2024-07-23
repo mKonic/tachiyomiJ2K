@@ -1,26 +1,26 @@
-package eu.kanade.tachiyomi.data.database.queries
+package eu.mkonic.tachiyomi.data.database.queries
 
 import com.pushtorefresh.storio.Queries
 import com.pushtorefresh.storio.sqlite.queries.DeleteQuery
 import com.pushtorefresh.storio.sqlite.queries.Query
 import com.pushtorefresh.storio.sqlite.queries.RawQuery
-import eu.kanade.tachiyomi.data.database.DbProvider
-import eu.kanade.tachiyomi.data.database.models.LibraryManga
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.database.models.SourceIdMangaCount
-import eu.kanade.tachiyomi.data.database.resolvers.LibraryMangaGetResolver
-import eu.kanade.tachiyomi.data.database.resolvers.MangaDateAddedPutResolver
-import eu.kanade.tachiyomi.data.database.resolvers.MangaFavoritePutResolver
-import eu.kanade.tachiyomi.data.database.resolvers.MangaFilteredScanlatorsPutResolver
-import eu.kanade.tachiyomi.data.database.resolvers.MangaFlagsPutResolver
-import eu.kanade.tachiyomi.data.database.resolvers.MangaInfoPutResolver
-import eu.kanade.tachiyomi.data.database.resolvers.MangaLastUpdatedPutResolver
-import eu.kanade.tachiyomi.data.database.resolvers.MangaTitlePutResolver
-import eu.kanade.tachiyomi.data.database.resolvers.SourceIdMangaCountGetResolver
-import eu.kanade.tachiyomi.data.database.tables.CategoryTable
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable
-import eu.kanade.tachiyomi.data.database.tables.MangaCategoryTable
-import eu.kanade.tachiyomi.data.database.tables.MangaTable
+import eu.mkonic.tachiyomi.data.database.DbProvider
+import eu.mkonic.tachiyomi.data.database.models.LibraryManga
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.database.models.SourceIdMangaCount
+import eu.mkonic.tachiyomi.data.database.resolvers.LibraryMangaGetResolver
+import eu.mkonic.tachiyomi.data.database.resolvers.MangaDateAddedPutResolver
+import eu.mkonic.tachiyomi.data.database.resolvers.MangaFavoritePutResolver
+import eu.mkonic.tachiyomi.data.database.resolvers.MangaFilteredScanlatorsPutResolver
+import eu.mkonic.tachiyomi.data.database.resolvers.MangaFlagsPutResolver
+import eu.mkonic.tachiyomi.data.database.resolvers.MangaInfoPutResolver
+import eu.mkonic.tachiyomi.data.database.resolvers.MangaLastUpdatedPutResolver
+import eu.mkonic.tachiyomi.data.database.resolvers.MangaTitlePutResolver
+import eu.mkonic.tachiyomi.data.database.resolvers.SourceIdMangaCountGetResolver
+import eu.mkonic.tachiyomi.data.database.tables.CategoryTable
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable
+import eu.mkonic.tachiyomi.data.database.tables.MangaCategoryTable
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable
 
 interface MangaQueries : DbProvider {
 

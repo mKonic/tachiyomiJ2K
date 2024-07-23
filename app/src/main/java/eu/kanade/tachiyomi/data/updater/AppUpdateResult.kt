@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.updater
+package eu.mkonic.tachiyomi.data.updater
 
 sealed class AppUpdateResult {
 

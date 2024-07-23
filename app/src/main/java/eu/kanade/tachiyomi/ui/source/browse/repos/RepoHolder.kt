@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.source.browse.repos
+package eu.mkonic.tachiyomi.ui.source.browse.repos
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -12,9 +12,9 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import eu.davidea.viewholders.FlexibleViewHolder
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.CategoriesItemBinding
-import eu.kanade.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.CategoriesItemBinding
+import eu.mkonic.tachiyomi.util.system.getResourceColor
 
 /**
  * Holder used to display repo items.

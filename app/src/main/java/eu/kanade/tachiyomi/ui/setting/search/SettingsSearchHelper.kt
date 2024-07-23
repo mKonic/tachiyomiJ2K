@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.setting.search
+package eu.mkonic.tachiyomi.ui.setting.search
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -7,19 +7,19 @@ import androidx.preference.Preference
 import androidx.preference.PreferenceCategory
 import androidx.preference.PreferenceGroup
 import androidx.preference.PreferenceManager
-import eu.kanade.tachiyomi.ui.setting.SettingsAdvancedController
-import eu.kanade.tachiyomi.ui.setting.SettingsAppearanceController
-import eu.kanade.tachiyomi.ui.setting.SettingsBackupController
-import eu.kanade.tachiyomi.ui.setting.SettingsBrowseController
-import eu.kanade.tachiyomi.ui.setting.SettingsController
-import eu.kanade.tachiyomi.ui.setting.SettingsDownloadController
-import eu.kanade.tachiyomi.ui.setting.SettingsGeneralController
-import eu.kanade.tachiyomi.ui.setting.SettingsLibraryController
-import eu.kanade.tachiyomi.ui.setting.SettingsReaderController
-import eu.kanade.tachiyomi.ui.setting.SettingsSecurityController
-import eu.kanade.tachiyomi.ui.setting.SettingsTrackingController
-import eu.kanade.tachiyomi.util.system.isLTR
-import eu.kanade.tachiyomi.util.system.launchNow
+import eu.mkonic.tachiyomi.ui.setting.SettingsAdvancedController
+import eu.mkonic.tachiyomi.ui.setting.SettingsAppearanceController
+import eu.mkonic.tachiyomi.ui.setting.SettingsBackupController
+import eu.mkonic.tachiyomi.ui.setting.SettingsBrowseController
+import eu.mkonic.tachiyomi.ui.setting.SettingsController
+import eu.mkonic.tachiyomi.ui.setting.SettingsDownloadController
+import eu.mkonic.tachiyomi.ui.setting.SettingsGeneralController
+import eu.mkonic.tachiyomi.ui.setting.SettingsLibraryController
+import eu.mkonic.tachiyomi.ui.setting.SettingsReaderController
+import eu.mkonic.tachiyomi.ui.setting.SettingsSecurityController
+import eu.mkonic.tachiyomi.ui.setting.SettingsTrackingController
+import eu.mkonic.tachiyomi.util.system.isLTR
+import eu.mkonic.tachiyomi.util.system.launchNow
 import kotlin.reflect.KClass
 import kotlin.reflect.full.createInstance
 

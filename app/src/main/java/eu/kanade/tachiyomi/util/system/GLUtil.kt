@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.system
+package eu.mkonic.tachiyomi.util.system
 
 import javax.microedition.khronos.egl.EGL10
 import javax.microedition.khronos.egl.EGLConfig

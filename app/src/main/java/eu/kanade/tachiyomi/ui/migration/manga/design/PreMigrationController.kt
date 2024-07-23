@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.migration.manga.design
+package eu.mkonic.tachiyomi.ui.migration.manga.design
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -17,19 +17,19 @@ import com.bluelinelabs.conductor.Router
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import eu.davidea.flexibleadapter.FlexibleAdapter
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.databinding.PreMigrationControllerBinding
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.ui.base.SmallToolbarInterface
-import eu.kanade.tachiyomi.ui.base.controller.BaseController
-import eu.kanade.tachiyomi.ui.migration.manga.process.MigrationListController
-import eu.kanade.tachiyomi.ui.migration.manga.process.MigrationProcedureConfig
-import eu.kanade.tachiyomi.util.view.doOnApplyWindowInsetsCompat
-import eu.kanade.tachiyomi.util.view.expand
-import eu.kanade.tachiyomi.util.view.liftAppbarWith
-import eu.kanade.tachiyomi.util.view.withFadeTransaction
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.databinding.PreMigrationControllerBinding
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.source.online.HttpSource
+import eu.mkonic.tachiyomi.ui.base.SmallToolbarInterface
+import eu.mkonic.tachiyomi.ui.base.controller.BaseController
+import eu.mkonic.tachiyomi.ui.migration.manga.process.MigrationListController
+import eu.mkonic.tachiyomi.ui.migration.manga.process.MigrationProcedureConfig
+import eu.mkonic.tachiyomi.util.view.doOnApplyWindowInsetsCompat
+import eu.mkonic.tachiyomi.util.view.expand
+import eu.mkonic.tachiyomi.util.view.liftAppbarWith
+import eu.mkonic.tachiyomi.util.view.withFadeTransaction
 import uy.kohesive.injekt.injectLazy
 
 class PreMigrationController(bundle: Bundle? = null) :

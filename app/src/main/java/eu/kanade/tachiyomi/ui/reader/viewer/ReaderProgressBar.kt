@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.viewer
+package eu.mkonic.tachiyomi.ui.reader.viewer
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -15,8 +15,8 @@ import android.view.animation.Animation
 import android.view.animation.DecelerateInterpolator
 import android.view.animation.LinearInterpolator
 import android.view.animation.RotateAnimation
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.system.getResourceColor
 import kotlin.math.min
 
 /**

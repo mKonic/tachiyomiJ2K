@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.setting
+package eu.mkonic.tachiyomi.ui.setting
 
 import android.app.ActivityManager
 import android.view.Menu
@@ -9,15 +9,15 @@ import androidx.preference.PreferenceScreen
 import com.bluelinelabs.conductor.Controller
 import com.bluelinelabs.conductor.RouterTransaction
 import com.bluelinelabs.conductor.changehandler.SimpleSwapChangeHandler
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.main.FloatingSearchInterface
-import eu.kanade.tachiyomi.ui.more.AboutController
-import eu.kanade.tachiyomi.ui.setting.search.SettingsSearchController
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.view.activityBinding
-import eu.kanade.tachiyomi.util.view.fadeTransactionHandler
-import eu.kanade.tachiyomi.util.view.openInBrowser
-import eu.kanade.tachiyomi.util.view.withFadeTransaction
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.ui.main.FloatingSearchInterface
+import eu.mkonic.tachiyomi.ui.more.AboutController
+import eu.mkonic.tachiyomi.ui.setting.search.SettingsSearchController
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.view.activityBinding
+import eu.mkonic.tachiyomi.util.view.fadeTransactionHandler
+import eu.mkonic.tachiyomi.util.view.openInBrowser
+import eu.mkonic.tachiyomi.util.view.withFadeTransaction
 
 class SettingsMainController : SettingsController(), FloatingSearchInterface {
 

@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.ui.source.browse
+package eu.mkonic.tachiyomi.ui.source.browse
 
-import eu.kanade.tachiyomi.source.model.MangasPage
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.mkonic.tachiyomi.source.model.MangasPage
+import eu.mkonic.tachiyomi.source.model.SManga
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.asSharedFlow

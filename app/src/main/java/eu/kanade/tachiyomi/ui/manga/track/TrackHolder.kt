@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.manga.track
+package eu.mkonic.tachiyomi.ui.manga.track
 
 import android.annotation.SuppressLint
 import android.content.res.ColorStateList
@@ -8,12 +8,12 @@ import androidx.core.graphics.ColorUtils
 import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
 import androidx.core.widget.TextViewCompat
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.databinding.TrackItemBinding
-import eu.kanade.tachiyomi.ui.base.holder.BaseViewHolder
-import eu.kanade.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Track
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.databinding.TrackItemBinding
+import eu.mkonic.tachiyomi.ui.base.holder.BaseViewHolder
+import eu.mkonic.tachiyomi.util.system.getResourceColor
 import uy.kohesive.injekt.injectLazy
 import java.text.DateFormat
 

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.model
+package eu.mkonic.tachiyomi.extension.model
 
 sealed interface LoadResult {
 

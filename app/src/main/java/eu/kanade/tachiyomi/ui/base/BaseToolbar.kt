@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.base
+package eu.mkonic.tachiyomi.ui.base
 
 import android.content.Context
 import android.util.AttributeSet
@@ -7,9 +7,9 @@ import androidx.annotation.DrawableRes
 import androidx.core.view.isVisible
 import com.bluelinelabs.conductor.Router
 import com.google.android.material.appbar.MaterialToolbar
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.main.FloatingSearchInterface
-import eu.kanade.tachiyomi.ui.main.SearchActivity
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.ui.main.FloatingSearchInterface
+import eu.mkonic.tachiyomi.ui.main.SearchActivity
 
 open class BaseToolbar @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :
     MaterialToolbar(context, attrs) {

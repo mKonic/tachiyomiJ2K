@@ -1,16 +1,16 @@
-package eu.kanade.tachiyomi.ui.library
+package eu.mkonic.tachiyomi.ui.library
 
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
 import coil.dispose
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.image.coil.loadManga
-import eu.kanade.tachiyomi.databinding.MangaListItemBinding
-import eu.kanade.tachiyomi.util.lang.highlightText
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.view.setCards
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.image.coil.loadManga
+import eu.mkonic.tachiyomi.databinding.MangaListItemBinding
+import eu.mkonic.tachiyomi.util.lang.highlightText
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.view.setCards
 
 /**
  * Class used to hold the displayed data of a manga in the library, like the cover or the binding.title.

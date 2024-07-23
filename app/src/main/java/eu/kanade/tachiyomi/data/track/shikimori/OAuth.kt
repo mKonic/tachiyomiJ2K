@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.track.shikimori
+package eu.mkonic.tachiyomi.data.track.shikimori
 
 import kotlinx.serialization.Serializable
 

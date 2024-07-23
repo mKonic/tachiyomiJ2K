@@ -65,19 +65,19 @@
                     android:text="@string/reset" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <eu.kanade.tachiyomi.widget.SortTextView
+            <eu.mkonic.tachiyomi.widget.SortTextView
                 android:id="@+id/by_source"
                 android:layout_width="match_parent"
                 android:text="@string/by_source_order"
                 android:layout_height="wrap_content"/>
 
-            <eu.kanade.tachiyomi.widget.SortTextView
+            <eu.mkonic.tachiyomi.widget.SortTextView
                 android:id="@+id/by_chapter_number"
                 android:layout_width="match_parent"
                 android:text="@string/by_chapter_number"
                 android:layout_height="wrap_content"/>
 
-            <eu.kanade.tachiyomi.widget.SortTextView
+            <eu.mkonic.tachiyomi.widget.SortTextView
                 android:id="@+id/by_upload_date"
                 android:layout_width="match_parent"
                 android:text="@string/by_update_date"

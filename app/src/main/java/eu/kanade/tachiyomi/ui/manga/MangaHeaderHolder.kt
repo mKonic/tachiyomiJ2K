@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.manga
+package eu.mkonic.tachiyomi.ui.manga
 
 import android.animation.AnimatorInflater
 import android.annotation.SuppressLint
@@ -28,20 +28,20 @@ import androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat
 import coil.request.CachePolicy
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.chip.Chip
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.image.coil.loadManga
-import eu.kanade.tachiyomi.databinding.ChapterHeaderItemBinding
-import eu.kanade.tachiyomi.databinding.MangaHeaderItemBinding
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
-import eu.kanade.tachiyomi.util.isLocal
-import eu.kanade.tachiyomi.util.lang.toNormalized
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.system.isInNightMode
-import eu.kanade.tachiyomi.util.system.isLTR
-import eu.kanade.tachiyomi.util.view.resetStrokeColor
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.image.coil.loadManga
+import eu.mkonic.tachiyomi.databinding.ChapterHeaderItemBinding
+import eu.mkonic.tachiyomi.databinding.MangaHeaderItemBinding
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.source.model.SManga
+import eu.mkonic.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
+import eu.mkonic.tachiyomi.util.isLocal
+import eu.mkonic.tachiyomi.util.lang.toNormalized
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.isInNightMode
+import eu.mkonic.tachiyomi.util.system.isLTR
+import eu.mkonic.tachiyomi.util.view.resetStrokeColor
 
 @SuppressLint("ClickableViewAccessibility")
 class MangaHeaderHolder(

@@ -1,17 +1,17 @@
-package eu.kanade.tachiyomi.data.track.mangaupdates
+package eu.mkonic.tachiyomi.data.track.mangaupdates
 
 import android.content.Context
 import android.graphics.Color
 import androidx.annotation.StringRes
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.track.TrackService
-import eu.kanade.tachiyomi.data.track.mangaupdates.dto.ListItem
-import eu.kanade.tachiyomi.data.track.mangaupdates.dto.Rating
-import eu.kanade.tachiyomi.data.track.mangaupdates.dto.copyTo
-import eu.kanade.tachiyomi.data.track.mangaupdates.dto.toTrackSearch
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.data.track.updateNewTrackInfo
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Track
+import eu.mkonic.tachiyomi.data.track.TrackService
+import eu.mkonic.tachiyomi.data.track.mangaupdates.dto.ListItem
+import eu.mkonic.tachiyomi.data.track.mangaupdates.dto.Rating
+import eu.mkonic.tachiyomi.data.track.mangaupdates.dto.copyTo
+import eu.mkonic.tachiyomi.data.track.mangaupdates.dto.toTrackSearch
+import eu.mkonic.tachiyomi.data.track.model.TrackSearch
+import eu.mkonic.tachiyomi.data.track.updateNewTrackInfo
 import okhttp3.internal.toImmutableList
 
 class MangaUpdates(private val context: Context, id: Int) : TrackService(id) {

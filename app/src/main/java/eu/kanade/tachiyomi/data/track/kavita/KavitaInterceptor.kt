@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.data.track.kavita
+package eu.mkonic.tachiyomi.data.track.kavita
 
-import eu.kanade.tachiyomi.BuildConfig
+import eu.mkonic.tachiyomi.BuildConfig
 import okhttp3.Interceptor
 import okhttp3.Response
 

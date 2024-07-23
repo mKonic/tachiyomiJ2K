@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.migration
+package eu.mkonic.tachiyomi.ui.migration
 
 import android.content.Context
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.cache.CoverCache
-import eu.kanade.tachiyomi.data.database.DatabaseHelper
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.library.CustomMangaManager
-import eu.kanade.tachiyomi.util.system.toInt
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.cache.CoverCache
+import eu.mkonic.tachiyomi.data.database.DatabaseHelper
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.library.CustomMangaManager
+import eu.mkonic.tachiyomi.util.system.toInt
 import uy.kohesive.injekt.api.get
 import uy.kohesive.injekt.injectLazy
 

@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.data.track.kitsu
+package eu.mkonic.tachiyomi.data.track.kitsu
 
 import androidx.annotation.CallSuper
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.track.TrackManager
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
+import eu.mkonic.tachiyomi.data.database.models.Track
+import eu.mkonic.tachiyomi.data.track.TrackManager
+import eu.mkonic.tachiyomi.data.track.model.TrackSearch
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.contentOrNull
 import kotlinx.serialization.json.int

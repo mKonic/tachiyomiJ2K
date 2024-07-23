@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.ui.base.controller
+package eu.mkonic.tachiyomi.ui.base.controller
 
 import android.os.Bundle
 import android.view.View
 import androidx.viewbinding.ViewBinding
-import eu.kanade.tachiyomi.ui.base.presenter.BaseCoroutinePresenter
+import eu.mkonic.tachiyomi.ui.base.presenter.BaseCoroutinePresenter
 
 abstract class BaseCoroutineController<VB : ViewBinding, PS : BaseCoroutinePresenter<*>>(bundle: Bundle? = null) :
     BaseController<VB>(bundle) {

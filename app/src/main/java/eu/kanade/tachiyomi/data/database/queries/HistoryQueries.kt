@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.data.database.queries
+package eu.mkonic.tachiyomi.data.database.queries
 
 import com.pushtorefresh.storio.sqlite.queries.DeleteQuery
 import com.pushtorefresh.storio.sqlite.queries.RawQuery
-import eu.kanade.tachiyomi.data.database.DbProvider
-import eu.kanade.tachiyomi.data.database.inTransactionReturn
-import eu.kanade.tachiyomi.data.database.models.History
-import eu.kanade.tachiyomi.data.database.models.MangaChapterHistory
-import eu.kanade.tachiyomi.data.database.resolvers.HistoryUpsertResolver
-import eu.kanade.tachiyomi.data.database.resolvers.MangaChapterHistoryGetResolver
-import eu.kanade.tachiyomi.data.database.tables.HistoryTable
-import eu.kanade.tachiyomi.util.lang.sqLite
+import eu.mkonic.tachiyomi.data.database.DbProvider
+import eu.mkonic.tachiyomi.data.database.inTransactionReturn
+import eu.mkonic.tachiyomi.data.database.models.History
+import eu.mkonic.tachiyomi.data.database.models.MangaChapterHistory
+import eu.mkonic.tachiyomi.data.database.resolvers.HistoryUpsertResolver
+import eu.mkonic.tachiyomi.data.database.resolvers.MangaChapterHistoryGetResolver
+import eu.mkonic.tachiyomi.data.database.tables.HistoryTable
+import eu.mkonic.tachiyomi.util.lang.sqLite
 
 interface HistoryQueries : DbProvider {
 

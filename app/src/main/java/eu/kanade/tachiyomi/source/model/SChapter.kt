@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.source.model
+package eu.mkonic.tachiyomi.source.model
 
-import eu.kanade.tachiyomi.data.database.models.ChapterImpl
+import eu.mkonic.tachiyomi.data.database.models.ChapterImpl
 import java.io.Serializable
 
 interface SChapter : Serializable {

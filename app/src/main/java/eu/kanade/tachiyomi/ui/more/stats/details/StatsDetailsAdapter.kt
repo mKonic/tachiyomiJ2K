@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.more.stats.details
+package eu.mkonic.tachiyomi.ui.more.stats.details
 
 import android.content.Context
 import android.graphics.Color
@@ -10,14 +10,14 @@ import androidx.core.text.bold
 import androidx.core.view.isVisible
 import androidx.core.view.setPadding
 import androidx.recyclerview.widget.RecyclerView
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.ListStatsDetailsBinding
-import eu.kanade.tachiyomi.ui.more.stats.StatsHelper.getReadDuration
-import eu.kanade.tachiyomi.ui.more.stats.details.StatsDetailsPresenter.Stats
-import eu.kanade.tachiyomi.ui.more.stats.details.StatsDetailsPresenter.StatsData
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.system.roundToTwoDecimal
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.ListStatsDetailsBinding
+import eu.mkonic.tachiyomi.ui.more.stats.StatsHelper.getReadDuration
+import eu.mkonic.tachiyomi.ui.more.stats.details.StatsDetailsPresenter.Stats
+import eu.mkonic.tachiyomi.ui.more.stats.details.StatsDetailsPresenter.StatsData
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.roundToTwoDecimal
 
 class StatsDetailsAdapter(
     internal val context: Context,

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.base
+package eu.mkonic.tachiyomi.ui.base
 
 import android.content.Context
 import android.content.res.Configuration
@@ -19,17 +19,17 @@ import androidx.core.widget.TextViewCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.bluelinelabs.conductor.Controller
 import com.google.android.material.appbar.AppBarLayout
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.ui.main.FloatingSearchInterface
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.system.isTablet
-import eu.kanade.tachiyomi.util.view.backgroundColor
-import eu.kanade.tachiyomi.util.view.isControllerVisible
-import eu.kanade.tachiyomi.util.view.setTextColorAlpha
-import eu.kanade.tachiyomi.widget.StatefulNestedScrollView
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.ui.main.FloatingSearchInterface
+import eu.mkonic.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.isTablet
+import eu.mkonic.tachiyomi.util.view.backgroundColor
+import eu.mkonic.tachiyomi.util.view.isControllerVisible
+import eu.mkonic.tachiyomi.util.view.setTextColorAlpha
+import eu.mkonic.tachiyomi.widget.StatefulNestedScrollView
 import uy.kohesive.injekt.injectLazy
 import kotlin.math.abs
 import kotlin.math.max

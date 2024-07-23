@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.data.backup.models
+package eu.mkonic.tachiyomi.data.backup.models
 
-import eu.kanade.tachiyomi.data.database.models.ChapterImpl
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.database.models.MangaImpl
-import eu.kanade.tachiyomi.data.database.models.TrackImpl
-import eu.kanade.tachiyomi.data.library.CustomMangaManager
-import eu.kanade.tachiyomi.source.model.UpdateStrategy
+import eu.mkonic.tachiyomi.data.database.models.ChapterImpl
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.database.models.MangaImpl
+import eu.mkonic.tachiyomi.data.database.models.TrackImpl
+import eu.mkonic.tachiyomi.data.library.CustomMangaManager
+import eu.mkonic.tachiyomi.source.model.UpdateStrategy
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.protobuf.ProtoNumber
 

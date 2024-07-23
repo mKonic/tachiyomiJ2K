@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.manga.chapter
+package eu.mkonic.tachiyomi.ui.manga.chapter
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.LinearLayout
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.databinding.ChapterFilterLayoutBinding
-import eu.kanade.tachiyomi.widget.TriStateCheckBox
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.databinding.ChapterFilterLayoutBinding
+import eu.mkonic.tachiyomi.widget.TriStateCheckBox
 
 class ChapterFilterLayout @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :
     LinearLayout(context, attrs) {

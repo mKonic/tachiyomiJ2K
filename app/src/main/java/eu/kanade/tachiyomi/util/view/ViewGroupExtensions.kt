@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.view
+package eu.mkonic.tachiyomi.util.view
 
 import android.view.LayoutInflater
 import android.view.View

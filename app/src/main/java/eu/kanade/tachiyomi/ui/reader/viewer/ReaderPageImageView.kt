@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.viewer
+package eu.mkonic.tachiyomi.ui.reader.viewer
 
 import android.content.Context
 import android.graphics.PointF
@@ -25,10 +25,10 @@ import com.davemorrissey.labs.subscaleview.ImageSource
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView.SCALE_TYPE_CENTER_INSIDE
 import com.github.chrisbanes.photoview.PhotoView
-import eu.kanade.tachiyomi.ui.reader.viewer.pager.PagerConfig
-import eu.kanade.tachiyomi.ui.reader.viewer.webtoon.WebtoonSubsamplingImageView
-import eu.kanade.tachiyomi.util.system.GLUtil
-import eu.kanade.tachiyomi.util.system.animatorDurationScale
+import eu.mkonic.tachiyomi.ui.reader.viewer.pager.PagerConfig
+import eu.mkonic.tachiyomi.ui.reader.viewer.webtoon.WebtoonSubsamplingImageView
+import eu.mkonic.tachiyomi.util.system.GLUtil
+import eu.mkonic.tachiyomi.util.system.animatorDurationScale
 import java.io.InputStream
 import java.nio.ByteBuffer
 

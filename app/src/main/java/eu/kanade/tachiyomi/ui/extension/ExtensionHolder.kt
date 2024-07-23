@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.extension
+package eu.mkonic.tachiyomi.ui.extension
 
 import android.animation.AnimatorInflater
 import android.content.res.ColorStateList
@@ -11,18 +11,18 @@ import androidx.core.view.isGone
 import androidx.core.view.isVisible
 import coil.dispose
 import coil.load
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.image.coil.CoverViewTarget
-import eu.kanade.tachiyomi.databinding.ExtensionCardItemBinding
-import eu.kanade.tachiyomi.extension.model.Extension
-import eu.kanade.tachiyomi.extension.model.InstallStep
-import eu.kanade.tachiyomi.extension.model.InstalledExtensionsOrder
-import eu.kanade.tachiyomi.extension.util.ExtensionLoader
-import eu.kanade.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
-import eu.kanade.tachiyomi.util.system.LocaleHelper
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.system.timeSpanFromNow
-import eu.kanade.tachiyomi.util.view.resetStrokeColor
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.image.coil.CoverViewTarget
+import eu.mkonic.tachiyomi.databinding.ExtensionCardItemBinding
+import eu.mkonic.tachiyomi.extension.model.Extension
+import eu.mkonic.tachiyomi.extension.model.InstallStep
+import eu.mkonic.tachiyomi.extension.model.InstalledExtensionsOrder
+import eu.mkonic.tachiyomi.extension.util.ExtensionLoader
+import eu.mkonic.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
+import eu.mkonic.tachiyomi.util.system.LocaleHelper
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.timeSpanFromNow
+import eu.mkonic.tachiyomi.util.view.resetStrokeColor
 import java.util.Locale
 
 class ExtensionHolder(view: View, val adapter: ExtensionAdapter) :

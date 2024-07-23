@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.migration.manga.design
+package eu.mkonic.tachiyomi.ui.migration.manga.design
 
 import android.os.Parcelable
 import android.view.View
@@ -6,9 +6,9 @@ import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractFlexibleItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.source.online.HttpSource
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.source.online.HttpSource
 import kotlinx.parcelize.Parcelize
 
 class MigrationSourceItem(val source: HttpSource, var sourceEnabled: Boolean) : AbstractFlexibleItem<MigrationSourceHolder>() {

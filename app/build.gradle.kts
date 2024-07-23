@@ -33,7 +33,7 @@ android {
     defaultConfig {
         minSdk = AndroidVersions.minSdk
         targetSdk = AndroidVersions.targetSdk
-        applicationId = "eu.kanade.tachiyomi"
+        applicationId = "eu.mkonic.tachiyomi"
         versionCode = AndroidVersions.versionCode
         versionName = AndroidVersions.versionName
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -67,11 +67,11 @@ android {
 
     buildTypes {
         getByName("debug") {
-            applicationIdSuffix = ".debugJ2K"
+            applicationIdSuffix = ".debugMK"
             versionNameSuffix = "-d${getCommitCount()}"
         }
         getByName("release") {
-            applicationIdSuffix = ".j2k"
+            applicationIdSuffix = ".mk"
             isShrinkResources = true
             isMinifyEnabled = true
             proguardFiles("proguard-android-optimize.txt", "proguard-rules.pro")
@@ -122,7 +122,7 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
-    namespace = "eu.kanade.tachiyomi"
+    namespace = "eu.mkonic.tachiyomi"
 }
 
 dependencies {

@@ -8,7 +8,7 @@
     android:background="?attr/selectableItemBackground"
     android:focusable="true">
 
-    <eu.kanade.tachiyomi.widget.TriStateCheckBox
+    <eu.mkonic.tachiyomi.widget.TriStateCheckBox
         android:id="@+id/nav_view_item"
         android:layout_width="0dp"
         android:layout_height="match_parent"

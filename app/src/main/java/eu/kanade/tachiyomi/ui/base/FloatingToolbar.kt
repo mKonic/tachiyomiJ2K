@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.base
+package eu.mkonic.tachiyomi.ui.base
 
 import android.content.Context
 import android.util.AttributeSet
@@ -12,9 +12,9 @@ import androidx.core.graphics.ColorUtils
 import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
 import com.google.android.material.textview.MaterialTextView
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.contextCompatDrawable
-import eu.kanade.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.system.contextCompatDrawable
+import eu.mkonic.tachiyomi.util.system.getResourceColor
 
 class FloatingToolbar @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :
     BaseToolbar(context, attrs) {

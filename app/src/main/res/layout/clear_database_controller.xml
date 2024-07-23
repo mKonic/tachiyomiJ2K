@@ -14,7 +14,7 @@
         android:paddingBottom="88dp"
         tools:listitem="@layout/clear_database_source_item" />
 
-    <eu.kanade.tachiyomi.ui.base.MaterialFastScroll
+    <eu.mkonic.tachiyomi.ui.base.MaterialFastScroll
         android:id="@+id/fast_scroller"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -22,7 +22,7 @@
         app:fastScrollerBubbleEnabled="false"
         tools:visibility="visible" />
 
-    <eu.kanade.tachiyomi.widget.EmptyView
+    <eu.mkonic.tachiyomi.widget.EmptyView
         android:id="@+id/empty_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

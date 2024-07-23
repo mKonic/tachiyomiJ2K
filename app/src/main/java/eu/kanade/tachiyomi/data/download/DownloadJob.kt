@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.download
+package eu.mkonic.tachiyomi.data.download
 
 import android.content.Context
 import android.content.pm.ServiceInfo
@@ -13,13 +13,13 @@ import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
 import androidx.work.workDataOf
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.notification.Notifications
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.extension.ExtensionUpdateJob
-import eu.kanade.tachiyomi.util.system.isConnectedToWifi
-import eu.kanade.tachiyomi.util.system.isOnline
-import eu.kanade.tachiyomi.util.system.tryToSetForeground
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.notification.Notifications
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.extension.ExtensionUpdateJob
+import eu.mkonic.tachiyomi.util.system.isConnectedToWifi
+import eu.mkonic.tachiyomi.util.system.isOnline
+import eu.mkonic.tachiyomi.util.system.tryToSetForeground
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.delay

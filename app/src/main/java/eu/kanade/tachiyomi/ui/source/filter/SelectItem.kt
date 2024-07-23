@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.source.filter
+package eu.mkonic.tachiyomi.ui.source.filter
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
@@ -6,9 +6,9 @@ import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractFlexibleItem
 import eu.davidea.flexibleadapter.items.IFlexible
 import eu.davidea.viewholders.FlexibleViewHolder
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.source.model.Filter
-import eu.kanade.tachiyomi.widget.MaterialSpinnerView
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.source.model.Filter
+import eu.mkonic.tachiyomi.widget.MaterialSpinnerView
 
 open class SelectItem(val filter: Filter.Select<*>) : AbstractFlexibleItem<SelectItem.Holder>() {
 

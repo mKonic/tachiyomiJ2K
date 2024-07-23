@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.track.mangaupdates
+package eu.mkonic.tachiyomi.data.track.mangaupdates
 
 import okhttp3.Interceptor
 import okhttp3.Response

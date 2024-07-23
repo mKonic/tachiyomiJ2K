@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.more.stats.details
+package eu.mkonic.tachiyomi.ui.more.stats.details
 
 import android.content.Context
 import android.util.AttributeSet
@@ -22,14 +22,14 @@ import com.github.mikephil.charting.formatter.ValueFormatter
 import com.github.mikephil.charting.highlight.Highlight
 import com.github.mikephil.charting.listener.OnChartValueSelectedListener
 import com.github.mikephil.charting.utils.MPPointF
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.StatsDetailsChartBinding
-import eu.kanade.tachiyomi.ui.more.stats.StatsHelper
-import eu.kanade.tachiyomi.ui.more.stats.StatsHelper.getReadDuration
-import eu.kanade.tachiyomi.ui.more.stats.details.StatsDetailsPresenter.Stats
-import eu.kanade.tachiyomi.ui.more.stats.details.StatsDetailsPresenter.StatsSort
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.system.isLandscape
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.StatsDetailsChartBinding
+import eu.mkonic.tachiyomi.ui.more.stats.StatsHelper
+import eu.mkonic.tachiyomi.ui.more.stats.StatsHelper.getReadDuration
+import eu.mkonic.tachiyomi.ui.more.stats.details.StatsDetailsPresenter.Stats
+import eu.mkonic.tachiyomi.ui.more.stats.details.StatsDetailsPresenter.StatsSort
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.isLandscape
 import timber.log.Timber
 import java.util.Calendar
 import java.util.concurrent.TimeUnit

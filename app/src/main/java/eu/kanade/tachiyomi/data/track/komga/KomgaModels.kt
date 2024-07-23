@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.track.komga
+package eu.mkonic.tachiyomi.data.track.komga
 
 import kotlinx.serialization.Serializable
 

@@ -1,14 +1,14 @@
-package eu.kanade.tachiyomi.ui.library
+package eu.mkonic.tachiyomi.ui.library
 
 import android.view.View
 import androidx.core.graphics.ColorUtils
 import androidx.core.view.isVisible
 import com.google.android.material.card.MaterialCardView
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
-import eu.kanade.tachiyomi.util.isLocal
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.view.setCards
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
+import eu.mkonic.tachiyomi.util.isLocal
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.view.setCards
 
 /**
  * Generic class used to hold the displayed data of a manga in the library.

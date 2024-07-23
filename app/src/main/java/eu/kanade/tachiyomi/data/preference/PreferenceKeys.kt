@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.preference
+package eu.mkonic.tachiyomi.data.preference
 
 /**
  * This class stores the keys for the preferences in the application.

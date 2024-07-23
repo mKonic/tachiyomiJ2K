@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget.preference
+package eu.mkonic.tachiyomi.widget.preference
 
 import android.app.Activity
 import android.content.Context
@@ -14,7 +14,7 @@ import androidx.core.content.edit
 import androidx.core.view.isVisible
 import androidx.preference.Preference.SummaryProvider
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import eu.kanade.tachiyomi.R
+import eu.mkonic.tachiyomi.R
 
 class EditTextResetPreference @JvmOverloads constructor(
     activity: Activity?,

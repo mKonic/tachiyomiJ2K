@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.image.coil
+package eu.mkonic.tachiyomi.data.image.coil
 
 import android.app.ActivityManager
 import android.content.Context
@@ -10,7 +10,7 @@ import coil.decode.GifDecoder
 import coil.decode.ImageDecoderDecoder
 import coil.disk.DiskCache
 import coil.memory.MemoryCache
-import eu.kanade.tachiyomi.network.NetworkHelper
+import eu.mkonic.tachiyomi.network.NetworkHelper
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 

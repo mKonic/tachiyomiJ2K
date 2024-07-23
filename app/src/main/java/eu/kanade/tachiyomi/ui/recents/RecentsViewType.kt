@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.ui.recents
+package eu.mkonic.tachiyomi.ui.recents
 
 import androidx.annotation.StringRes
-import eu.kanade.tachiyomi.R
+import eu.mkonic.tachiyomi.R
 
 enum class RecentsViewType(val mainValue: Int, @StringRes val stringRes: Int) {
     GroupedAll(0, R.string.grouped),

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.setting.search
+package eu.mkonic.tachiyomi.ui.setting.search
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,14 +8,14 @@ import android.view.MenuItem
 import android.view.View
 import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.LinearLayoutManager
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.SettingsSearchControllerBinding
-import eu.kanade.tachiyomi.ui.base.controller.BaseController
-import eu.kanade.tachiyomi.ui.main.SearchControllerInterface
-import eu.kanade.tachiyomi.ui.setting.SettingsController
-import eu.kanade.tachiyomi.util.view.activityBinding
-import eu.kanade.tachiyomi.util.view.liftAppbarWith
-import eu.kanade.tachiyomi.util.view.withFadeTransaction
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.SettingsSearchControllerBinding
+import eu.mkonic.tachiyomi.ui.base.controller.BaseController
+import eu.mkonic.tachiyomi.ui.main.SearchControllerInterface
+import eu.mkonic.tachiyomi.ui.setting.SettingsController
+import eu.mkonic.tachiyomi.util.view.activityBinding
+import eu.mkonic.tachiyomi.util.view.liftAppbarWith
+import eu.mkonic.tachiyomi.util.view.withFadeTransaction
 import uy.kohesive.injekt.api.get
 
 /**

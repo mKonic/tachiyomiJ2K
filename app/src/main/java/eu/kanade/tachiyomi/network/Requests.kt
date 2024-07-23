@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.network
+package eu.mkonic.tachiyomi.network
 
 import okhttp3.CacheControl
 import okhttp3.FormBody

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.category
+package eu.mkonic.tachiyomi.ui.category
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -10,12 +10,12 @@ import android.view.inputmethod.InputMethodManager
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.ItemTouchHelper
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Category
-import eu.kanade.tachiyomi.databinding.CategoriesItemBinding
-import eu.kanade.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
-import eu.kanade.tachiyomi.ui.category.CategoryPresenter.Companion.CREATE_CATEGORY_ORDER
-import eu.kanade.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Category
+import eu.mkonic.tachiyomi.databinding.CategoriesItemBinding
+import eu.mkonic.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
+import eu.mkonic.tachiyomi.ui.category.CategoryPresenter.Companion.CREATE_CATEGORY_ORDER
+import eu.mkonic.tachiyomi.util.system.getResourceColor
 import java.util.Locale
 
 /**

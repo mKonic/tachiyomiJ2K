@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.migration
+package eu.mkonic.tachiyomi.ui.migration
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractFlexibleItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Manga
 
 class MangaItem(val manga: Manga) : AbstractFlexibleItem<MangaHolder>() {
 

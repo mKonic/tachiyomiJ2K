@@ -1,6 +1,6 @@
 @file:Suppress("NOTHING_TO_INLINE")
 
-package eu.kanade.tachiyomi.util.view
+package eu.mkonic.tachiyomi.util.view
 
 import android.animation.ValueAnimator
 import android.annotation.SuppressLint
@@ -68,17 +68,17 @@ import com.google.android.material.navigation.NavigationBarView
 import com.google.android.material.shape.CornerFamily
 import com.google.android.material.shape.ShapeAppearanceModel
 import com.google.android.material.snackbar.Snackbar
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.lang.tintText
-import eu.kanade.tachiyomi.util.system.ThemeUtil
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.system.isLTR
-import eu.kanade.tachiyomi.util.system.powerManager
-import eu.kanade.tachiyomi.util.system.pxToDp
-import eu.kanade.tachiyomi.util.system.rootWindowInsetsCompat
-import eu.kanade.tachiyomi.widget.AutofitRecyclerView
-import eu.kanade.tachiyomi.widget.StaggeredGridLayoutManagerAccurateOffset
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.lang.tintText
+import eu.mkonic.tachiyomi.util.system.ThemeUtil
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.isLTR
+import eu.mkonic.tachiyomi.util.system.powerManager
+import eu.mkonic.tachiyomi.util.system.pxToDp
+import eu.mkonic.tachiyomi.util.system.rootWindowInsetsCompat
+import eu.mkonic.tachiyomi.widget.AutofitRecyclerView
+import eu.mkonic.tachiyomi.widget.StaggeredGridLayoutManagerAccurateOffset
 import kotlin.math.max
 import kotlin.math.pow
 import kotlin.math.roundToInt

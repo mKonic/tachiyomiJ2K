@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.data.track.kavita
+package eu.mkonic.tachiyomi.data.track.kavita
 
-import eu.kanade.tachiyomi.data.track.TrackManager
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
+import eu.mkonic.tachiyomi.data.track.TrackManager
+import eu.mkonic.tachiyomi.data.track.model.TrackSearch
 import kotlinx.serialization.Serializable
 
 @Serializable

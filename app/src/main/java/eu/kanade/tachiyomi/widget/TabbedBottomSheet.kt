@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget
+package eu.mkonic.tachiyomi.widget
 
 import android.app.Activity
 import android.content.Context
@@ -10,10 +10,10 @@ import androidx.core.view.WindowInsetsCompat.Type.systemBars
 import androidx.core.widget.NestedScrollView
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
-import eu.kanade.tachiyomi.databinding.TabbedBottomSheetBinding
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.rootWindowInsetsCompat
-import eu.kanade.tachiyomi.util.view.expand
+import eu.mkonic.tachiyomi.databinding.TabbedBottomSheetBinding
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.rootWindowInsetsCompat
+import eu.mkonic.tachiyomi.util.view.expand
 import kotlin.math.max
 
 abstract class TabbedBottomSheetDialog(private val activity: Activity) :

@@ -6,9 +6,9 @@
     android:background="?background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="eu.kanade.tachiyomi.ui.more.stats.details.StatsDetailsController">
+    tools:context="eu.mkonic.tachiyomi.ui.more.stats.details.StatsDetailsController">
 
-    <eu.kanade.tachiyomi.widget.EmptyView
+    <eu.mkonic.tachiyomi.widget.EmptyView
         android:id="@+id/no_chart_data"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

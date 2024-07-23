@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.appwidget
+package eu.mkonic.tachiyomi.appwidget
 
 import android.content.Context
 import androidx.glance.appwidget.GlanceAppWidgetManager

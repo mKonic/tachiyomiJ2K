@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.image.coil
+package eu.mkonic.tachiyomi.data.image.coil
 
 import android.os.Build
 import androidx.core.graphics.drawable.toDrawable
@@ -9,7 +9,7 @@ import coil.decode.ImageDecoderDecoder
 import coil.decode.ImageSource
 import coil.fetch.SourceResult
 import coil.request.Options
-import eu.kanade.tachiyomi.util.system.ImageUtil
+import eu.mkonic.tachiyomi.util.system.ImageUtil
 import okio.BufferedSource
 import tachiyomi.decoder.ImageDecoder
 

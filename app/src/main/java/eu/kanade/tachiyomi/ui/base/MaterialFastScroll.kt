@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.base
+package eu.mkonic.tachiyomi.ui.base
 
 import android.content.Context
 import android.util.AttributeSet
@@ -8,11 +8,11 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import eu.davidea.fastscroller.FastScroller
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.base.controller.BaseController
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.dpToPxEnd
-import eu.kanade.tachiyomi.util.system.isLTR
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.ui.base.controller.BaseController
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.dpToPxEnd
+import eu.mkonic.tachiyomi.util.system.isLTR
 import kotlin.math.abs
 
 @Suppress("LeakingThis")

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.updater
+package eu.mkonic.tachiyomi.data.updater
 
 import android.content.Context
 import androidx.core.app.NotificationCompat
@@ -9,8 +9,8 @@ import androidx.work.NetworkType
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
-import eu.kanade.tachiyomi.data.notification.Notifications
-import eu.kanade.tachiyomi.util.system.notificationManager
+import eu.mkonic.tachiyomi.data.notification.Notifications
+import eu.mkonic.tachiyomi.util.system.notificationManager
 import kotlinx.coroutines.coroutineScope
 import timber.log.Timber
 import java.util.concurrent.TimeUnit

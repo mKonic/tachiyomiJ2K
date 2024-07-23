@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.webtoon
+package eu.mkonic.tachiyomi.ui.reader.viewer.webtoon
 
 import android.annotation.SuppressLint
 import android.content.res.Resources
@@ -12,17 +12,17 @@ import android.widget.FrameLayout
 import androidx.core.view.isVisible
 import androidx.core.view.updatePaddingRelative
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
-import eu.kanade.tachiyomi.databinding.ReaderErrorBinding
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
-import eu.kanade.tachiyomi.ui.reader.viewer.ReaderErrorView
-import eu.kanade.tachiyomi.ui.reader.viewer.ReaderPageImageView
-import eu.kanade.tachiyomi.ui.reader.viewer.ReaderProgressBar
-import eu.kanade.tachiyomi.util.system.ImageUtil
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.launchIO
-import eu.kanade.tachiyomi.util.system.withIOContext
-import eu.kanade.tachiyomi.util.system.withUIContext
+import eu.mkonic.tachiyomi.databinding.ReaderErrorBinding
+import eu.mkonic.tachiyomi.source.model.Page
+import eu.mkonic.tachiyomi.ui.reader.model.ReaderPage
+import eu.mkonic.tachiyomi.ui.reader.viewer.ReaderErrorView
+import eu.mkonic.tachiyomi.ui.reader.viewer.ReaderPageImageView
+import eu.mkonic.tachiyomi.ui.reader.viewer.ReaderProgressBar
+import eu.mkonic.tachiyomi.util.system.ImageUtil
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.launchIO
+import eu.mkonic.tachiyomi.util.system.withIOContext
+import eu.mkonic.tachiyomi.util.system.withUIContext
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.flow.collectLatest

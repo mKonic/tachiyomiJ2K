@@ -1,10 +1,10 @@
-package eu.kanade.tachiyomi.ui.setting.database
+package eu.mkonic.tachiyomi.ui.setting.database
 
-import eu.kanade.tachiyomi.data.database.DatabaseHelper
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.ui.base.presenter.BaseCoroutinePresenter
-import eu.kanade.tachiyomi.util.system.launchUI
-import eu.kanade.tachiyomi.util.system.withUIContext
+import eu.mkonic.tachiyomi.data.database.DatabaseHelper
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.ui.base.presenter.BaseCoroutinePresenter
+import eu.mkonic.tachiyomi.util.system.launchUI
+import eu.mkonic.tachiyomi.util.system.withUIContext
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 

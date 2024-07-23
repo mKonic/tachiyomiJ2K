@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.view
+package eu.mkonic.tachiyomi.util.view
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_COLLAPSED

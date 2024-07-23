@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.ui.source.browse.repos
+package eu.mkonic.tachiyomi.ui.source.browse.repos
 
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.ui.base.presenter.BaseCoroutinePresenter
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.ui.base.presenter.BaseCoroutinePresenter
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

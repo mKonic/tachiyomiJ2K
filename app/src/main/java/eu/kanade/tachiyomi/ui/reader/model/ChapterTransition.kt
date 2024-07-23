@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.model
+package eu.mkonic.tachiyomi.ui.reader.model
 
 sealed class ChapterTransition {
 

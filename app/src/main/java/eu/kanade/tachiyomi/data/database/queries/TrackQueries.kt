@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.data.database.queries
+package eu.mkonic.tachiyomi.data.database.queries
 
 import com.pushtorefresh.storio.sqlite.queries.DeleteQuery
 import com.pushtorefresh.storio.sqlite.queries.Query
-import eu.kanade.tachiyomi.data.database.DbProvider
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.database.tables.TrackTable
-import eu.kanade.tachiyomi.data.track.TrackService
+import eu.mkonic.tachiyomi.data.database.DbProvider
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.database.models.Track
+import eu.mkonic.tachiyomi.data.database.tables.TrackTable
+import eu.mkonic.tachiyomi.data.track.TrackService
 
 interface TrackQueries : DbProvider {
 

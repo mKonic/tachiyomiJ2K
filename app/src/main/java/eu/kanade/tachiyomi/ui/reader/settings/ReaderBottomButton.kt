@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.ui.reader.settings
+package eu.mkonic.tachiyomi.ui.reader.settings
 
 import androidx.annotation.StringRes
-import eu.kanade.tachiyomi.R
+import eu.mkonic.tachiyomi.R
 
 enum class ReaderBottomButton(val value: String, @StringRes val stringRes: Int) {
     ViewChapters("vc", R.string.view_chapters),

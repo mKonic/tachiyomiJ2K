@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.setting
+package eu.mkonic.tachiyomi.ui.setting
 
 import android.app.Activity
 import android.content.Intent
@@ -9,17 +9,17 @@ import androidx.core.net.toUri
 import androidx.preference.PreferenceScreen
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.DatabaseHelper
-import eu.kanade.tachiyomi.data.database.models.Category
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.data.preference.asImmediateFlowIn
-import eu.kanade.tachiyomi.util.system.withOriginalWidth
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.DatabaseHelper
+import eu.mkonic.tachiyomi.data.database.models.Category
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.data.preference.asImmediateFlowIn
+import eu.mkonic.tachiyomi.util.system.withOriginalWidth
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 import uy.kohesive.injekt.injectLazy
 import java.io.File
-import eu.kanade.tachiyomi.data.preference.PreferenceKeys as Keys
+import eu.mkonic.tachiyomi.data.preference.PreferenceKeys as Keys
 
 class SettingsDownloadController : SettingsController() {
 

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.base
+package eu.mkonic.tachiyomi.ui.base
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,10 +6,10 @@ import android.util.AttributeSet
 import android.view.Gravity
 import androidx.core.view.updateLayoutParams
 import com.google.android.material.textview.MaterialTextView
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.contextCompatDrawable
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.system.contextCompatDrawable
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.getResourceColor
 
 @SuppressLint("CustomViewStyleable")
 class CenteredToolbar@JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :

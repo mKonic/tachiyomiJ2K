@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.base.controller
+package eu.mkonic.tachiyomi.ui.base.controller
 
 import android.animation.Animator
 import android.animation.AnimatorSet
@@ -39,5 +39,5 @@ class FadeChangeHandler : AnimatorChangeHandler {
 
     override fun resetFromView(from: View) {}
 
-    override fun copy(): ControllerChangeHandler = eu.kanade.tachiyomi.ui.base.controller.FadeChangeHandler(animationDuration, removesFromViewOnPush)
+    override fun copy(): ControllerChangeHandler = eu.mkonic.tachiyomi.ui.base.controller.FadeChangeHandler(animationDuration, removesFromViewOnPush)
 }

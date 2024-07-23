@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.database.models
+package eu.mkonic.tachiyomi.data.database.models
 
 class MangaCategory {
 

@@ -1,16 +1,16 @@
-package eu.kanade.tachiyomi.data.download
+package eu.mkonic.tachiyomi.data.download
 
 import android.content.Context
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.data.download.model.DownloadQueue
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.source.model.Page
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.download.model.Download
+import eu.mkonic.tachiyomi.data.download.model.DownloadQueue
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.source.Source
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.source.model.Page
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

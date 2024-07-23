@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget.preference
+package eu.mkonic.tachiyomi.widget.preference
 
 import android.app.Activity
 import android.content.Context

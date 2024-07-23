@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.data.preference
+package eu.mkonic.tachiyomi.data.preference
 
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.preference.PreferenceManager
-import eu.kanade.tachiyomi.data.preference.AndroidPreference.BooleanPrimitive
-import eu.kanade.tachiyomi.data.preference.AndroidPreference.FloatPrimitive
-import eu.kanade.tachiyomi.data.preference.AndroidPreference.IntPrimitive
-import eu.kanade.tachiyomi.data.preference.AndroidPreference.LongPrimitive
-import eu.kanade.tachiyomi.data.preference.AndroidPreference.Object
-import eu.kanade.tachiyomi.data.preference.AndroidPreference.StringPrimitive
-import eu.kanade.tachiyomi.data.preference.AndroidPreference.StringSetPrimitive
+import eu.mkonic.tachiyomi.data.preference.AndroidPreference.BooleanPrimitive
+import eu.mkonic.tachiyomi.data.preference.AndroidPreference.FloatPrimitive
+import eu.mkonic.tachiyomi.data.preference.AndroidPreference.IntPrimitive
+import eu.mkonic.tachiyomi.data.preference.AndroidPreference.LongPrimitive
+import eu.mkonic.tachiyomi.data.preference.AndroidPreference.Object
+import eu.mkonic.tachiyomi.data.preference.AndroidPreference.StringPrimitive
+import eu.mkonic.tachiyomi.data.preference.AndroidPreference.StringSetPrimitive
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.callbackFlow
 

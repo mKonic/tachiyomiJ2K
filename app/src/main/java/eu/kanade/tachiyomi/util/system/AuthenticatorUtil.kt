@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.system
+package eu.mkonic.tachiyomi.util.system
 
 import android.content.Context
 import androidx.annotation.CallSuper

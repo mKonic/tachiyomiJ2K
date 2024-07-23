@@ -1,3 +1,3 @@
-package eu.kanade.tachiyomi.util.chapter
+package eu.mkonic.tachiyomi.util.chapter
 
 class NoChaptersException : Exception()

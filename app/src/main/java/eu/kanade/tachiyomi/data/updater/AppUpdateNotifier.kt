@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.updater
+package eu.mkonic.tachiyomi.data.updater
 
 import android.app.PendingIntent
 import android.content.Context
@@ -8,13 +8,13 @@ import android.os.Build
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
 import androidx.core.net.toUri
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.notification.NotificationHandler
-import eu.kanade.tachiyomi.data.notification.NotificationReceiver
-import eu.kanade.tachiyomi.data.notification.Notifications
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.system.notificationManager
+import eu.mkonic.tachiyomi.BuildConfig
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.notification.NotificationHandler
+import eu.mkonic.tachiyomi.data.notification.NotificationReceiver
+import eu.mkonic.tachiyomi.data.notification.Notifications
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.notificationManager
 
 /**
  * DownloadNotifier is used to show notifications when downloading and update.

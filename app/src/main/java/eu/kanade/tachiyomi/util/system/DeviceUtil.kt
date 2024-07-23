@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.system
+package eu.mkonic.tachiyomi.util.system
 
 import android.annotation.SuppressLint
 import android.os.Build

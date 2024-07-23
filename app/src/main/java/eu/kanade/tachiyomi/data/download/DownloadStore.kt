@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.data.download
+package eu.mkonic.tachiyomi.data.download
 
 import android.content.Context
 import androidx.core.content.edit
-import eu.kanade.tachiyomi.data.database.DatabaseHelper
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.source.online.HttpSource
+import eu.mkonic.tachiyomi.data.database.DatabaseHelper
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.download.model.Download
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.source.online.HttpSource
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString

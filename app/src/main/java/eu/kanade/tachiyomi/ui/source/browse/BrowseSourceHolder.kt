@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.source.browse
+package eu.mkonic.tachiyomi.ui.source.browse
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
 
 /**
  * Generic class used to hold the displayed data of a manga in the catalogue.

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.database.mappers
+package eu.mkonic.tachiyomi.data.database.mappers
 
 import android.content.ContentValues
 import android.database.Cursor
@@ -9,22 +9,22 @@ import com.pushtorefresh.storio.sqlite.operations.put.DefaultPutResolver
 import com.pushtorefresh.storio.sqlite.queries.DeleteQuery
 import com.pushtorefresh.storio.sqlite.queries.InsertQuery
 import com.pushtorefresh.storio.sqlite.queries.UpdateQuery
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.ChapterImpl
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable.COL_BOOKMARK
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable.COL_CHAPTER_NUMBER
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable.COL_DATE_FETCH
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable.COL_DATE_UPLOAD
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable.COL_ID
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable.COL_LAST_PAGE_READ
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable.COL_MANGA_ID
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable.COL_NAME
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable.COL_PAGES_LEFT
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable.COL_READ
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable.COL_SCANLATOR
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable.COL_SOURCE_ORDER
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable.COL_URL
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable.TABLE
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.ChapterImpl
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable.COL_BOOKMARK
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable.COL_CHAPTER_NUMBER
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable.COL_DATE_FETCH
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable.COL_DATE_UPLOAD
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable.COL_ID
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable.COL_LAST_PAGE_READ
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable.COL_MANGA_ID
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable.COL_NAME
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable.COL_PAGES_LEFT
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable.COL_READ
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable.COL_SCANLATOR
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable.COL_SOURCE_ORDER
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable.COL_URL
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable.TABLE
 
 class ChapterTypeMapping : SQLiteTypeMapping<Chapter>(
     ChapterPutResolver(),

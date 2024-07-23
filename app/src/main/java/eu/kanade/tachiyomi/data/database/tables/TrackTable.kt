@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.data.database.tables
+package eu.mkonic.tachiyomi.data.database.tables
 
-import eu.kanade.tachiyomi.data.track.TrackManager
+import eu.mkonic.tachiyomi.data.track.TrackManager
 
 object TrackTable {
 

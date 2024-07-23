@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.setting
+package eu.mkonic.tachiyomi.ui.setting
 
 import android.app.Activity
 import androidx.annotation.StringRes
@@ -16,18 +16,18 @@ import androidx.preference.PreferenceGroup
 import androidx.preference.PreferenceManager
 import androidx.preference.PreferenceScreen
 import androidx.preference.SwitchPreferenceCompat
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.AuthenticatorUtil
-import eu.kanade.tachiyomi.util.system.AuthenticatorUtil.isAuthenticationSupported
-import eu.kanade.tachiyomi.util.system.AuthenticatorUtil.startAuthentication
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.system.toast
-import eu.kanade.tachiyomi.widget.preference.AdaptiveTitlePreferenceCategory
-import eu.kanade.tachiyomi.widget.preference.EditTextResetPreference
-import eu.kanade.tachiyomi.widget.preference.IntListMatPreference
-import eu.kanade.tachiyomi.widget.preference.ListMatPreference
-import eu.kanade.tachiyomi.widget.preference.MultiListMatPreference
-import eu.kanade.tachiyomi.widget.preference.TriStateListPreference
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.system.AuthenticatorUtil
+import eu.mkonic.tachiyomi.util.system.AuthenticatorUtil.isAuthenticationSupported
+import eu.mkonic.tachiyomi.util.system.AuthenticatorUtil.startAuthentication
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.toast
+import eu.mkonic.tachiyomi.widget.preference.AdaptiveTitlePreferenceCategory
+import eu.mkonic.tachiyomi.widget.preference.EditTextResetPreference
+import eu.mkonic.tachiyomi.widget.preference.IntListMatPreference
+import eu.mkonic.tachiyomi.widget.preference.ListMatPreference
+import eu.mkonic.tachiyomi.widget.preference.MultiListMatPreference
+import eu.mkonic.tachiyomi.widget.preference.TriStateListPreference
 import com.fredporciuncula.flow.preferences.Preference as FlowPreference
 
 @DslMarker

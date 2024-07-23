@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget
+package eu.mkonic.tachiyomi.widget
 
 import android.content.Context
 import android.text.InputType
@@ -6,8 +6,8 @@ import android.util.AttributeSet
 import android.widget.EditText
 import android.widget.NumberPicker
 import androidx.core.view.doOnLayout
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.view.findDescendant
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.view.findDescendant
 
 class MinMaxNumberPicker @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :
     NumberPicker(context, attrs) {

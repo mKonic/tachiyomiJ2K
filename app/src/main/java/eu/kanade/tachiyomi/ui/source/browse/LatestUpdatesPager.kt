@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.ui.source.browse
+package eu.mkonic.tachiyomi.ui.source.browse
 
-import eu.kanade.tachiyomi.source.CatalogueSource
+import eu.mkonic.tachiyomi.source.CatalogueSource
 
 /**
  * LatestUpdatesPager inherited from the general Pager.

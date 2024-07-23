@@ -1,10 +1,10 @@
-package eu.kanade.tachiyomi.ui.migration
+package eu.mkonic.tachiyomi.ui.migration
 
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.ui.source.globalsearch.GlobalSearchItem
-import eu.kanade.tachiyomi.ui.source.globalsearch.GlobalSearchMangaItem
-import eu.kanade.tachiyomi.ui.source.globalsearch.GlobalSearchPresenter
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.source.CatalogueSource
+import eu.mkonic.tachiyomi.ui.source.globalsearch.GlobalSearchItem
+import eu.mkonic.tachiyomi.ui.source.globalsearch.GlobalSearchMangaItem
+import eu.mkonic.tachiyomi.ui.source.globalsearch.GlobalSearchPresenter
 
 class SearchPresenter(
     initialQuery: String? = "",

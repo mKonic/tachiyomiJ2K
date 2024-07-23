@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.ui.reader.viewer
+package eu.mkonic.tachiyomi.ui.reader.viewer
 
 import com.fredporciuncula.flow.preferences.Preference
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

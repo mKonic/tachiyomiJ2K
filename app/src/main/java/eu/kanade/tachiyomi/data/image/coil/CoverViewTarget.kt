@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.image.coil
+package eu.mkonic.tachiyomi.data.image.coil
 
 import android.graphics.drawable.Drawable
 import android.view.View
@@ -6,8 +6,8 @@ import android.widget.ImageView
 import androidx.core.view.isVisible
 import androidx.vectordrawable.graphics.drawable.VectorDrawableCompat
 import coil.target.ImageViewTarget
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.system.getResourceColor
 
 class CoverViewTarget(
     view: ImageView,

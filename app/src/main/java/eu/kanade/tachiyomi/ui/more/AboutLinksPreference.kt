@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.more
+package eu.mkonic.tachiyomi.ui.more
 
 import android.content.Context
 import android.util.AttributeSet
@@ -6,11 +6,11 @@ import android.view.ViewGroup
 import android.widget.LinearLayout
 import androidx.preference.Preference
 import androidx.preference.PreferenceViewHolder
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.openInBrowser
-import eu.kanade.tachiyomi.util.view.checkHeightThen
-import eu.kanade.tachiyomi.util.view.compatToolTipText
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.openInBrowser
+import eu.mkonic.tachiyomi.util.view.checkHeightThen
+import eu.mkonic.tachiyomi.util.view.compatToolTipText
 
 class AboutLinksPreference @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :
     Preference(context, attrs) {

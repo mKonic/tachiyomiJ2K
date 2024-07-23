@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.manga.chapter
+package eu.mkonic.tachiyomi.ui.manga.chapter
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,19 +8,19 @@ import androidx.core.view.WindowInsetsCompat.Type.systemBars
 import androidx.core.view.isInvisible
 import androidx.core.view.isVisible
 import com.google.android.material.bottomsheet.BottomSheetBehavior
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.databinding.ChapterSortBottomSheetBinding
-import eu.kanade.tachiyomi.ui.manga.MangaDetailsController
-import eu.kanade.tachiyomi.util.chapter.ChapterUtil
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.materialAlertDialog
-import eu.kanade.tachiyomi.util.system.rootWindowInsetsCompat
-import eu.kanade.tachiyomi.util.system.setNegativeStateItems
-import eu.kanade.tachiyomi.util.view.checkHeightThen
-import eu.kanade.tachiyomi.util.view.setBottomEdge
-import eu.kanade.tachiyomi.widget.E2EBottomSheetDialog
-import eu.kanade.tachiyomi.widget.SortTextView
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.databinding.ChapterSortBottomSheetBinding
+import eu.mkonic.tachiyomi.ui.manga.MangaDetailsController
+import eu.mkonic.tachiyomi.util.chapter.ChapterUtil
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.materialAlertDialog
+import eu.mkonic.tachiyomi.util.system.rootWindowInsetsCompat
+import eu.mkonic.tachiyomi.util.system.setNegativeStateItems
+import eu.mkonic.tachiyomi.util.view.checkHeightThen
+import eu.mkonic.tachiyomi.util.view.setBottomEdge
+import eu.mkonic.tachiyomi.widget.E2EBottomSheetDialog
+import eu.mkonic.tachiyomi.widget.SortTextView
 import kotlin.math.max
 
 class ChaptersSortBottomSheet(controller: MangaDetailsController) :

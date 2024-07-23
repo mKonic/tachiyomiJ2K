@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.download
+package eu.mkonic.tachiyomi.ui.download
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractExpandableHeaderItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
+import eu.mkonic.tachiyomi.R
 
 data class DownloadHeaderItem(
     val id: Long,

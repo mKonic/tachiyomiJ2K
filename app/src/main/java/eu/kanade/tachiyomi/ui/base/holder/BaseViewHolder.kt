@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.base.holder
+package eu.mkonic.tachiyomi.ui.base.holder
 
 import android.view.View
 

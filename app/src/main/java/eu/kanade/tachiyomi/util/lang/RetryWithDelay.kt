@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.lang
+package eu.mkonic.tachiyomi.util.lang
 
 import rx.Observable
 import rx.Scheduler

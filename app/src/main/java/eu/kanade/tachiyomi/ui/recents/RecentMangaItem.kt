@@ -1,18 +1,18 @@
-package eu.kanade.tachiyomi.ui.recents
+package eu.mkonic.tachiyomi.ui.recents
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractHeaderItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.ChapterImpl
-import eu.kanade.tachiyomi.data.database.models.MangaChapterHistory
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.ui.manga.chapter.BaseChapterHolder
-import eu.kanade.tachiyomi.ui.manga.chapter.BaseChapterItem
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.ChapterImpl
+import eu.mkonic.tachiyomi.data.database.models.MangaChapterHistory
+import eu.mkonic.tachiyomi.data.download.model.Download
+import eu.mkonic.tachiyomi.source.model.Page
+import eu.mkonic.tachiyomi.ui.manga.chapter.BaseChapterHolder
+import eu.mkonic.tachiyomi.ui.manga.chapter.BaseChapterItem
 
 class RecentMangaItem(
     val mch: MangaChapterHistory = MangaChapterHistory.createBlank(),

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.source.model
+package eu.mkonic.tachiyomi.source.model
 
 class SChapterImpl : SChapter {
 

@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.data.track.bangumi
+package eu.mkonic.tachiyomi.data.track.bangumi
 
 import android.net.Uri
 import androidx.core.net.toUri
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.track.TrackManager
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.network.GET
-import eu.kanade.tachiyomi.network.POST
-import eu.kanade.tachiyomi.network.awaitSuccess
-import eu.kanade.tachiyomi.network.parseAs
-import eu.kanade.tachiyomi.util.system.withIOContext
+import eu.mkonic.tachiyomi.data.database.models.Track
+import eu.mkonic.tachiyomi.data.track.TrackManager
+import eu.mkonic.tachiyomi.data.track.model.TrackSearch
+import eu.mkonic.tachiyomi.network.GET
+import eu.mkonic.tachiyomi.network.POST
+import eu.mkonic.tachiyomi.network.awaitSuccess
+import eu.mkonic.tachiyomi.network.parseAs
+import eu.mkonic.tachiyomi.util.system.withIOContext
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonObject

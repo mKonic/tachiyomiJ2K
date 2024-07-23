@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.migration
+package eu.mkonic.tachiyomi.ui.migration
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractSectionableItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.source.Source
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.source.Source
 
 /**
  * Item that contains source information.

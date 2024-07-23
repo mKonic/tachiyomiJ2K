@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.category.addtolibrary
+package eu.mkonic.tachiyomi.ui.category.addtolibrary
 
 import android.view.View
 import com.mikepenz.fastadapter.FastAdapter
 import com.mikepenz.fastadapter.items.AbstractItem
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Category
-import eu.kanade.tachiyomi.databinding.AddCategoryItemBinding
-import eu.kanade.tachiyomi.widget.TriStateCheckBox
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Category
+import eu.mkonic.tachiyomi.databinding.AddCategoryItemBinding
+import eu.mkonic.tachiyomi.widget.TriStateCheckBox
 
 class AddCategoryItem(val category: Category) : AbstractItem<FastAdapter.ViewHolder<AddCategoryItem>>() {
 

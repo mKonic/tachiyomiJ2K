@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget.preference
+package eu.mkonic.tachiyomi.widget.preference
 
 import android.content.Context
 import androidx.core.view.updateLayoutParams

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget.preference
+package eu.mkonic.tachiyomi.widget.preference
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -7,10 +7,10 @@ import android.util.AttributeSet
 import androidx.core.content.edit
 import androidx.core.text.buildSpannedString
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.setting.defaultValue
-import eu.kanade.tachiyomi.util.system.setTriStateItems
-import eu.kanade.tachiyomi.widget.TriStateCheckBox
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.ui.setting.defaultValue
+import eu.mkonic.tachiyomi.util.system.setTriStateItems
+import eu.mkonic.tachiyomi.widget.TriStateCheckBox
 
 class TriStateListPreference @JvmOverloads constructor(
     activity: Activity?,

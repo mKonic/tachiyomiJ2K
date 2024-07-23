@@ -3,7 +3,7 @@
 package androidx.recyclerview.widget
 
 import androidx.recyclerview.widget.RecyclerView.NO_POSITION
-import eu.kanade.tachiyomi.ui.reader.ReaderActivity
+import eu.mkonic.tachiyomi.ui.reader.ReaderActivity
 
 /**
  * Layout manager used by the webtoon viewer. Item prefetch is disabled because the extra layout

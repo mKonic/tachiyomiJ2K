@@ -1,16 +1,16 @@
-package eu.kanade.tachiyomi.data.track.suwayomi
+package eu.mkonic.tachiyomi.data.track.suwayomi
 
 import android.app.Application
 import android.content.SharedPreferences
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.track.TrackManager
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.network.GET
-import eu.kanade.tachiyomi.network.NetworkHelper
-import eu.kanade.tachiyomi.network.PUT
-import eu.kanade.tachiyomi.network.awaitSuccess
-import eu.kanade.tachiyomi.network.parseAs
-import eu.kanade.tachiyomi.util.system.withIOContext
+import eu.mkonic.tachiyomi.data.database.models.Track
+import eu.mkonic.tachiyomi.data.track.TrackManager
+import eu.mkonic.tachiyomi.data.track.model.TrackSearch
+import eu.mkonic.tachiyomi.network.GET
+import eu.mkonic.tachiyomi.network.NetworkHelper
+import eu.mkonic.tachiyomi.network.PUT
+import eu.mkonic.tachiyomi.network.awaitSuccess
+import eu.mkonic.tachiyomi.network.parseAs
+import eu.mkonic.tachiyomi.util.system.withIOContext
 import kotlinx.serialization.json.Json
 import okhttp3.Credentials
 import okhttp3.Dns

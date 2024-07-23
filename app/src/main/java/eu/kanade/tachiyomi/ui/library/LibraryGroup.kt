@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.ui.library
+package eu.mkonic.tachiyomi.ui.library
 
-import eu.kanade.tachiyomi.R
+import eu.mkonic.tachiyomi.R
 
 object LibraryGroup {
 

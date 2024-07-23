@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.webtoon
+package eu.mkonic.tachiyomi.ui.reader.viewer.webtoon
 
 import android.animation.Animator
 import android.animation.AnimatorSet
@@ -10,7 +10,7 @@ import android.view.MotionEvent
 import android.view.ViewConfiguration
 import android.view.animation.DecelerateInterpolator
 import androidx.recyclerview.widget.RecyclerView
-import eu.kanade.tachiyomi.ui.reader.viewer.GestureDetectorWithLongTap
+import eu.mkonic.tachiyomi.ui.reader.viewer.GestureDetectorWithLongTap
 import kotlin.math.abs
 
 /**

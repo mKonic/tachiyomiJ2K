@@ -1,13 +1,13 @@
-package eu.kanade.tachiyomi.ui.migration
+package eu.mkonic.tachiyomi.ui.migration
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractHeaderItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.SourceHeaderItemBinding
-import eu.kanade.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.SourceHeaderItemBinding
+import eu.mkonic.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
 
 /**
  * Item that contains the selection header.

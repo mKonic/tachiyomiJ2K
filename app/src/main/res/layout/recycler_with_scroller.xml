@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<eu.kanade.tachiyomi.ui.extension.RecyclerWithScrollerView xmlns:android="http://schemas.android.com/apk/res/android"
+<eu.mkonic.tachiyomi.ui.extension.RecyclerWithScrollerView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/recycler_layout"
@@ -15,10 +15,10 @@
         android:nestedScrollingEnabled="false"
         tools:listitem="@layout/extension_card_header" />
 
-    <eu.kanade.tachiyomi.ui.base.MaterialFastScroll
+    <eu.mkonic.tachiyomi.ui.base.MaterialFastScroll
         android:id="@+id/fast_scroller"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:fastScrollerBubbleEnabled="false" />
 
-</eu.kanade.tachiyomi.ui.extension.RecyclerWithScrollerView>
+</eu.mkonic.tachiyomi.ui.extension.RecyclerWithScrollerView>

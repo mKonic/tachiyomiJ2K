@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.source.browse
+package eu.mkonic.tachiyomi.ui.source.browse
 
 import android.app.Activity
 import android.os.Bundle
@@ -14,13 +14,13 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.databinding.SourceFilterSheetBinding
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.rootWindowInsetsCompat
-import eu.kanade.tachiyomi.util.view.checkHeightThen
-import eu.kanade.tachiyomi.util.view.collapse
-import eu.kanade.tachiyomi.util.view.doOnApplyWindowInsetsCompat
-import eu.kanade.tachiyomi.widget.E2EBottomSheetDialog
+import eu.mkonic.tachiyomi.databinding.SourceFilterSheetBinding
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.rootWindowInsetsCompat
+import eu.mkonic.tachiyomi.util.view.checkHeightThen
+import eu.mkonic.tachiyomi.util.view.collapse
+import eu.mkonic.tachiyomi.util.view.doOnApplyWindowInsetsCompat
+import eu.mkonic.tachiyomi.widget.E2EBottomSheetDialog
 
 class SourceFilterSheet(val activity: Activity) :
     E2EBottomSheetDialog<SourceFilterSheetBinding>(activity) {

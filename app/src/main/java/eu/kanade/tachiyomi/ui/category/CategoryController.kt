@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.category
+package eu.mkonic.tachiyomi.ui.category
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,16 +8,16 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.snackbar.BaseTransientBottomBar
 import com.google.android.material.snackbar.Snackbar
 import eu.davidea.flexibleadapter.FlexibleAdapter
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.CategoriesControllerBinding
-import eu.kanade.tachiyomi.ui.base.SmallToolbarInterface
-import eu.kanade.tachiyomi.ui.base.controller.BaseController
-import eu.kanade.tachiyomi.ui.category.CategoryPresenter.Companion.CREATE_CATEGORY_ORDER
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.util.system.materialAlertDialog
-import eu.kanade.tachiyomi.util.system.toast
-import eu.kanade.tachiyomi.util.view.liftAppbarWith
-import eu.kanade.tachiyomi.util.view.snack
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.CategoriesControllerBinding
+import eu.mkonic.tachiyomi.ui.base.SmallToolbarInterface
+import eu.mkonic.tachiyomi.ui.base.controller.BaseController
+import eu.mkonic.tachiyomi.ui.category.CategoryPresenter.Companion.CREATE_CATEGORY_ORDER
+import eu.mkonic.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.util.system.materialAlertDialog
+import eu.mkonic.tachiyomi.util.system.toast
+import eu.mkonic.tachiyomi.util.view.liftAppbarWith
+import eu.mkonic.tachiyomi.util.view.snack
 
 /**
  * Controller to manage the categories for the users' library.

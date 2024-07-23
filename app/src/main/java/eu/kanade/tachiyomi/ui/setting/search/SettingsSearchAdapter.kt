@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.setting.search
+package eu.mkonic.tachiyomi.ui.setting.search
 
 import android.os.Bundle
 import android.os.Parcelable
@@ -6,7 +6,7 @@ import android.util.SparseArray
 import androidx.core.os.BundleCompat
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
-import eu.kanade.tachiyomi.ui.setting.SettingsController
+import eu.mkonic.tachiyomi.ui.setting.SettingsController
 
 /**
  * Adapter that holds the search cards.

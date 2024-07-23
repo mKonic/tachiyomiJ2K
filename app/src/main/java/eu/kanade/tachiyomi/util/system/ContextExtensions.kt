@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.system
+package eu.mkonic.tachiyomi.util.system
 
 import android.app.LocaleManager
 import android.app.Notification
@@ -36,10 +36,10 @@ import androidx.work.CoroutineWorker
 import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.extension.util.ExtensionLoader
-import eu.kanade.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.extension.util.ExtensionLoader
+import eu.mkonic.tachiyomi.ui.main.MainActivity
 import timber.log.Timber
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get

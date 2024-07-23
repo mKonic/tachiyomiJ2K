@@ -46,7 +46,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <eu.kanade.tachiyomi.widget.TachiyomiTextInputEditText
+        <eu.mkonic.tachiyomi.widget.TachiyomiTextInputEditText
             android:id="@+id/edit_text"
             android:layout_width="0dp"
             android:layout_height="match_parent"

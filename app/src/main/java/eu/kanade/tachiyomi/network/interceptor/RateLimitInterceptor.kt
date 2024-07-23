@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.network.interceptor
+package eu.mkonic.tachiyomi.network.interceptor
 
 import android.os.SystemClock
 import okhttp3.Interceptor

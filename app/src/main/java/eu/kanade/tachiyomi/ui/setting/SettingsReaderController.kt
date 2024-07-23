@@ -1,25 +1,25 @@
-package eu.kanade.tachiyomi.ui.setting
+package eu.mkonic.tachiyomi.ui.setting
 
 import android.hardware.display.DisplayManager
 import android.os.Build
 import android.view.Display
 import androidx.core.content.getSystemService
 import androidx.preference.PreferenceScreen
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.preference.PreferenceValues
-import eu.kanade.tachiyomi.data.preference.asImmediateFlow
-import eu.kanade.tachiyomi.data.preference.asImmediateFlowIn
-import eu.kanade.tachiyomi.ui.reader.settings.OrientationType
-import eu.kanade.tachiyomi.ui.reader.settings.PageLayout
-import eu.kanade.tachiyomi.ui.reader.settings.ReaderBackgroundColor
-import eu.kanade.tachiyomi.ui.reader.settings.ReaderBottomButton
-import eu.kanade.tachiyomi.ui.reader.settings.ReadingModeType
-import eu.kanade.tachiyomi.ui.reader.viewer.ViewerNavigation
-import eu.kanade.tachiyomi.util.lang.addBetaTag
-import eu.kanade.tachiyomi.util.system.isTablet
-import eu.kanade.tachiyomi.util.view.activityBinding
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.preference.PreferenceValues
+import eu.mkonic.tachiyomi.data.preference.asImmediateFlow
+import eu.mkonic.tachiyomi.data.preference.asImmediateFlowIn
+import eu.mkonic.tachiyomi.ui.reader.settings.OrientationType
+import eu.mkonic.tachiyomi.ui.reader.settings.PageLayout
+import eu.mkonic.tachiyomi.ui.reader.settings.ReaderBackgroundColor
+import eu.mkonic.tachiyomi.ui.reader.settings.ReaderBottomButton
+import eu.mkonic.tachiyomi.ui.reader.settings.ReadingModeType
+import eu.mkonic.tachiyomi.ui.reader.viewer.ViewerNavigation
+import eu.mkonic.tachiyomi.util.lang.addBetaTag
+import eu.mkonic.tachiyomi.util.system.isTablet
+import eu.mkonic.tachiyomi.util.view.activityBinding
 import kotlinx.coroutines.flow.launchIn
-import eu.kanade.tachiyomi.data.preference.PreferenceKeys as Keys
+import eu.mkonic.tachiyomi.data.preference.PreferenceKeys as Keys
 
 class SettingsReaderController : SettingsController() {
 

@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.data.backup.models
+package eu.mkonic.tachiyomi.data.backup.models
 
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.ChapterImpl
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.ChapterImpl
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.protobuf.ProtoNumber
 

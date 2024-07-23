@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.recents.options
+package eu.mkonic.tachiyomi.ui.recents.options
 
 import android.view.View
 import android.view.View.inflate
 import androidx.annotation.IntRange
 import androidx.core.view.isVisible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.recents.RecentsController
-import eu.kanade.tachiyomi.widget.TabbedBottomSheetDialog
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.ui.recents.RecentsController
+import eu.mkonic.tachiyomi.widget.TabbedBottomSheetDialog
 
 class TabbedRecentsOptionsSheet(val controller: RecentsController, @IntRange(from = 0, to = 2) startingTab: Int) :
     TabbedBottomSheetDialog(controller.activity!!) {

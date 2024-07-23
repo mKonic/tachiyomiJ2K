@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.setting
+package eu.mkonic.tachiyomi.ui.setting
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -14,19 +14,19 @@ import androidx.appcompat.app.AlertDialog
 import androidx.core.net.toUri
 import androidx.preference.PreferenceScreen
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.backup.BackupConst
-import eu.kanade.tachiyomi.data.backup.BackupCreatorJob
-import eu.kanade.tachiyomi.data.backup.BackupFileValidator
-import eu.kanade.tachiyomi.data.backup.BackupRestoreJob
-import eu.kanade.tachiyomi.data.backup.models.Backup
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.util.system.DeviceUtil
-import eu.kanade.tachiyomi.util.system.disableItems
-import eu.kanade.tachiyomi.util.system.materialAlertDialog
-import eu.kanade.tachiyomi.util.system.openInBrowser
-import eu.kanade.tachiyomi.util.system.toast
-import eu.kanade.tachiyomi.util.view.requestFilePermissionsSafe
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.backup.BackupConst
+import eu.mkonic.tachiyomi.data.backup.BackupCreatorJob
+import eu.mkonic.tachiyomi.data.backup.BackupFileValidator
+import eu.mkonic.tachiyomi.data.backup.BackupRestoreJob
+import eu.mkonic.tachiyomi.data.backup.models.Backup
+import eu.mkonic.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.util.system.DeviceUtil
+import eu.mkonic.tachiyomi.util.system.disableItems
+import eu.mkonic.tachiyomi.util.system.materialAlertDialog
+import eu.mkonic.tachiyomi.util.system.openInBrowser
+import eu.mkonic.tachiyomi.util.system.toast
+import eu.mkonic.tachiyomi.util.view.requestFilePermissionsSafe
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 

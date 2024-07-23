@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.more.stats.details
+package eu.mkonic.tachiyomi.ui.more.stats.details
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.StatsDetailsChartBinding
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.StatsDetailsChartBinding
 
 class HeaderStatsDetailsAdapter(
     private val statDetailsHeaderListener: StatsDetailsChartLayout.StatDetailsHeaderListener?,

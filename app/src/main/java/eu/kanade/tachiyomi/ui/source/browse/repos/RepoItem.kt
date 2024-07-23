@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.source.browse.repos
+package eu.mkonic.tachiyomi.ui.source.browse.repos
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractFlexibleItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
+import eu.mkonic.tachiyomi.R
 
 /**
  * Repo item for a recycler view.

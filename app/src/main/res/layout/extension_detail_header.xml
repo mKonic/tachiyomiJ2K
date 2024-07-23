@@ -95,7 +95,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/extension_title"
             app:layout_constraintTop_toBottomOf="@id/extension_nsfw"
-            tools:text="eu.kanade.tachiyomi.extension.en.myext" />
+            tools:text="eu.mkonic.tachiyomi.extension.en.myext" />
 
         <Button
             android:id="@+id/extension_app_info_button"

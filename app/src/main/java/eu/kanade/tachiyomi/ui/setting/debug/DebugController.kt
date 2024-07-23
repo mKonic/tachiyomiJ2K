@@ -1,17 +1,17 @@
-package eu.kanade.tachiyomi.ui.setting.debug
+package eu.mkonic.tachiyomi.ui.setting.debug
 
 import android.os.Build
 import androidx.preference.PreferenceScreen
 import androidx.webkit.WebViewCompat
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.more.AboutController
-import eu.kanade.tachiyomi.ui.setting.SettingsController
-import eu.kanade.tachiyomi.ui.setting.onClick
-import eu.kanade.tachiyomi.ui.setting.preference
-import eu.kanade.tachiyomi.ui.setting.preferenceCategory
-import eu.kanade.tachiyomi.util.system.DeviceUtil
-import eu.kanade.tachiyomi.util.view.withFadeTransaction
+import eu.mkonic.tachiyomi.BuildConfig
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.ui.more.AboutController
+import eu.mkonic.tachiyomi.ui.setting.SettingsController
+import eu.mkonic.tachiyomi.ui.setting.onClick
+import eu.mkonic.tachiyomi.ui.setting.preference
+import eu.mkonic.tachiyomi.ui.setting.preferenceCategory
+import eu.mkonic.tachiyomi.util.system.DeviceUtil
+import eu.mkonic.tachiyomi.util.view.withFadeTransaction
 import java.text.DateFormat
 
 class DebugController : SettingsController() {

@@ -1,13 +1,13 @@
-package eu.kanade.tachiyomi.data.database.resolvers
+package eu.mkonic.tachiyomi.data.database.resolvers
 
 import androidx.core.content.contentValuesOf
 import com.pushtorefresh.storio.sqlite.StorIOSQLite
 import com.pushtorefresh.storio.sqlite.operations.put.PutResult
 import com.pushtorefresh.storio.sqlite.queries.Query
 import com.pushtorefresh.storio.sqlite.queries.UpdateQuery
-import eu.kanade.tachiyomi.data.database.mappers.HistoryPutResolver
-import eu.kanade.tachiyomi.data.database.models.History
-import eu.kanade.tachiyomi.data.database.tables.HistoryTable
+import eu.mkonic.tachiyomi.data.database.mappers.HistoryPutResolver
+import eu.mkonic.tachiyomi.data.database.models.History
+import eu.mkonic.tachiyomi.data.database.tables.HistoryTable
 
 class HistoryUpsertResolver : HistoryPutResolver() {
 

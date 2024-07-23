@@ -1,10 +1,10 @@
-package eu.kanade.tachiyomi.util.chapter
+package eu.mkonic.tachiyomi.util.chapter
 
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.util.chapter.ChapterFilter.Companion.filterChaptersByScanlators
-import eu.kanade.tachiyomi.util.lang.compareToCaseInsensitiveNaturalOrder
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.util.chapter.ChapterFilter.Companion.filterChaptersByScanlators
+import eu.mkonic.tachiyomi.util.lang.compareToCaseInsensitiveNaturalOrder
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 

@@ -1,13 +1,13 @@
-package eu.kanade.tachiyomi.data.database.resolvers
+package eu.mkonic.tachiyomi.data.database.resolvers
 
 import android.content.ContentValues
 import com.pushtorefresh.storio.sqlite.StorIOSQLite
 import com.pushtorefresh.storio.sqlite.operations.put.PutResolver
 import com.pushtorefresh.storio.sqlite.operations.put.PutResult
 import com.pushtorefresh.storio.sqlite.queries.UpdateQuery
-import eu.kanade.tachiyomi.data.database.inTransactionReturn
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable
+import eu.mkonic.tachiyomi.data.database.inTransactionReturn
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable
 
 class ChapterSourceOrderPutResolver : PutResolver<Chapter>() {
 

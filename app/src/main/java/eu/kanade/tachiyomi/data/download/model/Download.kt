@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.data.download.model
+package eu.mkonic.tachiyomi.data.download.model
 
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.source.online.HttpSource
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.source.model.Page
+import eu.mkonic.tachiyomi.source.online.HttpSource
 import rx.subjects.PublishSubject
 import kotlin.math.roundToInt
 

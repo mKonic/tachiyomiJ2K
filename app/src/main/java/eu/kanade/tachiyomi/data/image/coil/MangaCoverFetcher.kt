@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.image.coil
+package eu.mkonic.tachiyomi.data.image.coil
 
 import android.webkit.MimeTypeMap
 import coil.ImageLoader
@@ -11,12 +11,12 @@ import coil.fetch.SourceResult
 import coil.network.HttpException
 import coil.request.Options
 import coil.request.Parameters
-import eu.kanade.tachiyomi.data.cache.CoverCache
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.network.await
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.util.manga.MangaCoverMetadata
+import eu.mkonic.tachiyomi.data.cache.CoverCache
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.network.await
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.source.online.HttpSource
+import eu.mkonic.tachiyomi.util.manga.MangaCoverMetadata
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

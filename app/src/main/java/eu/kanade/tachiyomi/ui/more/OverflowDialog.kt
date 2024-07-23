@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.more
+package eu.mkonic.tachiyomi.ui.more
 
 import android.app.Dialog
 import android.content.res.ColorStateList
@@ -10,17 +10,17 @@ import androidx.core.text.color
 import androidx.core.view.WindowInsetsControllerCompat
 import androidx.core.view.updateLayoutParams
 import androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.data.preference.toggle
-import eu.kanade.tachiyomi.databinding.TachiOverflowLayoutBinding
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.util.lang.addBetaTag
-import eu.kanade.tachiyomi.util.lang.withSubtitle
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.system.openInBrowser
+import eu.mkonic.tachiyomi.BuildConfig
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.data.preference.toggle
+import eu.mkonic.tachiyomi.databinding.TachiOverflowLayoutBinding
+import eu.mkonic.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.util.lang.addBetaTag
+import eu.mkonic.tachiyomi.util.lang.withSubtitle
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.openInBrowser
 import uy.kohesive.injekt.injectLazy
 
 class OverflowDialog(activity: MainActivity) : Dialog(activity, R.style.OverflowDialogTheme) {

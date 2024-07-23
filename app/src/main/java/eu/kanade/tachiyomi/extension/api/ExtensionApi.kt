@@ -1,16 +1,16 @@
-package eu.kanade.tachiyomi.extension.api
+package eu.mkonic.tachiyomi.extension.api
 
 import android.content.Context
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.extension.model.Extension
-import eu.kanade.tachiyomi.extension.model.LoadResult
-import eu.kanade.tachiyomi.extension.util.ExtensionLoader
-import eu.kanade.tachiyomi.network.GET
-import eu.kanade.tachiyomi.network.NetworkHelper
-import eu.kanade.tachiyomi.network.awaitSuccess
-import eu.kanade.tachiyomi.network.parseAs
-import eu.kanade.tachiyomi.util.system.withIOContext
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.extension.ExtensionManager
+import eu.mkonic.tachiyomi.extension.model.Extension
+import eu.mkonic.tachiyomi.extension.model.LoadResult
+import eu.mkonic.tachiyomi.extension.util.ExtensionLoader
+import eu.mkonic.tachiyomi.network.GET
+import eu.mkonic.tachiyomi.network.NetworkHelper
+import eu.mkonic.tachiyomi.network.awaitSuccess
+import eu.mkonic.tachiyomi.network.parseAs
+import eu.mkonic.tachiyomi.util.system.withIOContext
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import timber.log.Timber

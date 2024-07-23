@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.network
+package eu.mkonic.tachiyomi.network
 
 import android.content.Context
 import app.cash.quickjs.QuickJs
-import eu.kanade.tachiyomi.util.system.withIOContext
+import eu.mkonic.tachiyomi.util.system.withIOContext
 
 /**
  * Util for evaluating JavaScript in sources.

@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.source
+package eu.mkonic.tachiyomi.source
 
 import android.graphics.drawable.Drawable
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.source.model.SChapter
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.util.system.awaitSingle
+import eu.mkonic.tachiyomi.extension.ExtensionManager
+import eu.mkonic.tachiyomi.source.model.Page
+import eu.mkonic.tachiyomi.source.model.SChapter
+import eu.mkonic.tachiyomi.source.model.SManga
+import eu.mkonic.tachiyomi.source.online.HttpSource
+import eu.mkonic.tachiyomi.util.system.awaitSingle
 import rx.Observable
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get

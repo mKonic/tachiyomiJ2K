@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.library
+package eu.mkonic.tachiyomi.ui.library
 
 import android.app.Activity
 import android.graphics.drawable.RippleDrawable
@@ -13,17 +13,17 @@ import androidx.core.view.updateLayoutParams
 import coil.dispose
 import coil.size.Precision
 import coil.size.Scale
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.image.coil.loadManga
-import eu.kanade.tachiyomi.databinding.MangaGridItemBinding
-import eu.kanade.tachiyomi.util.lang.highlightText
-import eu.kanade.tachiyomi.util.manga.MangaCoverMetadata
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.view.backgroundColor
-import eu.kanade.tachiyomi.util.view.setCards
-import eu.kanade.tachiyomi.widget.AutofitRecyclerView
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.image.coil.loadManga
+import eu.mkonic.tachiyomi.databinding.MangaGridItemBinding
+import eu.mkonic.tachiyomi.util.lang.highlightText
+import eu.mkonic.tachiyomi.util.manga.MangaCoverMetadata
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.view.backgroundColor
+import eu.mkonic.tachiyomi.util.view.setCards
+import eu.mkonic.tachiyomi.widget.AutofitRecyclerView
 
 /**
  * Class used to hold the displayed data of a manga in the library, like the cover or the title.

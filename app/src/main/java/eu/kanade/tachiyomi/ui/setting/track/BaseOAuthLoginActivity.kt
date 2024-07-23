@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.setting.track
+package eu.mkonic.tachiyomi.ui.setting.track
 
 import android.content.Intent
 import android.net.Uri
@@ -7,9 +7,9 @@ import android.view.Gravity
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.ProgressBar
-import eu.kanade.tachiyomi.data.track.TrackManager
-import eu.kanade.tachiyomi.ui.base.activity.BaseThemedActivity
-import eu.kanade.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.data.track.TrackManager
+import eu.mkonic.tachiyomi.ui.base.activity.BaseThemedActivity
+import eu.mkonic.tachiyomi.ui.main.MainActivity
 import uy.kohesive.injekt.injectLazy
 
 abstract class BaseOAuthLoginActivity : BaseThemedActivity() {

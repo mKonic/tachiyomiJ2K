@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.source.browse
+package eu.mkonic.tachiyomi.ui.source.browse
 
 import android.app.Activity
 import android.view.View
@@ -10,12 +10,12 @@ import coil.dispose
 import coil.request.ImageRequest
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.image.coil.CoverViewTarget
-import eu.kanade.tachiyomi.data.image.coil.MangaCoverFetcher
-import eu.kanade.tachiyomi.databinding.MangaGridItemBinding
-import eu.kanade.tachiyomi.ui.library.LibraryCategoryAdapter
-import eu.kanade.tachiyomi.util.view.setCards
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.image.coil.CoverViewTarget
+import eu.mkonic.tachiyomi.data.image.coil.MangaCoverFetcher
+import eu.mkonic.tachiyomi.databinding.MangaGridItemBinding
+import eu.mkonic.tachiyomi.ui.library.LibraryCategoryAdapter
+import eu.mkonic.tachiyomi.util.view.setCards
 
 /**
  * Class used to hold the displayed data of a manga in the library, like the cover or the title.

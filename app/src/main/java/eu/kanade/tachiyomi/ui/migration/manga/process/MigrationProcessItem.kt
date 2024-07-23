@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.migration.manga.process
+package eu.mkonic.tachiyomi.ui.migration.manga.process
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractFlexibleItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
+import eu.mkonic.tachiyomi.R
 
 class MigrationProcessItem(val manga: MigratingManga) :
     AbstractFlexibleItem<MigrationProcessHolder>() {

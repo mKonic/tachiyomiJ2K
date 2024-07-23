@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.database.models
+package eu.mkonic.tachiyomi.data.database.models
 
 /**
  * Object containing manga, chapter and history

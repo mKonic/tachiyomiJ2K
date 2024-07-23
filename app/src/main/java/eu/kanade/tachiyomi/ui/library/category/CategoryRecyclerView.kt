@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.library.category
+package eu.mkonic.tachiyomi.ui.library.category
 
 import android.content.Context
 import android.util.AttributeSet
@@ -9,8 +9,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.mikepenz.fastadapter.FastAdapter
 import com.mikepenz.fastadapter.adapters.ItemAdapter
 import com.mikepenz.fastadapter.listeners.OnBindViewHolderListenerImpl
-import eu.kanade.tachiyomi.data.database.models.Category
-import eu.kanade.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.data.database.models.Category
+import eu.mkonic.tachiyomi.util.system.dpToPx
 
 class CategoryRecyclerView @JvmOverloads constructor(
     context: Context,

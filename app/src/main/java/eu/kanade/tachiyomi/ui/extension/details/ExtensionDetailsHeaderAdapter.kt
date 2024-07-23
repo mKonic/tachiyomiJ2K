@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.extension.details
+package eu.mkonic.tachiyomi.ui.extension.details
 
 import android.content.Intent
 import android.net.Uri
@@ -7,12 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.ExtensionDetailHeaderBinding
-import eu.kanade.tachiyomi.ui.extension.getApplicationIcon
-import eu.kanade.tachiyomi.util.system.LocaleHelper
-import eu.kanade.tachiyomi.util.system.materialAlertDialog
-import eu.kanade.tachiyomi.util.view.inflate
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.ExtensionDetailHeaderBinding
+import eu.mkonic.tachiyomi.ui.extension.getApplicationIcon
+import eu.mkonic.tachiyomi.util.system.LocaleHelper
+import eu.mkonic.tachiyomi.util.system.materialAlertDialog
+import eu.mkonic.tachiyomi.util.view.inflate
 
 class ExtensionDetailsHeaderAdapter(private val presenter: ExtensionDetailsPresenter) :
     RecyclerView.Adapter<ExtensionDetailsHeaderAdapter.HeaderViewHolder>() {

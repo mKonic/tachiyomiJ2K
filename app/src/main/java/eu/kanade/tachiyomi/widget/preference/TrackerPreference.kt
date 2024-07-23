@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget.preference
+package eu.mkonic.tachiyomi.widget.preference
 
 import android.content.Context
 import android.graphics.Color
@@ -10,8 +10,8 @@ import androidx.core.view.setPadding
 import androidx.preference.Preference
 import androidx.preference.PreferenceViewHolder
 import com.google.android.material.card.MaterialCardView
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.system.dpToPx
 
 class TrackerPreference @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :
     Preference(context, attrs) {

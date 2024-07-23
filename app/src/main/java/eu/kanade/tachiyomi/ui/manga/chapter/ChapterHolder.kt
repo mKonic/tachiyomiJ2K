@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.manga.chapter
+package eu.mkonic.tachiyomi.ui.manga.chapter
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -8,16 +8,16 @@ import androidx.core.animation.doOnEnd
 import androidx.core.animation.doOnStart
 import androidx.core.view.isVisible
 import androidx.core.widget.TextViewCompat
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.databinding.ChaptersItemBinding
-import eu.kanade.tachiyomi.ui.manga.MangaDetailsAdapter
-import eu.kanade.tachiyomi.util.chapter.ChapterUtil
-import eu.kanade.tachiyomi.util.chapter.ChapterUtil.Companion.preferredChapterName
-import eu.kanade.tachiyomi.util.isLocal
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.download.model.Download
+import eu.mkonic.tachiyomi.databinding.ChaptersItemBinding
+import eu.mkonic.tachiyomi.ui.manga.MangaDetailsAdapter
+import eu.mkonic.tachiyomi.util.chapter.ChapterUtil
+import eu.mkonic.tachiyomi.util.chapter.ChapterUtil.Companion.preferredChapterName
+import eu.mkonic.tachiyomi.util.isLocal
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.getResourceColor
 
 class ChapterHolder(
     view: View,

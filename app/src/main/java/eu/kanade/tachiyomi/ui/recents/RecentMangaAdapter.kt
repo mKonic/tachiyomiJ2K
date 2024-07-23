@@ -1,14 +1,14 @@
-package eu.kanade.tachiyomi.ui.recents
+package eu.mkonic.tachiyomi.ui.recents
 
 import android.view.View
 import androidx.recyclerview.widget.ItemTouchHelper
 import com.fredporciuncula.flow.preferences.Preference
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.ChapterHistory
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.data.preference.asImmediateFlowIn
-import eu.kanade.tachiyomi.ui.manga.chapter.BaseChapterAdapter
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.ChapterHistory
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.data.preference.asImmediateFlowIn
+import eu.mkonic.tachiyomi.ui.manga.chapter.BaseChapterAdapter
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.drop
 import kotlinx.coroutines.flow.launchIn

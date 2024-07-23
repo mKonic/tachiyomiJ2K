@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.setting
+package eu.mkonic.tachiyomi.ui.setting
 
 import android.content.Intent
 import android.content.res.XmlResourceParser
@@ -9,14 +9,14 @@ import android.view.View
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.os.LocaleListCompat
 import androidx.preference.PreferenceScreen
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.updater.AppDownloadInstallJob
-import eu.kanade.tachiyomi.util.lang.addBetaTag
-import eu.kanade.tachiyomi.util.lang.compareToCaseInsensitiveNaturalOrder
-import eu.kanade.tachiyomi.util.system.systemLangContext
+import eu.mkonic.tachiyomi.BuildConfig
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.updater.AppDownloadInstallJob
+import eu.mkonic.tachiyomi.util.lang.addBetaTag
+import eu.mkonic.tachiyomi.util.lang.compareToCaseInsensitiveNaturalOrder
+import eu.mkonic.tachiyomi.util.system.systemLangContext
 import java.util.Locale
-import eu.kanade.tachiyomi.data.preference.PreferenceKeys as Keys
+import eu.mkonic.tachiyomi.data.preference.PreferenceKeys as Keys
 
 class SettingsGeneralController : SettingsController() {
 

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.system
+package eu.mkonic.tachiyomi.util.system
 
 import com.pushtorefresh.storio.sqlite.operations.get.PreparedGetListOfObjects
 import com.pushtorefresh.storio.sqlite.operations.get.PreparedGetObject

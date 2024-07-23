@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.lang
+package eu.mkonic.tachiyomi.util.lang
 
 import android.content.Context
 import android.text.Spannable
@@ -18,8 +18,8 @@ import androidx.core.text.inSpans
 import androidx.core.text.parseAsHtml
 import androidx.core.text.scale
 import androidx.core.text.superscript
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.system.getResourceColor
 import net.greypanther.natsort.CaseInsensitiveSimpleNaturalComparator
 import java.net.URI
 import java.net.URISyntaxException

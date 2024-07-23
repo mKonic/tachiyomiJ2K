@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.data.notification
+package eu.mkonic.tachiyomi.data.notification
 
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.util.storage.getUriCompat
+import eu.mkonic.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.util.storage.getUriCompat
 import java.io.File
 
 /**

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.main
+package eu.mkonic.tachiyomi.ui.main
 
 import android.Manifest
 import android.animation.AnimatorSet
@@ -70,67 +70,67 @@ import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.transition.platform.MaterialContainerTransformSharedElementCallback
 import com.google.common.primitives.Floats.max
 import com.google.common.primitives.Ints.max
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.Migrations
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.download.DownloadJob
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.data.library.LibraryUpdateJob
-import eu.kanade.tachiyomi.data.notification.NotificationReceiver
-import eu.kanade.tachiyomi.data.notification.Notifications
-import eu.kanade.tachiyomi.data.preference.asImmediateFlowIn
-import eu.kanade.tachiyomi.data.updater.AppUpdateChecker
-import eu.kanade.tachiyomi.data.updater.AppUpdateNotifier
-import eu.kanade.tachiyomi.data.updater.AppUpdateResult
-import eu.kanade.tachiyomi.data.updater.RELEASE_URL
-import eu.kanade.tachiyomi.databinding.MainActivityBinding
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.extension.api.ExtensionApi
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.ui.base.MaterialMenuSheet
-import eu.kanade.tachiyomi.ui.base.SmallToolbarInterface
-import eu.kanade.tachiyomi.ui.base.activity.BaseActivity
-import eu.kanade.tachiyomi.ui.base.controller.BaseController
-import eu.kanade.tachiyomi.ui.base.controller.DialogController
-import eu.kanade.tachiyomi.ui.library.LibraryController
-import eu.kanade.tachiyomi.ui.manga.MangaDetailsController
-import eu.kanade.tachiyomi.ui.more.AboutController
-import eu.kanade.tachiyomi.ui.more.OverflowDialog
-import eu.kanade.tachiyomi.ui.more.stats.StatsController
-import eu.kanade.tachiyomi.ui.recents.RecentsController
-import eu.kanade.tachiyomi.ui.recents.RecentsViewType
-import eu.kanade.tachiyomi.ui.security.SecureActivityDelegate
-import eu.kanade.tachiyomi.ui.setting.SettingsController
-import eu.kanade.tachiyomi.ui.setting.SettingsMainController
-import eu.kanade.tachiyomi.ui.source.BrowseController
-import eu.kanade.tachiyomi.ui.source.browse.BrowseSourceController
-import eu.kanade.tachiyomi.ui.source.browse.repos.RepoController
-import eu.kanade.tachiyomi.util.manga.MangaCoverMetadata
-import eu.kanade.tachiyomi.util.manga.MangaShortcutManager
-import eu.kanade.tachiyomi.util.system.contextCompatDrawable
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.system.hasSideNavBar
-import eu.kanade.tachiyomi.util.system.ignoredSystemInsets
-import eu.kanade.tachiyomi.util.system.isBottomTappable
-import eu.kanade.tachiyomi.util.system.isInNightMode
-import eu.kanade.tachiyomi.util.system.launchIO
-import eu.kanade.tachiyomi.util.system.launchUI
-import eu.kanade.tachiyomi.util.system.materialAlertDialog
-import eu.kanade.tachiyomi.util.system.prepareSideNavContext
-import eu.kanade.tachiyomi.util.system.rootWindowInsetsCompat
-import eu.kanade.tachiyomi.util.system.toast
-import eu.kanade.tachiyomi.util.view.BackHandlerControllerInterface
-import eu.kanade.tachiyomi.util.view.backgroundColor
-import eu.kanade.tachiyomi.util.view.blurBehindWindow
-import eu.kanade.tachiyomi.util.view.canStillGoBack
-import eu.kanade.tachiyomi.util.view.doOnApplyWindowInsetsCompat
-import eu.kanade.tachiyomi.util.view.findChild
-import eu.kanade.tachiyomi.util.view.getItemView
-import eu.kanade.tachiyomi.util.view.mainRecyclerView
-import eu.kanade.tachiyomi.util.view.snack
-import eu.kanade.tachiyomi.util.view.withFadeInTransaction
-import eu.kanade.tachiyomi.util.view.withFadeTransaction
+import eu.mkonic.tachiyomi.BuildConfig
+import eu.mkonic.tachiyomi.Migrations
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.download.DownloadJob
+import eu.mkonic.tachiyomi.data.download.DownloadManager
+import eu.mkonic.tachiyomi.data.library.LibraryUpdateJob
+import eu.mkonic.tachiyomi.data.notification.NotificationReceiver
+import eu.mkonic.tachiyomi.data.notification.Notifications
+import eu.mkonic.tachiyomi.data.preference.asImmediateFlowIn
+import eu.mkonic.tachiyomi.data.updater.AppUpdateChecker
+import eu.mkonic.tachiyomi.data.updater.AppUpdateNotifier
+import eu.mkonic.tachiyomi.data.updater.AppUpdateResult
+import eu.mkonic.tachiyomi.data.updater.RELEASE_URL
+import eu.mkonic.tachiyomi.databinding.MainActivityBinding
+import eu.mkonic.tachiyomi.extension.ExtensionManager
+import eu.mkonic.tachiyomi.extension.api.ExtensionApi
+import eu.mkonic.tachiyomi.source.online.HttpSource
+import eu.mkonic.tachiyomi.ui.base.MaterialMenuSheet
+import eu.mkonic.tachiyomi.ui.base.SmallToolbarInterface
+import eu.mkonic.tachiyomi.ui.base.activity.BaseActivity
+import eu.mkonic.tachiyomi.ui.base.controller.BaseController
+import eu.mkonic.tachiyomi.ui.base.controller.DialogController
+import eu.mkonic.tachiyomi.ui.library.LibraryController
+import eu.mkonic.tachiyomi.ui.manga.MangaDetailsController
+import eu.mkonic.tachiyomi.ui.more.AboutController
+import eu.mkonic.tachiyomi.ui.more.OverflowDialog
+import eu.mkonic.tachiyomi.ui.more.stats.StatsController
+import eu.mkonic.tachiyomi.ui.recents.RecentsController
+import eu.mkonic.tachiyomi.ui.recents.RecentsViewType
+import eu.mkonic.tachiyomi.ui.security.SecureActivityDelegate
+import eu.mkonic.tachiyomi.ui.setting.SettingsController
+import eu.mkonic.tachiyomi.ui.setting.SettingsMainController
+import eu.mkonic.tachiyomi.ui.source.BrowseController
+import eu.mkonic.tachiyomi.ui.source.browse.BrowseSourceController
+import eu.mkonic.tachiyomi.ui.source.browse.repos.RepoController
+import eu.mkonic.tachiyomi.util.manga.MangaCoverMetadata
+import eu.mkonic.tachiyomi.util.manga.MangaShortcutManager
+import eu.mkonic.tachiyomi.util.system.contextCompatDrawable
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.hasSideNavBar
+import eu.mkonic.tachiyomi.util.system.ignoredSystemInsets
+import eu.mkonic.tachiyomi.util.system.isBottomTappable
+import eu.mkonic.tachiyomi.util.system.isInNightMode
+import eu.mkonic.tachiyomi.util.system.launchIO
+import eu.mkonic.tachiyomi.util.system.launchUI
+import eu.mkonic.tachiyomi.util.system.materialAlertDialog
+import eu.mkonic.tachiyomi.util.system.prepareSideNavContext
+import eu.mkonic.tachiyomi.util.system.rootWindowInsetsCompat
+import eu.mkonic.tachiyomi.util.system.toast
+import eu.mkonic.tachiyomi.util.view.BackHandlerControllerInterface
+import eu.mkonic.tachiyomi.util.view.backgroundColor
+import eu.mkonic.tachiyomi.util.view.blurBehindWindow
+import eu.mkonic.tachiyomi.util.view.canStillGoBack
+import eu.mkonic.tachiyomi.util.view.doOnApplyWindowInsetsCompat
+import eu.mkonic.tachiyomi.util.view.findChild
+import eu.mkonic.tachiyomi.util.view.getItemView
+import eu.mkonic.tachiyomi.util.view.mainRecyclerView
+import eu.mkonic.tachiyomi.util.view.snack
+import eu.mkonic.tachiyomi.util.view.withFadeInTransaction
+import eu.mkonic.tachiyomi.util.view.withFadeTransaction
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.launchIn
@@ -1545,23 +1545,23 @@ open class MainActivity : BaseActivity<MainActivityBinding>() {
         private const val SWIPE_THRESHOLD = 100
         private const val SWIPE_VELOCITY_THRESHOLD = 100
 
-        const val MAIN_ACTIVITY = "eu.kanade.tachiyomi.ui.main.MainActivity"
+        const val MAIN_ACTIVITY = "eu.mkonic.tachiyomi.ui.main.MainActivity"
 
         // Shortcut actions
-        const val SHORTCUT_LIBRARY = "eu.kanade.tachiyomi.SHOW_LIBRARY"
-        const val SHORTCUT_RECENTS = "eu.kanade.tachiyomi.SHOW_RECENTS"
-        const val SHORTCUT_RECENTLY_UPDATED = "eu.kanade.tachiyomi.SHOW_RECENTLY_UPDATED"
-        const val SHORTCUT_RECENTLY_READ = "eu.kanade.tachiyomi.SHOW_RECENTLY_READ"
-        const val SHORTCUT_BROWSE = "eu.kanade.tachiyomi.SHOW_BROWSE"
-        const val SHORTCUT_DOWNLOADS = "eu.kanade.tachiyomi.SHOW_DOWNLOADS"
-        const val SHORTCUT_MANGA = "eu.kanade.tachiyomi.SHOW_MANGA"
-        const val SHORTCUT_MANGA_BACK = "eu.kanade.tachiyomi.SHOW_MANGA_BACK"
-        const val SHORTCUT_UPDATE_NOTES = "eu.kanade.tachiyomi.SHOW_UPDATE_NOTES"
-        const val SHORTCUT_SOURCE = "eu.kanade.tachiyomi.SHOW_SOURCE"
-        const val SHORTCUT_READER_SETTINGS = "eu.kanade.tachiyomi.READER_SETTINGS"
-        const val SHORTCUT_EXTENSIONS = "eu.kanade.tachiyomi.EXTENSIONS"
+        const val SHORTCUT_LIBRARY = "eu.mkonic.tachiyomi.SHOW_LIBRARY"
+        const val SHORTCUT_RECENTS = "eu.mkonic.tachiyomi.SHOW_RECENTS"
+        const val SHORTCUT_RECENTLY_UPDATED = "eu.mkonic.tachiyomi.SHOW_RECENTLY_UPDATED"
+        const val SHORTCUT_RECENTLY_READ = "eu.mkonic.tachiyomi.SHOW_RECENTLY_READ"
+        const val SHORTCUT_BROWSE = "eu.mkonic.tachiyomi.SHOW_BROWSE"
+        const val SHORTCUT_DOWNLOADS = "eu.mkonic.tachiyomi.SHOW_DOWNLOADS"
+        const val SHORTCUT_MANGA = "eu.mkonic.tachiyomi.SHOW_MANGA"
+        const val SHORTCUT_MANGA_BACK = "eu.mkonic.tachiyomi.SHOW_MANGA_BACK"
+        const val SHORTCUT_UPDATE_NOTES = "eu.mkonic.tachiyomi.SHOW_UPDATE_NOTES"
+        const val SHORTCUT_SOURCE = "eu.mkonic.tachiyomi.SHOW_SOURCE"
+        const val SHORTCUT_READER_SETTINGS = "eu.mkonic.tachiyomi.READER_SETTINGS"
+        const val SHORTCUT_EXTENSIONS = "eu.mkonic.tachiyomi.EXTENSIONS"
 
-        const val INTENT_SEARCH = "eu.kanade.tachiyomi.SEARCH"
+        const val INTENT_SEARCH = "eu.mkonic.tachiyomi.SEARCH"
         const val INTENT_SEARCH_QUERY = "query"
         const val INTENT_SEARCH_FILTER = "filter"
 

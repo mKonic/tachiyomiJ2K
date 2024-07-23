@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget.preference
+package eu.mkonic.tachiyomi.widget.preference
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -9,7 +9,7 @@ import androidx.appcompat.widget.AppCompatCheckedTextView
 import androidx.core.content.edit
 import androidx.core.view.children
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import eu.kanade.tachiyomi.util.system.disableItems
+import eu.mkonic.tachiyomi.util.system.disableItems
 
 class MultiListMatPreference @JvmOverloads constructor(
     activity: Activity?,

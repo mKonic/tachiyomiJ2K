@@ -27,7 +27,7 @@
             android:importantForAccessibility="no" />
     </com.bluelinelabs.conductor.ChangeHandlerFrameLayout>
 
-    <eu.kanade.tachiyomi.ui.base.ExpandedAppBarLayout
+    <eu.mkonic.tachiyomi.ui.base.ExpandedAppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <eu.kanade.tachiyomi.ui.base.CenteredToolbar
+        <eu.mkonic.tachiyomi.ui.base.CenteredToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             app:titleTextColor="?actionBarTintColor"
@@ -62,7 +62,7 @@
                 tools:drawableEnd="@drawable/ic_arrow_drop_down_24dp"
                 tools:drawableStart="@drawable/ic_blank_24dp"
                 tools:text="Title Text" />
-        </eu.kanade.tachiyomi.ui.base.CenteredToolbar>
+        </eu.mkonic.tachiyomi.ui.base.CenteredToolbar>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/big_toolbar"
@@ -128,7 +128,7 @@
                 app:cardCornerRadius="24dp"
                 android:layout_height="match_parent" >
 
-                <eu.kanade.tachiyomi.ui.base.FloatingToolbar
+                <eu.mkonic.tachiyomi.ui.base.FloatingToolbar
                     android:id="@+id/search_toolbar"
                     tools:title="Search Library..."
                     app:contentInsetStartWithNavigation="0dp"
@@ -194,7 +194,7 @@
                                 tools:text="Title Text" />
                         </LinearLayout>
                     </LinearLayout>
-                </eu.kanade.tachiyomi.ui.base.FloatingToolbar>
+                </eu.mkonic.tachiyomi.ui.base.FloatingToolbar>
             </com.google.android.material.card.MaterialCardView>
         </FrameLayout>
 
@@ -218,7 +218,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:tabGravity="fill"/>
         </FrameLayout>
-    </eu.kanade.tachiyomi.ui.base.ExpandedAppBarLayout>
+    </eu.mkonic.tachiyomi.ui.base.ExpandedAppBarLayout>
 
 
     <com.google.android.material.navigationrail.NavigationRailView

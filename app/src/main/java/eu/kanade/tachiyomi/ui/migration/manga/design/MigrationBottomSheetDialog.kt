@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.migration.manga.design
+package eu.mkonic.tachiyomi.ui.migration.manga.design
 
 import android.app.Activity
 import android.content.res.Configuration
@@ -19,15 +19,15 @@ import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
 import com.bluelinelabs.conductor.Controller
 import com.fredporciuncula.flow.preferences.Preference
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.databinding.MigrationBottomSheetBinding
-import eu.kanade.tachiyomi.ui.migration.MigrationFlags
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.toInt
-import eu.kanade.tachiyomi.util.system.toast
-import eu.kanade.tachiyomi.util.view.setBottomEdge
-import eu.kanade.tachiyomi.widget.E2EBottomSheetDialog
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.databinding.MigrationBottomSheetBinding
+import eu.mkonic.tachiyomi.ui.migration.MigrationFlags
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.toInt
+import eu.mkonic.tachiyomi.util.system.toast
+import eu.mkonic.tachiyomi.util.view.setBottomEdge
+import eu.mkonic.tachiyomi.widget.E2EBottomSheetDialog
 import uy.kohesive.injekt.injectLazy
 
 class MigrationBottomSheetDialog(

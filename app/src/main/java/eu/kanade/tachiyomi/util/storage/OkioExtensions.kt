@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.storage
+package eu.mkonic.tachiyomi.util.storage
 
 import okio.BufferedSource
 import okio.buffer

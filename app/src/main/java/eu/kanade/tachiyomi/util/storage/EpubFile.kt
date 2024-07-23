@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.util.storage
+package eu.mkonic.tachiyomi.util.storage
 
-import eu.kanade.tachiyomi.source.model.SChapter
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.mkonic.tachiyomi.source.model.SChapter
+import eu.mkonic.tachiyomi.source.model.SManga
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
 import java.io.Closeable

@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.extension
+package eu.mkonic.tachiyomi.ui.extension
 
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Rect
 import android.graphics.drawable.Drawable
 import android.view.View
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.isLTR
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.isLTR
 
 class ExtensionDividerItemDecoration(context: Context) : androidx.recyclerview.widget.RecyclerView.ItemDecoration() {
 

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.util
+package eu.mkonic.tachiyomi.extension.util
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -6,10 +6,10 @@ import android.content.Intent
 import android.content.IntentFilter
 import android.net.Uri
 import androidx.core.content.ContextCompat
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.extension.model.Extension
-import eu.kanade.tachiyomi.extension.model.LoadResult
-import eu.kanade.tachiyomi.util.system.launchNow
+import eu.mkonic.tachiyomi.BuildConfig
+import eu.mkonic.tachiyomi.extension.model.Extension
+import eu.mkonic.tachiyomi.extension.model.LoadResult
+import eu.mkonic.tachiyomi.util.system.launchNow
 import kotlinx.coroutines.CoroutineStart
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

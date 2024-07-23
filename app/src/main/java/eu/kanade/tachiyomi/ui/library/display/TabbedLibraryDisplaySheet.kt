@@ -1,16 +1,16 @@
-package eu.kanade.tachiyomi.ui.library.display
+package eu.mkonic.tachiyomi.ui.library.display
 
 import android.view.View
 import android.view.View.inflate
 import androidx.core.view.isVisible
 import com.bluelinelabs.conductor.Controller
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.library.LibraryController
-import eu.kanade.tachiyomi.ui.setting.SettingsLibraryController
-import eu.kanade.tachiyomi.util.system.contextCompatDrawable
-import eu.kanade.tachiyomi.util.view.compatToolTipText
-import eu.kanade.tachiyomi.util.view.withFadeTransaction
-import eu.kanade.tachiyomi.widget.TabbedBottomSheetDialog
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.ui.library.LibraryController
+import eu.mkonic.tachiyomi.ui.setting.SettingsLibraryController
+import eu.mkonic.tachiyomi.util.system.contextCompatDrawable
+import eu.mkonic.tachiyomi.util.view.compatToolTipText
+import eu.mkonic.tachiyomi.util.view.withFadeTransaction
+import eu.mkonic.tachiyomi.widget.TabbedBottomSheetDialog
 
 open class TabbedLibraryDisplaySheet(val controller: Controller) :
     TabbedBottomSheetDialog(controller.activity!!) {

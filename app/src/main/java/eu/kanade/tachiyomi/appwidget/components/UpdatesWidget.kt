@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.appwidget.components
+package eu.mkonic.tachiyomi.appwidget.components
 
 import android.content.Intent
 import android.graphics.Bitmap
@@ -17,12 +17,12 @@ import androidx.glance.layout.Row
 import androidx.glance.layout.fillMaxWidth
 import androidx.glance.layout.padding
 import androidx.glance.text.Text
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.appwidget.ContainerModifier
-import eu.kanade.tachiyomi.appwidget.util.calculateRowAndColumnCount
-import eu.kanade.tachiyomi.appwidget.util.stringResource
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.ui.main.SearchActivity
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.appwidget.ContainerModifier
+import eu.mkonic.tachiyomi.appwidget.util.calculateRowAndColumnCount
+import eu.mkonic.tachiyomi.appwidget.util.stringResource
+import eu.mkonic.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.ui.main.SearchActivity
 
 @Composable
 fun UpdatesWidget(data: List<Pair<Long, Bitmap?>>?) {

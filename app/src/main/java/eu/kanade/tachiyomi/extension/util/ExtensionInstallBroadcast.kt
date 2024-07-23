@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.util
+package eu.mkonic.tachiyomi.extension.util
 
 import android.app.Activity
 import android.app.DownloadManager
@@ -13,13 +13,13 @@ import android.os.Build
 import android.os.Bundle
 import android.widget.Toast
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.extension.util.ExtensionInstallBroadcast.Companion.EXTRA_SESSION_ID
-import eu.kanade.tachiyomi.extension.util.ExtensionInstallBroadcast.Companion.PACKAGE_INSTALLED_ACTION
-import eu.kanade.tachiyomi.extension.util.ExtensionInstallBroadcast.Companion.packageInstallStep
-import eu.kanade.tachiyomi.util.system.DeviceUtil
-import eu.kanade.tachiyomi.util.system.toast
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.extension.ExtensionManager
+import eu.mkonic.tachiyomi.extension.util.ExtensionInstallBroadcast.Companion.EXTRA_SESSION_ID
+import eu.mkonic.tachiyomi.extension.util.ExtensionInstallBroadcast.Companion.PACKAGE_INSTALLED_ACTION
+import eu.mkonic.tachiyomi.extension.util.ExtensionInstallBroadcast.Companion.packageInstallStep
+import eu.mkonic.tachiyomi.util.system.DeviceUtil
+import eu.mkonic.tachiyomi.util.system.toast
 import uy.kohesive.injekt.injectLazy
 
 /**
@@ -79,7 +79,7 @@ class ExtensionInstallBroadcast : BroadcastReceiver() {
         const val INSTALL_REQUEST_CODE = 500
         const val EXTRA_SESSION_ID = "ExtensionInstaller.extra.SESSION_ID"
         const val PACKAGE_INSTALLED_ACTION =
-            "eu.kanade.tachiyomi.SESSION_API_PACKAGE_INSTALLED"
+            "eu.mkonic.tachiyomi.SESSION_API_PACKAGE_INSTALLED"
 
         fun packageInstallStep(context: Context, intent: Intent) {
             val extras = intent.extras ?: return

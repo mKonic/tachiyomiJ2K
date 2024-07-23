@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.ui.source
+package eu.mkonic.tachiyomi.ui.source
 
 import android.content.res.ColorStateList
 import android.view.View
 import androidx.core.view.isVisible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.SourceItemBinding
-import eu.kanade.tachiyomi.source.LocalSource
-import eu.kanade.tachiyomi.source.icon
-import eu.kanade.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.view.compatToolTipText
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.SourceItemBinding
+import eu.mkonic.tachiyomi.source.LocalSource
+import eu.mkonic.tachiyomi.source.icon
+import eu.mkonic.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.view.compatToolTipText
 
 class SourceHolder(view: View, val adapter: SourceAdapter) :
     BaseFlexibleViewHolder(view, adapter) {

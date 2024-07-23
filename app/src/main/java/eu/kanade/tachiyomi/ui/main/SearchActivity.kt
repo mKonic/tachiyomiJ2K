@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.main
+package eu.mkonic.tachiyomi.ui.main
 
 import android.app.SearchManager
 import android.content.Context
@@ -8,23 +8,23 @@ import androidx.core.view.isVisible
 import com.bluelinelabs.conductor.Controller
 import com.bluelinelabs.conductor.RouterTransaction
 import com.bluelinelabs.conductor.changehandler.SimpleSwapChangeHandler
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.DatabaseHelper
-import eu.kanade.tachiyomi.data.notification.NotificationReceiver
-import eu.kanade.tachiyomi.ui.base.SmallToolbarInterface
-import eu.kanade.tachiyomi.ui.base.controller.BaseController
-import eu.kanade.tachiyomi.ui.base.controller.DialogController
-import eu.kanade.tachiyomi.ui.base.controller.FadeChangeHandler
-import eu.kanade.tachiyomi.ui.manga.MangaDetailsController
-import eu.kanade.tachiyomi.ui.reader.ReaderActivity
-import eu.kanade.tachiyomi.ui.security.SecureActivityDelegate
-import eu.kanade.tachiyomi.ui.setting.SettingsController
-import eu.kanade.tachiyomi.ui.setting.SettingsReaderController
-import eu.kanade.tachiyomi.ui.source.browse.BrowseSourceController
-import eu.kanade.tachiyomi.ui.source.globalsearch.GlobalSearchController
-import eu.kanade.tachiyomi.util.chapter.ChapterSort
-import eu.kanade.tachiyomi.util.system.extensionIntentForText
-import eu.kanade.tachiyomi.util.view.withFadeTransaction
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.DatabaseHelper
+import eu.mkonic.tachiyomi.data.notification.NotificationReceiver
+import eu.mkonic.tachiyomi.ui.base.SmallToolbarInterface
+import eu.mkonic.tachiyomi.ui.base.controller.BaseController
+import eu.mkonic.tachiyomi.ui.base.controller.DialogController
+import eu.mkonic.tachiyomi.ui.base.controller.FadeChangeHandler
+import eu.mkonic.tachiyomi.ui.manga.MangaDetailsController
+import eu.mkonic.tachiyomi.ui.reader.ReaderActivity
+import eu.mkonic.tachiyomi.ui.security.SecureActivityDelegate
+import eu.mkonic.tachiyomi.ui.setting.SettingsController
+import eu.mkonic.tachiyomi.ui.setting.SettingsReaderController
+import eu.mkonic.tachiyomi.ui.source.browse.BrowseSourceController
+import eu.mkonic.tachiyomi.ui.source.globalsearch.GlobalSearchController
+import eu.mkonic.tachiyomi.util.chapter.ChapterSort
+import eu.mkonic.tachiyomi.util.system.extensionIntentForText
+import eu.mkonic.tachiyomi.util.view.withFadeTransaction
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 

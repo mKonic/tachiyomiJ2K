@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.preference
+package eu.mkonic.tachiyomi.data.preference
 
 import android.content.Context
 import android.net.Uri
@@ -8,23 +8,23 @@ import androidx.preference.PreferenceManager
 import com.fredporciuncula.flow.preferences.FlowSharedPreferences
 import com.fredporciuncula.flow.preferences.Preference
 import com.google.android.material.color.DynamicColors
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.updater.AppDownloadInstallJob
-import eu.kanade.tachiyomi.extension.model.InstalledExtensionsOrder
-import eu.kanade.tachiyomi.extension.util.ExtensionInstaller
-import eu.kanade.tachiyomi.network.NetworkHelper
-import eu.kanade.tachiyomi.ui.library.LibraryItem
-import eu.kanade.tachiyomi.ui.library.filter.FilterBottomSheet
-import eu.kanade.tachiyomi.ui.reader.settings.OrientationType
-import eu.kanade.tachiyomi.ui.reader.settings.PageLayout
-import eu.kanade.tachiyomi.ui.reader.settings.ReaderBottomButton
-import eu.kanade.tachiyomi.ui.reader.settings.ReadingModeType
-import eu.kanade.tachiyomi.ui.reader.viewer.ViewerNavigation
-import eu.kanade.tachiyomi.ui.recents.RecentMangaAdapter
-import eu.kanade.tachiyomi.ui.recents.RecentsPresenter
-import eu.kanade.tachiyomi.util.system.Themes
+import eu.mkonic.tachiyomi.BuildConfig
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.updater.AppDownloadInstallJob
+import eu.mkonic.tachiyomi.extension.model.InstalledExtensionsOrder
+import eu.mkonic.tachiyomi.extension.util.ExtensionInstaller
+import eu.mkonic.tachiyomi.network.NetworkHelper
+import eu.mkonic.tachiyomi.ui.library.LibraryItem
+import eu.mkonic.tachiyomi.ui.library.filter.FilterBottomSheet
+import eu.mkonic.tachiyomi.ui.reader.settings.OrientationType
+import eu.mkonic.tachiyomi.ui.reader.settings.PageLayout
+import eu.mkonic.tachiyomi.ui.reader.settings.ReaderBottomButton
+import eu.mkonic.tachiyomi.ui.reader.settings.ReadingModeType
+import eu.mkonic.tachiyomi.ui.reader.viewer.ViewerNavigation
+import eu.mkonic.tachiyomi.ui.recents.RecentMangaAdapter
+import eu.mkonic.tachiyomi.ui.recents.RecentsPresenter
+import eu.mkonic.tachiyomi.util.system.Themes
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.Flow
@@ -34,8 +34,8 @@ import java.io.File
 import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.Locale
-import eu.kanade.tachiyomi.data.preference.PreferenceKeys as Keys
-import eu.kanade.tachiyomi.data.preference.PreferenceValues as Values
+import eu.mkonic.tachiyomi.data.preference.PreferenceKeys as Keys
+import eu.mkonic.tachiyomi.data.preference.PreferenceValues as Values
 
 fun <T> Preference<T>.asImmediateFlow(block: (value: T) -> Unit): Flow<T> {
     block(get())

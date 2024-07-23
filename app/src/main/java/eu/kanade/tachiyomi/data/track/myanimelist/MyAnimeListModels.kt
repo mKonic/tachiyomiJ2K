@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.data.track.myanimelist
+package eu.mkonic.tachiyomi.data.track.myanimelist
 
-import eu.kanade.tachiyomi.data.database.models.Track
+import eu.mkonic.tachiyomi.data.database.models.Track
 
 fun Track.toMyAnimeListStatus() = when (status) {
     MyAnimeList.READING -> "reading"

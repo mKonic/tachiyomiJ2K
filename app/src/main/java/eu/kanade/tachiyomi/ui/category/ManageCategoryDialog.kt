@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.category
+package eu.mkonic.tachiyomi.ui.category
 
 import android.app.Activity
 import android.app.Dialog
@@ -8,17 +8,17 @@ import androidx.core.view.isVisible
 import androidx.core.widget.addTextChangedListener
 import com.fredporciuncula.flow.preferences.Preference
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.DatabaseHelper
-import eu.kanade.tachiyomi.data.database.models.Category
-import eu.kanade.tachiyomi.data.library.LibraryUpdateJob
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.databinding.MangaCategoryDialogBinding
-import eu.kanade.tachiyomi.ui.base.controller.DialogController
-import eu.kanade.tachiyomi.ui.library.LibrarySort
-import eu.kanade.tachiyomi.util.system.materialAlertDialog
-import eu.kanade.tachiyomi.util.view.withFadeTransaction
-import eu.kanade.tachiyomi.widget.TriStateCheckBox
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.DatabaseHelper
+import eu.mkonic.tachiyomi.data.database.models.Category
+import eu.mkonic.tachiyomi.data.library.LibraryUpdateJob
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.databinding.MangaCategoryDialogBinding
+import eu.mkonic.tachiyomi.ui.base.controller.DialogController
+import eu.mkonic.tachiyomi.ui.library.LibrarySort
+import eu.mkonic.tachiyomi.util.system.materialAlertDialog
+import eu.mkonic.tachiyomi.util.view.withFadeTransaction
+import eu.mkonic.tachiyomi.widget.TriStateCheckBox
 import uy.kohesive.injekt.injectLazy
 
 class ManageCategoryDialog(bundle: Bundle? = null) :

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.settings
+package eu.mkonic.tachiyomi.ui.reader.settings
 
 import android.app.Activity
 import android.content.Context
@@ -10,12 +10,12 @@ import android.view.Display
 import androidx.core.content.getSystemService
 import androidx.core.view.isVisible
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.ReaderPagedLayoutBinding
-import eu.kanade.tachiyomi.ui.reader.ReaderActivity
-import eu.kanade.tachiyomi.util.bindToPreference
-import eu.kanade.tachiyomi.util.lang.addBetaTag
-import eu.kanade.tachiyomi.widget.BaseReaderSettingsView
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.ReaderPagedLayoutBinding
+import eu.mkonic.tachiyomi.ui.reader.ReaderActivity
+import eu.mkonic.tachiyomi.util.bindToPreference
+import eu.mkonic.tachiyomi.util.lang.addBetaTag
+import eu.mkonic.tachiyomi.widget.BaseReaderSettingsView
 
 class ReaderPagedView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :
     BaseReaderSettingsView<ReaderPagedLayoutBinding>(context, attrs) {

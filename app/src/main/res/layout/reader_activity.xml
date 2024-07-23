@@ -22,7 +22,7 @@
         android:visibility="gone"
         tools:visibility="visible" />
 
-    <eu.kanade.tachiyomi.ui.reader.PageIndicatorTextView
+    <eu.mkonic.tachiyomi.ui.reader.PageIndicatorTextView
         android:id="@+id/page_number"
         style="?textAppearanceBodySmall"
         android:layout_width="wrap_content"
@@ -31,13 +31,13 @@
         android:padding="4dp"
         android:textStyle="bold" />
 
-    <eu.kanade.tachiyomi.ui.reader.ReaderColorFilterView
+    <eu.mkonic.tachiyomi.ui.reader.ReaderColorFilterView
         android:id="@+id/color_overlay"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone" />
 
-    <eu.kanade.tachiyomi.ui.reader.ReaderNavigationOverlayView
+    <eu.mkonic.tachiyomi.ui.reader.ReaderNavigationOverlayView
         android:id="@+id/navigation_overlay"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

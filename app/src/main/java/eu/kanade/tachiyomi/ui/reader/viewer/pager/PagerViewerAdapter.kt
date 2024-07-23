@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.pager
+package eu.mkonic.tachiyomi.ui.reader.viewer.pager
 
 import android.view.View
 import android.view.ViewGroup
-import eu.kanade.tachiyomi.ui.reader.model.ChapterTransition
-import eu.kanade.tachiyomi.ui.reader.model.InsertPage
-import eu.kanade.tachiyomi.ui.reader.model.ReaderChapter
-import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
-import eu.kanade.tachiyomi.ui.reader.model.ViewerChapters
-import eu.kanade.tachiyomi.ui.reader.viewer.hasMissingChapters
-import eu.kanade.tachiyomi.util.system.launchUI
-import eu.kanade.tachiyomi.widget.ViewPagerAdapter
+import eu.mkonic.tachiyomi.ui.reader.model.ChapterTransition
+import eu.mkonic.tachiyomi.ui.reader.model.InsertPage
+import eu.mkonic.tachiyomi.ui.reader.model.ReaderChapter
+import eu.mkonic.tachiyomi.ui.reader.model.ReaderPage
+import eu.mkonic.tachiyomi.ui.reader.model.ViewerChapters
+import eu.mkonic.tachiyomi.ui.reader.viewer.hasMissingChapters
+import eu.mkonic.tachiyomi.util.system.launchUI
+import eu.mkonic.tachiyomi.widget.ViewPagerAdapter
 import kotlinx.coroutines.delay
 import timber.log.Timber
 import kotlin.math.max

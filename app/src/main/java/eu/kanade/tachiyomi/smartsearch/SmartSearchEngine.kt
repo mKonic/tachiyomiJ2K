@@ -1,10 +1,10 @@
-package eu.kanade.tachiyomi.smartsearch
+package eu.mkonic.tachiyomi.smartsearch
 
-import eu.kanade.tachiyomi.data.database.DatabaseHelper
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.util.lang.toNormalized
+import eu.mkonic.tachiyomi.data.database.DatabaseHelper
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.source.CatalogueSource
+import eu.mkonic.tachiyomi.source.model.SManga
+import eu.mkonic.tachiyomi.util.lang.toNormalized
 import info.debatty.java.stringsimilarity.NormalizedLevenshtein
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

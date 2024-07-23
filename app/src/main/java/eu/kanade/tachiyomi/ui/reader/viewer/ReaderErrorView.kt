@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.reader.viewer
+package eu.mkonic.tachiyomi.ui.reader.viewer
 
 import android.content.Context
 import android.util.AttributeSet
 import android.widget.LinearLayout
 import androidx.core.view.isVisible
-import eu.kanade.tachiyomi.databinding.ReaderErrorBinding
-import eu.kanade.tachiyomi.ui.reader.viewer.pager.PagerViewer
-import eu.kanade.tachiyomi.ui.webview.WebViewActivity
+import eu.mkonic.tachiyomi.databinding.ReaderErrorBinding
+import eu.mkonic.tachiyomi.ui.reader.viewer.pager.PagerViewer
+import eu.mkonic.tachiyomi.ui.webview.WebViewActivity
 
 class ReaderErrorView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :
     LinearLayout(context, attrs) {

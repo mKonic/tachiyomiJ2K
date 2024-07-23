@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.security
+package eu.mkonic.tachiyomi.ui.security
 
 import android.app.Activity
 import android.content.Intent
@@ -6,10 +6,10 @@ import android.os.Build
 import android.view.Window
 import android.view.WindowManager
 import androidx.biometric.BiometricManager
-import eu.kanade.tachiyomi.data.preference.PreferenceValues
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.ui.main.SearchActivity
-import eu.kanade.tachiyomi.util.system.AuthenticatorUtil
+import eu.mkonic.tachiyomi.data.preference.PreferenceValues
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.ui.main.SearchActivity
+import eu.mkonic.tachiyomi.util.system.AuthenticatorUtil
 import uy.kohesive.injekt.injectLazy
 import java.util.Date
 

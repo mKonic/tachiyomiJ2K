@@ -1,14 +1,14 @@
-package eu.kanade.tachiyomi.ui.source.globalsearch
+package eu.mkonic.tachiyomi.ui.source.globalsearch
 
 import android.annotation.SuppressLint
 import android.view.View
 import androidx.core.view.isVisible
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.databinding.SourceGlobalSearchControllerCardBinding
-import eu.kanade.tachiyomi.source.LocalSource
-import eu.kanade.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
-import eu.kanade.tachiyomi.ui.migration.SearchController
-import eu.kanade.tachiyomi.util.system.LocaleHelper
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.databinding.SourceGlobalSearchControllerCardBinding
+import eu.mkonic.tachiyomi.source.LocalSource
+import eu.mkonic.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
+import eu.mkonic.tachiyomi.ui.migration.SearchController
+import eu.mkonic.tachiyomi.util.system.LocaleHelper
 
 /**
  * Holder that binds the [GlobalSearchItem] containing catalogue cards.

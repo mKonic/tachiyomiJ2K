@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.data.track
+package eu.mkonic.tachiyomi.data.track
 
-import eu.kanade.tachiyomi.data.preference.Preference
-import eu.kanade.tachiyomi.data.preference.PreferenceStore
-import eu.kanade.tachiyomi.data.track.anilist.Anilist
+import eu.mkonic.tachiyomi.data.preference.Preference
+import eu.mkonic.tachiyomi.data.preference.PreferenceStore
+import eu.mkonic.tachiyomi.data.track.anilist.Anilist
 
 class TrackPreferences(
     private val preferenceStore: PreferenceStore,

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.preference
+package eu.mkonic.tachiyomi.data.preference
 
 import android.content.Context
 import androidx.work.CoroutineWorker
@@ -6,7 +6,7 @@ import androidx.work.ExistingWorkPolicy
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
-import eu.kanade.tachiyomi.ui.library.LibraryPresenter
+import eu.mkonic.tachiyomi.ui.library.LibraryPresenter
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 import java.util.concurrent.TimeUnit

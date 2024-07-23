@@ -1,20 +1,20 @@
-package eu.kanade.tachiyomi.util.chapter
+package eu.mkonic.tachiyomi.util.chapter
 
 import android.content.Context
 import android.content.res.ColorStateList
 import android.widget.TextView
 import androidx.core.widget.TextViewCompat
 import androidx.vectordrawable.graphics.drawable.VectorDrawableCompat
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.ui.manga.chapter.ChapterItem
-import eu.kanade.tachiyomi.util.system.contextCompatColor
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.dpToPxEnd
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.system.timeSpanFromNow
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.ui.manga.chapter.ChapterItem
+import eu.mkonic.tachiyomi.util.system.contextCompatColor
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.dpToPxEnd
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.timeSpanFromNow
 import java.text.DecimalFormat
 import java.text.DecimalFormatSymbols
 

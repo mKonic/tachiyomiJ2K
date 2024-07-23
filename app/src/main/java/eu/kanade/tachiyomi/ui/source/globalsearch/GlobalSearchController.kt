@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.source.globalsearch
+package eu.mkonic.tachiyomi.ui.source.globalsearch
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,26 +11,26 @@ import androidx.core.view.updatePaddingRelative
 import com.bluelinelabs.conductor.ControllerChangeHandler
 import com.bluelinelabs.conductor.ControllerChangeType
 import com.google.android.material.snackbar.Snackbar
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.databinding.SourceGlobalSearchControllerBinding
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.ui.base.controller.BaseCoroutineController
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.ui.main.SearchActivity
-import eu.kanade.tachiyomi.ui.main.SearchControllerInterface
-import eu.kanade.tachiyomi.ui.manga.MangaDetailsController
-import eu.kanade.tachiyomi.ui.source.browse.BrowseSourceController
-import eu.kanade.tachiyomi.util.addOrRemoveToFavorites
-import eu.kanade.tachiyomi.util.system.rootWindowInsetsCompat
-import eu.kanade.tachiyomi.util.view.activityBinding
-import eu.kanade.tachiyomi.util.view.isControllerVisible
-import eu.kanade.tachiyomi.util.view.scrollViewWith
-import eu.kanade.tachiyomi.util.view.setOnQueryTextChangeListener
-import eu.kanade.tachiyomi.util.view.snack
-import eu.kanade.tachiyomi.util.view.toolbarHeight
-import eu.kanade.tachiyomi.util.view.withFadeTransaction
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.databinding.SourceGlobalSearchControllerBinding
+import eu.mkonic.tachiyomi.source.CatalogueSource
+import eu.mkonic.tachiyomi.ui.base.controller.BaseCoroutineController
+import eu.mkonic.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.ui.main.SearchActivity
+import eu.mkonic.tachiyomi.ui.main.SearchControllerInterface
+import eu.mkonic.tachiyomi.ui.manga.MangaDetailsController
+import eu.mkonic.tachiyomi.ui.source.browse.BrowseSourceController
+import eu.mkonic.tachiyomi.util.addOrRemoveToFavorites
+import eu.mkonic.tachiyomi.util.system.rootWindowInsetsCompat
+import eu.mkonic.tachiyomi.util.view.activityBinding
+import eu.mkonic.tachiyomi.util.view.isControllerVisible
+import eu.mkonic.tachiyomi.util.view.scrollViewWith
+import eu.mkonic.tachiyomi.util.view.setOnQueryTextChangeListener
+import eu.mkonic.tachiyomi.util.view.snack
+import eu.mkonic.tachiyomi.util.view.toolbarHeight
+import eu.mkonic.tachiyomi.util.view.withFadeTransaction
 import uy.kohesive.injekt.injectLazy
 
 /**

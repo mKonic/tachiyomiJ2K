@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.util
+package eu.mkonic.tachiyomi.extension.util
 
 import android.annotation.SuppressLint
 import android.app.DownloadManager
@@ -12,16 +12,16 @@ import android.os.Build
 import android.os.Environment
 import androidx.core.content.ContextCompat
 import androidx.core.net.toUri
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.extension.ExtensionInstallerJob
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.extension.ShizukuInstaller
-import eu.kanade.tachiyomi.extension.model.InstallStep
-import eu.kanade.tachiyomi.ui.extension.ExtensionIntallInfo
-import eu.kanade.tachiyomi.util.storage.getUriCompat
-import eu.kanade.tachiyomi.util.system.isPackageInstalled
-import eu.kanade.tachiyomi.util.system.launchUI
-import eu.kanade.tachiyomi.util.system.toast
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.extension.ExtensionInstallerJob
+import eu.mkonic.tachiyomi.extension.ExtensionManager
+import eu.mkonic.tachiyomi.extension.ShizukuInstaller
+import eu.mkonic.tachiyomi.extension.model.InstallStep
+import eu.mkonic.tachiyomi.ui.extension.ExtensionIntallInfo
+import eu.mkonic.tachiyomi.util.storage.getUriCompat
+import eu.mkonic.tachiyomi.util.system.isPackageInstalled
+import eu.mkonic.tachiyomi.util.system.launchUI
+import eu.mkonic.tachiyomi.util.system.toast
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

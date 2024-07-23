@@ -1,10 +1,10 @@
-package eu.kanade.tachiyomi.widget
+package eu.mkonic.tachiyomi.widget
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import eu.kanade.tachiyomi.R
+import eu.mkonic.tachiyomi.R
 
 class StaggeredGridLayoutManagerAccurateOffset(context: Context?, attr: AttributeSet?, spanCount: Int, orientation: Int) :
     StaggeredGridLayoutManager(context, attr, spanCount, orientation) {

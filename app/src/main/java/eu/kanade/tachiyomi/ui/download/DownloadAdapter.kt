@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.ui.download
+package eu.mkonic.tachiyomi.ui.download
 
 import android.view.MenuItem
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractFlexibleItem
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
 import uy.kohesive.injekt.injectLazy
 
 /**

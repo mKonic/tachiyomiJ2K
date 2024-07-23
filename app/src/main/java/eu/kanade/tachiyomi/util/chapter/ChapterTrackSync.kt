@@ -1,14 +1,14 @@
-package eu.kanade.tachiyomi.util.chapter
+package eu.mkonic.tachiyomi.util.chapter
 
-import eu.kanade.tachiyomi.data.database.DatabaseHelper
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.data.track.DelayedTrackingUpdateJob
-import eu.kanade.tachiyomi.data.track.TrackManager
-import eu.kanade.tachiyomi.data.track.TrackService
-import eu.kanade.tachiyomi.util.system.isOnline
-import eu.kanade.tachiyomi.util.system.launchIO
+import eu.mkonic.tachiyomi.data.database.DatabaseHelper
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.Track
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.data.track.DelayedTrackingUpdateJob
+import eu.mkonic.tachiyomi.data.track.TrackManager
+import eu.mkonic.tachiyomi.data.track.TrackService
+import eu.mkonic.tachiyomi.util.system.isOnline
+import eu.mkonic.tachiyomi.util.system.launchIO
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import timber.log.Timber

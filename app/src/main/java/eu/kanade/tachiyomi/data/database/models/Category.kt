@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.data.database.models
+package eu.mkonic.tachiyomi.data.database.models
 
 import android.content.Context
 import androidx.annotation.StringRes
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.library.LibrarySort
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.ui.library.LibrarySort
 import java.io.Serializable
 
 interface Category : Serializable {

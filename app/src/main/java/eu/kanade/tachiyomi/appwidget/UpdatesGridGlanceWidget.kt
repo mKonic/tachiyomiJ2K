@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.appwidget
+package eu.mkonic.tachiyomi.appwidget
 
 import android.app.Application
 import android.content.Context
@@ -23,18 +23,18 @@ import coil.request.ImageRequest
 import coil.size.Precision
 import coil.size.Scale
 import coil.transform.RoundedCornersTransformation
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.appwidget.components.CoverHeight
-import eu.kanade.tachiyomi.appwidget.components.CoverWidth
-import eu.kanade.tachiyomi.appwidget.components.LockedWidget
-import eu.kanade.tachiyomi.appwidget.components.UpdatesWidget
-import eu.kanade.tachiyomi.appwidget.util.appWidgetBackgroundRadius
-import eu.kanade.tachiyomi.appwidget.util.calculateRowAndColumnCount
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.ui.recents.RecentsPresenter
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.launchIO
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.appwidget.components.CoverHeight
+import eu.mkonic.tachiyomi.appwidget.components.CoverWidth
+import eu.mkonic.tachiyomi.appwidget.components.LockedWidget
+import eu.mkonic.tachiyomi.appwidget.components.UpdatesWidget
+import eu.mkonic.tachiyomi.appwidget.util.appWidgetBackgroundRadius
+import eu.mkonic.tachiyomi.appwidget.util.calculateRowAndColumnCount
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.ui.recents.RecentsPresenter
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.launchIO
 import kotlinx.coroutines.MainScope
 import uy.kohesive.injekt.injectLazy
 import java.util.Calendar

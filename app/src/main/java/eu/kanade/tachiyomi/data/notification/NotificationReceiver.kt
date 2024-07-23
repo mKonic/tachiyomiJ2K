@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.notification
+package eu.mkonic.tachiyomi.data.notification
 
 import android.app.PendingIntent
 import android.content.BroadcastReceiver
@@ -7,33 +7,33 @@ import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import androidx.core.content.IntentCompat
-import eu.kanade.tachiyomi.data.backup.BackupRestoreJob
-import eu.kanade.tachiyomi.data.database.DatabaseHelper
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.download.DownloadJob
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.data.library.LibraryUpdateJob
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.data.updater.AppDownloadInstallJob
-import eu.kanade.tachiyomi.extension.ExtensionInstallerJob
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.extension.model.Extension
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.ui.manga.MangaDetailsController
-import eu.kanade.tachiyomi.ui.more.AboutController
-import eu.kanade.tachiyomi.ui.reader.ReaderActivity
-import eu.kanade.tachiyomi.util.chapter.updateTrackChapterMarkedAsRead
-import eu.kanade.tachiyomi.util.storage.DiskUtil
-import eu.kanade.tachiyomi.util.storage.getUriCompat
-import eu.kanade.tachiyomi.util.system.notificationManager
+import eu.mkonic.tachiyomi.data.backup.BackupRestoreJob
+import eu.mkonic.tachiyomi.data.database.DatabaseHelper
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.download.DownloadJob
+import eu.mkonic.tachiyomi.data.download.DownloadManager
+import eu.mkonic.tachiyomi.data.library.LibraryUpdateJob
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.data.updater.AppDownloadInstallJob
+import eu.mkonic.tachiyomi.extension.ExtensionInstallerJob
+import eu.mkonic.tachiyomi.extension.ExtensionManager
+import eu.mkonic.tachiyomi.extension.model.Extension
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.ui.manga.MangaDetailsController
+import eu.mkonic.tachiyomi.ui.more.AboutController
+import eu.mkonic.tachiyomi.ui.reader.ReaderActivity
+import eu.mkonic.tachiyomi.util.chapter.updateTrackChapterMarkedAsRead
+import eu.mkonic.tachiyomi.util.storage.DiskUtil
+import eu.mkonic.tachiyomi.util.storage.getUriCompat
+import eu.mkonic.tachiyomi.util.system.notificationManager
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 import uy.kohesive.injekt.injectLazy
 import java.io.File
 import java.util.ArrayList
-import eu.kanade.tachiyomi.BuildConfig.APPLICATION_ID as ID
+import eu.mkonic.tachiyomi.BuildConfig.APPLICATION_ID as ID
 
 /**
  * Global [BroadcastReceiver] that runs on UI thread

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.webtoon
+package eu.mkonic.tachiyomi.ui.reader.viewer.webtoon
 
 import android.content.Context
 import android.view.GestureDetector

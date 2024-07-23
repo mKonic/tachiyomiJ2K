@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.viewer
+package eu.mkonic.tachiyomi.ui.reader.viewer
 
 import android.content.Context
 import android.text.SpannableStringBuilder
@@ -11,15 +11,15 @@ import androidx.core.text.bold
 import androidx.core.text.buildSpannedString
 import androidx.core.text.inSpans
 import androidx.core.view.isVisible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.databinding.ReaderTransitionViewBinding
-import eu.kanade.tachiyomi.ui.reader.model.ChapterTransition
-import eu.kanade.tachiyomi.util.chapter.ChapterUtil.Companion.preferredChapterName
-import eu.kanade.tachiyomi.util.system.contextCompatDrawable
-import eu.kanade.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.download.DownloadManager
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.databinding.ReaderTransitionViewBinding
+import eu.mkonic.tachiyomi.ui.reader.model.ChapterTransition
+import eu.mkonic.tachiyomi.util.chapter.ChapterUtil.Companion.preferredChapterName
+import eu.mkonic.tachiyomi.util.system.contextCompatDrawable
+import eu.mkonic.tachiyomi.util.system.dpToPx
 import uy.kohesive.injekt.api.get
 import uy.kohesive.injekt.injectLazy
 import kotlin.math.roundToInt

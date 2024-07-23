@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.data.track.myanimelist
+package eu.mkonic.tachiyomi.data.track.myanimelist
 
-import eu.kanade.tachiyomi.network.parseAs
+import eu.mkonic.tachiyomi.network.parseAs
 import kotlinx.serialization.json.Json
 import okhttp3.Interceptor
 import okhttp3.Response

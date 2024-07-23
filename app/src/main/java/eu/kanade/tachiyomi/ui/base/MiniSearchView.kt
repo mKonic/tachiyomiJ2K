@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.base
+package eu.mkonic.tachiyomi.ui.base
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -11,9 +11,9 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.appcompat.widget.SearchView
 import androidx.core.graphics.ColorUtils
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.widget.TachiyomiTextInputEditText.Companion.setIncognito
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.widget.TachiyomiTextInputEditText.Companion.setIncognito
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

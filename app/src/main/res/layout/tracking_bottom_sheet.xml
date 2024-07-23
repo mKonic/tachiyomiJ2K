@@ -141,7 +141,7 @@
                 tools:listitem="@layout/track_search_item"
                 tools:visibility="visible" />
 
-            <eu.kanade.tachiyomi.widget.EmptyView
+            <eu.mkonic.tachiyomi.widget.EmptyView
                 android:id="@+id/search_empty_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -171,7 +171,7 @@
             app:hintEnabled="false"
             app:hintTextColor="?colorSecondary">
 
-            <eu.kanade.tachiyomi.widget.TachiyomiTextInputEditText
+            <eu.mkonic.tachiyomi.widget.TachiyomiTextInputEditText
                 android:id="@+id/track_search"
                 android:layout_width="match_parent"
                 android:imeOptions="actionSearch"

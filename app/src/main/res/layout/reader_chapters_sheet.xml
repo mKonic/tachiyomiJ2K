@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<eu.kanade.tachiyomi.ui.reader.chapter.ReaderChapterSheet xmlns:android="http://schemas.android.com/apk/res/android"
+<eu.mkonic.tachiyomi.ui.reader.chapter.ReaderChapterSheet xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/chapters_bottom_sheet"
@@ -180,4 +180,4 @@
         android:background="@android:color/transparent"
         android:clipToPadding="false"
         tools:listitem="@layout/reader_chapter_item" />
-</eu.kanade.tachiyomi.ui.reader.chapter.ReaderChapterSheet>
+</eu.mkonic.tachiyomi.ui.reader.chapter.ReaderChapterSheet>

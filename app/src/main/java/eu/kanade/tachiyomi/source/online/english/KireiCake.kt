@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.source.online.english
+package eu.mkonic.tachiyomi.source.online.english
 
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.database.models.MangaImpl
-import eu.kanade.tachiyomi.network.GET
-import eu.kanade.tachiyomi.network.await
-import eu.kanade.tachiyomi.util.asJsoup
-import eu.kanade.tachiyomi.util.lang.capitalizeWords
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.database.models.MangaImpl
+import eu.mkonic.tachiyomi.network.GET
+import eu.mkonic.tachiyomi.network.await
+import eu.mkonic.tachiyomi.util.asJsoup
+import eu.mkonic.tachiyomi.util.lang.capitalizeWords
 
 class KireiCake : FoolSlide("kireicake") {
 

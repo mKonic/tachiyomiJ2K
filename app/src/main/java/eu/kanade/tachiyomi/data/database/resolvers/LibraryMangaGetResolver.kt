@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.data.database.resolvers
+package eu.mkonic.tachiyomi.data.database.resolvers
 
 import android.database.Cursor
 import com.pushtorefresh.storio.sqlite.operations.get.DefaultGetResolver
-import eu.kanade.tachiyomi.data.database.mappers.BaseMangaGetResolver
-import eu.kanade.tachiyomi.data.database.models.LibraryManga
-import eu.kanade.tachiyomi.data.database.tables.MangaTable
-import eu.kanade.tachiyomi.util.chapter.ChapterUtil
+import eu.mkonic.tachiyomi.data.database.mappers.BaseMangaGetResolver
+import eu.mkonic.tachiyomi.data.database.models.LibraryManga
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable
+import eu.mkonic.tachiyomi.util.chapter.ChapterUtil
 
 class LibraryMangaGetResolver : DefaultGetResolver<LibraryManga>(), BaseMangaGetResolver {
 

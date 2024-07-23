@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.more.stats
+package eu.mkonic.tachiyomi.ui.more.stats
 
 import android.content.res.ColorStateList
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.ListChartLegendBinding
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.ListChartLegendBinding
 
 class StatsLegendAdapter(
     private val list: List<StatsController.StatusDistributionItem>,

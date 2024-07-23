@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.source.browse.repos
+package eu.mkonic.tachiyomi.ui.source.browse.repos
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractFlexibleItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
 
 class InfoRepoMessage : AbstractFlexibleItem<InfoRepoMessage.Holder>() {
 

@@ -1,13 +1,13 @@
-package eu.kanade.tachiyomi.util.chapter
+package eu.mkonic.tachiyomi.util.chapter
 
-import eu.kanade.tachiyomi.data.database.DatabaseHelper
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.model.SChapter
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.util.chapter.ChapterFilter.Companion.filterChaptersByScanlators
+import eu.mkonic.tachiyomi.data.database.DatabaseHelper
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.download.DownloadManager
+import eu.mkonic.tachiyomi.source.Source
+import eu.mkonic.tachiyomi.source.model.SChapter
+import eu.mkonic.tachiyomi.source.online.HttpSource
+import eu.mkonic.tachiyomi.util.chapter.ChapterFilter.Companion.filterChaptersByScanlators
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 import java.util.Date

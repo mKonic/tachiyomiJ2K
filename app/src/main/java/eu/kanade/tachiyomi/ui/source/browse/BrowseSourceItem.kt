@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.source.browse
+package eu.mkonic.tachiyomi.ui.source.browse
 
 import android.view.View
 import android.view.ViewGroup
@@ -12,12 +12,12 @@ import com.fredporciuncula.flow.preferences.Preference
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractFlexibleItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.databinding.MangaGridItemBinding
-import eu.kanade.tachiyomi.ui.library.LibraryItem
-import eu.kanade.tachiyomi.ui.library.setBGAndFG
-import eu.kanade.tachiyomi.widget.AutofitRecyclerView
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.databinding.MangaGridItemBinding
+import eu.mkonic.tachiyomi.ui.library.LibraryItem
+import eu.mkonic.tachiyomi.ui.library.setBGAndFG
+import eu.mkonic.tachiyomi.widget.AutofitRecyclerView
 
 class BrowseSourceItem(
     val manga: Manga,

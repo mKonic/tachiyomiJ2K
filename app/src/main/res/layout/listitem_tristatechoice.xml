@@ -8,7 +8,7 @@
     android:layout_height="wrap_content"
     android:layout_width="match_parent">
 
-    <eu.kanade.tachiyomi.widget.TriStateCheckBox
+    <eu.mkonic.tachiyomi.widget.TriStateCheckBox
         android:id="@+id/md_tri_state_checkbox"
         android:layout_height="wrap_content"
         android:clickable="false"

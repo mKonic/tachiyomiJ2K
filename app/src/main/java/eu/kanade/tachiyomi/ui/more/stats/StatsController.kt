@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.more.stats
+package eu.mkonic.tachiyomi.ui.more.stats
 
 import android.view.LayoutInflater
 import android.view.View
@@ -12,21 +12,21 @@ import com.github.mikephil.charting.data.PieData
 import com.github.mikephil.charting.data.PieDataSet
 import com.github.mikephil.charting.data.PieEntry
 import com.github.mikephil.charting.formatter.ValueFormatter
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.LibraryManga
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.databinding.StatsControllerBinding
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.ui.base.controller.BaseController
-import eu.kanade.tachiyomi.ui.more.stats.details.StatsDetailsController
-import eu.kanade.tachiyomi.util.isLocal
-import eu.kanade.tachiyomi.util.mapStatus
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.system.roundToTwoDecimal
-import eu.kanade.tachiyomi.util.view.compatToolTipText
-import eu.kanade.tachiyomi.util.view.scrollViewWith
-import eu.kanade.tachiyomi.util.view.withFadeTransaction
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.LibraryManga
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.database.models.Track
+import eu.mkonic.tachiyomi.databinding.StatsControllerBinding
+import eu.mkonic.tachiyomi.source.model.SManga
+import eu.mkonic.tachiyomi.ui.base.controller.BaseController
+import eu.mkonic.tachiyomi.ui.more.stats.details.StatsDetailsController
+import eu.mkonic.tachiyomi.util.isLocal
+import eu.mkonic.tachiyomi.util.mapStatus
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.roundToTwoDecimal
+import eu.mkonic.tachiyomi.util.view.compatToolTipText
+import eu.mkonic.tachiyomi.util.view.scrollViewWith
+import eu.mkonic.tachiyomi.util.view.withFadeTransaction
 import timber.log.Timber
 import kotlin.math.roundToInt
 

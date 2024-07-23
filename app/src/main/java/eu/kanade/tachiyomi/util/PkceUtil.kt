@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util
+package eu.mkonic.tachiyomi.util
 
 import android.util.Base64
 import java.security.SecureRandom

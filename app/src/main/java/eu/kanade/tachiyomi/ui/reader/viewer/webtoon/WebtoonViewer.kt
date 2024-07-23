@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.webtoon
+package eu.mkonic.tachiyomi.ui.reader.viewer.webtoon
 
 import android.graphics.Color
 import android.graphics.PointF
@@ -11,13 +11,13 @@ import androidx.core.view.isGone
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.WebtoonLayoutManager
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.ui.reader.ReaderActivity
-import eu.kanade.tachiyomi.ui.reader.model.ChapterTransition
-import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
-import eu.kanade.tachiyomi.ui.reader.model.ViewerChapters
-import eu.kanade.tachiyomi.ui.reader.viewer.BaseViewer
-import eu.kanade.tachiyomi.ui.reader.viewer.ViewerNavigation
+import eu.mkonic.tachiyomi.data.download.DownloadManager
+import eu.mkonic.tachiyomi.ui.reader.ReaderActivity
+import eu.mkonic.tachiyomi.ui.reader.model.ChapterTransition
+import eu.mkonic.tachiyomi.ui.reader.model.ReaderPage
+import eu.mkonic.tachiyomi.ui.reader.model.ViewerChapters
+import eu.mkonic.tachiyomi.ui.reader.viewer.BaseViewer
+import eu.mkonic.tachiyomi.ui.reader.viewer.ViewerNavigation
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.cancel
 import timber.log.Timber

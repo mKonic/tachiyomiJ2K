@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.ui.base.holder
+package eu.mkonic.tachiyomi.ui.base.holder
 
 import android.view.View
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.viewholders.FlexibleViewHolder
-import eu.kanade.tachiyomi.util.system.isLTR
+import eu.mkonic.tachiyomi.util.system.isLTR
 
 abstract class BaseFlexibleViewHolder(
     view: View,

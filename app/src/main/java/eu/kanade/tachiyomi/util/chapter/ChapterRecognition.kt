@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.util.chapter
+package eu.mkonic.tachiyomi.util.chapter
 
-import eu.kanade.tachiyomi.source.model.SChapter
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.mkonic.tachiyomi.source.model.SChapter
+import eu.mkonic.tachiyomi.source.model.SManga
 
 /**
  * -R> = regex conversion.

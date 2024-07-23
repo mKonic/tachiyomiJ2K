@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.download
+package eu.mkonic.tachiyomi.ui.download
 
 import android.animation.ObjectAnimator
 import android.animation.ValueAnimator
@@ -11,10 +11,10 @@ import androidx.core.content.ContextCompat
 import androidx.core.graphics.ColorUtils
 import androidx.core.view.isVisible
 import androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.databinding.DownloadButtonBinding
-import eu.kanade.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.download.model.Download
+import eu.mkonic.tachiyomi.databinding.DownloadButtonBinding
+import eu.mkonic.tachiyomi.util.system.getResourceColor
 
 class DownloadButton @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :
     FrameLayout(context, attrs) {

@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.reader.loader
+package eu.mkonic.tachiyomi.ui.reader.loader
 
 import com.github.junrar.Archive
 import com.github.junrar.rarfile.FileHeader
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
-import eu.kanade.tachiyomi.util.lang.compareToCaseInsensitiveNaturalOrder
-import eu.kanade.tachiyomi.util.system.ImageUtil
+import eu.mkonic.tachiyomi.source.model.Page
+import eu.mkonic.tachiyomi.ui.reader.model.ReaderPage
+import eu.mkonic.tachiyomi.util.lang.compareToCaseInsensitiveNaturalOrder
+import eu.mkonic.tachiyomi.util.system.ImageUtil
 import java.io.File
 import java.io.InputStream
 import java.io.PipedInputStream

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.library
+package eu.mkonic.tachiyomi.ui.library
 
 import android.content.Context
 import android.view.View
@@ -15,14 +15,14 @@ import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractSectionableItem
 import eu.davidea.flexibleadapter.items.IFilterable
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.LibraryManga
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.databinding.MangaGridItemBinding
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.view.compatToolTipText
-import eu.kanade.tachiyomi.widget.AutofitRecyclerView
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.LibraryManga
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.databinding.MangaGridItemBinding
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.view.compatToolTipText
+import eu.mkonic.tachiyomi.widget.AutofitRecyclerView
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 import uy.kohesive.injekt.injectLazy

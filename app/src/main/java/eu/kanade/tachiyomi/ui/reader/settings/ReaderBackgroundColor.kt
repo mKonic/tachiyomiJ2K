@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.ui.reader.settings
+package eu.mkonic.tachiyomi.ui.reader.settings
 
 import androidx.annotation.StringRes
-import eu.kanade.tachiyomi.R
+import eu.mkonic.tachiyomi.R
 
 enum class ReaderBackgroundColor(val prefValue: Int, @StringRes val stringRes: Int, @StringRes val longStringRes: Int? = null) {
     WHITE(0, R.string.white),

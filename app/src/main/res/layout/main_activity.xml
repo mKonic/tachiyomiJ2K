@@ -28,7 +28,7 @@
             android:importantForAccessibility="no" />
     </com.bluelinelabs.conductor.ChangeHandlerFrameLayout>
 
-    <eu.kanade.tachiyomi.ui.base.ExpandedAppBarLayout
+    <eu.mkonic.tachiyomi.ui.base.ExpandedAppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <eu.kanade.tachiyomi.ui.base.CenteredToolbar
+        <eu.mkonic.tachiyomi.ui.base.CenteredToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             app:titleTextColor="?actionBarTintColor"
@@ -60,7 +60,7 @@
                 android:textColor="?actionBarTintColor"
                 android:textSize="20sp"
                 tools:text="Title Text" />
-        </eu.kanade.tachiyomi.ui.base.CenteredToolbar>
+        </eu.mkonic.tachiyomi.ui.base.CenteredToolbar>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/big_toolbar"
@@ -125,7 +125,7 @@
                 app:cardCornerRadius="24dp"
                 android:layout_height="match_parent" >
 
-                <eu.kanade.tachiyomi.ui.base.FloatingToolbar
+                <eu.mkonic.tachiyomi.ui.base.FloatingToolbar
                     android:id="@+id/search_toolbar"
                     tools:title="Search Library..."
                     app:contentInsetStartWithNavigation="0dp"
@@ -191,7 +191,7 @@
                                 tools:text="Title Text" />
                         </LinearLayout>
                     </LinearLayout>
-                </eu.kanade.tachiyomi.ui.base.FloatingToolbar>
+                </eu.mkonic.tachiyomi.ui.base.FloatingToolbar>
             </com.google.android.material.card.MaterialCardView>
         </FrameLayout>
 
@@ -215,7 +215,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:tabGravity="fill"/>
         </FrameLayout>
-    </eu.kanade.tachiyomi.ui.base.ExpandedAppBarLayout>
+    </eu.mkonic.tachiyomi.ui.base.ExpandedAppBarLayout>
 
     <View
         android:id="@+id/bottom_view"

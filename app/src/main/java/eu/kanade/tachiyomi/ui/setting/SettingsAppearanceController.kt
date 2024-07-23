@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.setting
+package eu.mkonic.tachiyomi.ui.setting
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -7,19 +7,19 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.doOnNextLayout
 import androidx.core.view.isVisible
 import androidx.preference.PreferenceScreen
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.preference.asImmediateFlow
-import eu.kanade.tachiyomi.data.preference.asImmediateFlowIn
-import eu.kanade.tachiyomi.util.system.SideNavMode
-import eu.kanade.tachiyomi.util.system.appDelegateNightMode
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.getPrefTheme
-import eu.kanade.tachiyomi.util.system.isInNightMode
-import eu.kanade.tachiyomi.util.view.activityBinding
-import eu.kanade.tachiyomi.util.view.moveRecyclerViewUp
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.preference.asImmediateFlow
+import eu.mkonic.tachiyomi.data.preference.asImmediateFlowIn
+import eu.mkonic.tachiyomi.util.system.SideNavMode
+import eu.mkonic.tachiyomi.util.system.appDelegateNightMode
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.getPrefTheme
+import eu.mkonic.tachiyomi.util.system.isInNightMode
+import eu.mkonic.tachiyomi.util.view.activityBinding
+import eu.mkonic.tachiyomi.util.view.moveRecyclerViewUp
 import kotlinx.coroutines.flow.launchIn
 import kotlin.math.max
-import eu.kanade.tachiyomi.data.preference.PreferenceKeys as Keys
+import eu.mkonic.tachiyomi.data.preference.PreferenceKeys as Keys
 
 class SettingsAppearanceController : SettingsController() {
 

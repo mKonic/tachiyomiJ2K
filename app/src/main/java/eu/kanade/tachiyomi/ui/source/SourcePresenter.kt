@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.source
+package eu.mkonic.tachiyomi.ui.source
 
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.LocalSource
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.util.system.withUIContext
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.extension.ExtensionManager
+import eu.mkonic.tachiyomi.source.CatalogueSource
+import eu.mkonic.tachiyomi.source.LocalSource
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.util.system.withUIContext
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

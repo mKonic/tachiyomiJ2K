@@ -1,10 +1,10 @@
-package eu.kanade.tachiyomi.data.database.models
+package eu.mkonic.tachiyomi.data.database.models
 
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.data.download.DownloadProvider
-import eu.kanade.tachiyomi.data.library.CustomMangaManager
-import eu.kanade.tachiyomi.source.model.SManga
-import eu.kanade.tachiyomi.source.model.UpdateStrategy
+import eu.mkonic.tachiyomi.data.download.DownloadManager
+import eu.mkonic.tachiyomi.data.download.DownloadProvider
+import eu.mkonic.tachiyomi.data.library.CustomMangaManager
+import eu.mkonic.tachiyomi.source.model.SManga
+import eu.mkonic.tachiyomi.source.model.UpdateStrategy
 import uy.kohesive.injekt.injectLazy
 
 open class MangaImpl : Manga {

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.source
+package eu.mkonic.tachiyomi.ui.source
 
 import android.content.Context
 import android.graphics.Canvas

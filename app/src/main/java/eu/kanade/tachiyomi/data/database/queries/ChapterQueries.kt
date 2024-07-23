@@ -1,18 +1,18 @@
-package eu.kanade.tachiyomi.data.database.queries
+package eu.mkonic.tachiyomi.data.database.queries
 
 import com.pushtorefresh.storio.sqlite.queries.Query
 import com.pushtorefresh.storio.sqlite.queries.RawQuery
-import eu.kanade.tachiyomi.data.database.DbProvider
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.database.models.MangaChapter
-import eu.kanade.tachiyomi.data.database.resolvers.ChapterBackupPutResolver
-import eu.kanade.tachiyomi.data.database.resolvers.ChapterKnownBackupPutResolver
-import eu.kanade.tachiyomi.data.database.resolvers.ChapterProgressPutResolver
-import eu.kanade.tachiyomi.data.database.resolvers.ChapterSourceOrderPutResolver
-import eu.kanade.tachiyomi.data.database.resolvers.MangaChapterGetResolver
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable
-import eu.kanade.tachiyomi.util.lang.sqLite
+import eu.mkonic.tachiyomi.data.database.DbProvider
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.database.models.MangaChapter
+import eu.mkonic.tachiyomi.data.database.resolvers.ChapterBackupPutResolver
+import eu.mkonic.tachiyomi.data.database.resolvers.ChapterKnownBackupPutResolver
+import eu.mkonic.tachiyomi.data.database.resolvers.ChapterProgressPutResolver
+import eu.mkonic.tachiyomi.data.database.resolvers.ChapterSourceOrderPutResolver
+import eu.mkonic.tachiyomi.data.database.resolvers.MangaChapterGetResolver
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable
+import eu.mkonic.tachiyomi.util.lang.sqLite
 
 interface ChapterQueries : DbProvider {
 

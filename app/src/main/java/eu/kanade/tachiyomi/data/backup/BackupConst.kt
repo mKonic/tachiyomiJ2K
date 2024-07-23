@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.data.backup
+package eu.mkonic.tachiyomi.data.backup
 
-import eu.kanade.tachiyomi.BuildConfig.APPLICATION_ID as ID
+import eu.mkonic.tachiyomi.BuildConfig.APPLICATION_ID as ID
 
 object BackupConst {
 

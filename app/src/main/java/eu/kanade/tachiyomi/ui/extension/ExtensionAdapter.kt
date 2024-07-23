@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.extension
+package eu.mkonic.tachiyomi.ui.extension
 
 import android.widget.TextView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.extension.util.ExtensionInstaller
-import eu.kanade.tachiyomi.ui.extension.ExtensionAdapter.OnButtonClickListener
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.extension.util.ExtensionInstaller
+import eu.mkonic.tachiyomi.ui.extension.ExtensionAdapter.OnButtonClickListener
 import uy.kohesive.injekt.injectLazy
 
 /**

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.base.controller
+package eu.mkonic.tachiyomi.ui.base.controller
 
 import android.app.Dialog
 import android.os.Bundle

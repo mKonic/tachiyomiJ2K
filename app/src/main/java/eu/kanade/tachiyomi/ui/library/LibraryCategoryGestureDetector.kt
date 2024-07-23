@@ -1,10 +1,10 @@
-package eu.kanade.tachiyomi.ui.library
+package eu.mkonic.tachiyomi.ui.library
 
 import android.graphics.Rect
 import android.view.GestureDetector
 import android.view.MotionEvent
-import eu.kanade.tachiyomi.util.system.isLTR
-import eu.kanade.tachiyomi.util.view.activityBinding
+import eu.mkonic.tachiyomi.util.system.isLTR
+import eu.mkonic.tachiyomi.util.view.activityBinding
 import kotlin.math.abs
 import kotlin.math.pow
 import kotlin.math.sign

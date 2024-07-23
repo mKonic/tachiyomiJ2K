@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.ui.reader
+package eu.mkonic.tachiyomi.ui.reader
 
 import android.view.GestureDetector
 import android.view.MotionEvent
-import eu.kanade.tachiyomi.util.view.collapse
-import eu.kanade.tachiyomi.util.view.expand
+import eu.mkonic.tachiyomi.util.view.collapse
+import eu.mkonic.tachiyomi.util.view.expand
 import kotlin.math.abs
 
 class ReaderNavGestureDetector(private val activity: ReaderActivity) : GestureDetector

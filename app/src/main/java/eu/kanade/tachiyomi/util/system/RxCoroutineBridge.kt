@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.system
+package eu.mkonic.tachiyomi.util.system
 
 import kotlinx.coroutines.CancellableContinuation
 import kotlinx.coroutines.CancellationException

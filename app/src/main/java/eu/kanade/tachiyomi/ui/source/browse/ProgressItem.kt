@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.source.browse
+package eu.mkonic.tachiyomi.ui.source.browse
 
 import android.view.View
 import android.widget.ProgressBar
@@ -8,7 +8,7 @@ import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractFlexibleItem
 import eu.davidea.flexibleadapter.items.IFlexible
 import eu.davidea.viewholders.FlexibleViewHolder
-import eu.kanade.tachiyomi.R
+import eu.mkonic.tachiyomi.R
 
 class ProgressItem : AbstractFlexibleItem<ProgressItem.Holder>() {
 

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.database.mappers
+package eu.mkonic.tachiyomi.data.database.mappers
 
 import android.database.Cursor
 import androidx.core.content.contentValuesOf
@@ -9,22 +9,22 @@ import com.pushtorefresh.storio.sqlite.operations.put.DefaultPutResolver
 import com.pushtorefresh.storio.sqlite.queries.DeleteQuery
 import com.pushtorefresh.storio.sqlite.queries.InsertQuery
 import com.pushtorefresh.storio.sqlite.queries.UpdateQuery
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.database.models.TrackImpl
-import eu.kanade.tachiyomi.data.database.tables.TrackTable.COL_FINISH_DATE
-import eu.kanade.tachiyomi.data.database.tables.TrackTable.COL_ID
-import eu.kanade.tachiyomi.data.database.tables.TrackTable.COL_LAST_CHAPTER_READ
-import eu.kanade.tachiyomi.data.database.tables.TrackTable.COL_LIBRARY_ID
-import eu.kanade.tachiyomi.data.database.tables.TrackTable.COL_MANGA_ID
-import eu.kanade.tachiyomi.data.database.tables.TrackTable.COL_MEDIA_ID
-import eu.kanade.tachiyomi.data.database.tables.TrackTable.COL_SCORE
-import eu.kanade.tachiyomi.data.database.tables.TrackTable.COL_START_DATE
-import eu.kanade.tachiyomi.data.database.tables.TrackTable.COL_STATUS
-import eu.kanade.tachiyomi.data.database.tables.TrackTable.COL_SYNC_ID
-import eu.kanade.tachiyomi.data.database.tables.TrackTable.COL_TITLE
-import eu.kanade.tachiyomi.data.database.tables.TrackTable.COL_TOTAL_CHAPTERS
-import eu.kanade.tachiyomi.data.database.tables.TrackTable.COL_TRACKING_URL
-import eu.kanade.tachiyomi.data.database.tables.TrackTable.TABLE
+import eu.mkonic.tachiyomi.data.database.models.Track
+import eu.mkonic.tachiyomi.data.database.models.TrackImpl
+import eu.mkonic.tachiyomi.data.database.tables.TrackTable.COL_FINISH_DATE
+import eu.mkonic.tachiyomi.data.database.tables.TrackTable.COL_ID
+import eu.mkonic.tachiyomi.data.database.tables.TrackTable.COL_LAST_CHAPTER_READ
+import eu.mkonic.tachiyomi.data.database.tables.TrackTable.COL_LIBRARY_ID
+import eu.mkonic.tachiyomi.data.database.tables.TrackTable.COL_MANGA_ID
+import eu.mkonic.tachiyomi.data.database.tables.TrackTable.COL_MEDIA_ID
+import eu.mkonic.tachiyomi.data.database.tables.TrackTable.COL_SCORE
+import eu.mkonic.tachiyomi.data.database.tables.TrackTable.COL_START_DATE
+import eu.mkonic.tachiyomi.data.database.tables.TrackTable.COL_STATUS
+import eu.mkonic.tachiyomi.data.database.tables.TrackTable.COL_SYNC_ID
+import eu.mkonic.tachiyomi.data.database.tables.TrackTable.COL_TITLE
+import eu.mkonic.tachiyomi.data.database.tables.TrackTable.COL_TOTAL_CHAPTERS
+import eu.mkonic.tachiyomi.data.database.tables.TrackTable.COL_TRACKING_URL
+import eu.mkonic.tachiyomi.data.database.tables.TrackTable.TABLE
 
 class TrackTypeMapping : SQLiteTypeMapping<Track>(
     TrackPutResolver(),

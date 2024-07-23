@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget
+package eu.mkonic.tachiyomi.widget
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -17,11 +17,11 @@ import androidx.core.graphics.ColorUtils
 import androidx.core.view.forEach
 import androidx.core.view.get
 import com.fredporciuncula.flow.preferences.Preference
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.MaterialSpinnerViewBinding
-import eu.kanade.tachiyomi.util.lang.tintText
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.system.toast
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.MaterialSpinnerViewBinding
+import eu.mkonic.tachiyomi.util.lang.tintText
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.toast
 import kotlin.math.max
 
 class MaterialSpinnerView constructor(context: Context, attrs: AttributeSet?) :

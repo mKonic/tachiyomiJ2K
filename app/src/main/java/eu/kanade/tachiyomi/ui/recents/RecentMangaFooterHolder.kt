@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.ui.recents
+package eu.mkonic.tachiyomi.ui.recents
 
 import android.view.View
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.RecentsFooterItemBinding
-import eu.kanade.tachiyomi.ui.manga.chapter.BaseChapterHolder
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.RecentsFooterItemBinding
+import eu.mkonic.tachiyomi.ui.manga.chapter.BaseChapterHolder
 
 class RecentMangaFooterHolder(
     view: View,

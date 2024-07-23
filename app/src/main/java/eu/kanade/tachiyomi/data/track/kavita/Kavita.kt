@@ -1,19 +1,19 @@
-package eu.kanade.tachiyomi.data.track.kavita
+package eu.mkonic.tachiyomi.data.track.kavita
 
 import android.content.Context
 import android.graphics.Color
 import androidx.annotation.StringRes
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.track.EnhancedTrackService
-import eu.kanade.tachiyomi.data.track.TrackService
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.data.track.updateNewTrackInfo
-import eu.kanade.tachiyomi.source.ConfigurableSource
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.source.sourcePreferences
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.database.models.Track
+import eu.mkonic.tachiyomi.data.track.EnhancedTrackService
+import eu.mkonic.tachiyomi.data.track.TrackService
+import eu.mkonic.tachiyomi.data.track.model.TrackSearch
+import eu.mkonic.tachiyomi.data.track.updateNewTrackInfo
+import eu.mkonic.tachiyomi.source.ConfigurableSource
+import eu.mkonic.tachiyomi.source.Source
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.source.sourcePreferences
 import uy.kohesive.injekt.injectLazy
 import java.security.MessageDigest
 
@@ -108,7 +108,7 @@ class Kavita(private val context: Context, id: Int) : TrackService(id), Enhanced
         saveCredentials("user", "pass")
     }
 
-    override fun getAcceptedSources() = listOf("eu.kanade.tachiyomi.extension.all.kavita.Kavita")
+    override fun getAcceptedSources() = listOf("eu.mkonic.tachiyomi.extension.all.kavita.Kavita")
 
     override suspend fun match(manga: Manga): TrackSearch? =
         try {

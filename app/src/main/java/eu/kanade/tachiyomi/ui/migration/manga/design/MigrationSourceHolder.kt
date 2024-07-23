@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.migration.manga.design
+package eu.mkonic.tachiyomi.ui.migration.manga.design
 
 import android.graphics.Paint.STRIKE_THRU_TEXT_FLAG
 import android.view.View
-import eu.kanade.tachiyomi.databinding.MigrationSourceItemBinding
-import eu.kanade.tachiyomi.source.icon
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
+import eu.mkonic.tachiyomi.databinding.MigrationSourceItemBinding
+import eu.mkonic.tachiyomi.source.icon
+import eu.mkonic.tachiyomi.source.online.HttpSource
+import eu.mkonic.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
 
 class MigrationSourceHolder(view: View, val adapter: MigrationSourceAdapter) :
     BaseFlexibleViewHolder(view, adapter) {

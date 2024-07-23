@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.data.database
+package eu.mkonic.tachiyomi.data.database
 
-import eu.kanade.tachiyomi.source.model.UpdateStrategy
+import eu.mkonic.tachiyomi.source.model.UpdateStrategy
 import java.util.Date
 
 val dateAdapter = object : ColumnAdapter<Date, Long> {

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.migration
+package eu.mkonic.tachiyomi.ui.migration
 
 import kotlinx.coroutines.launch
 

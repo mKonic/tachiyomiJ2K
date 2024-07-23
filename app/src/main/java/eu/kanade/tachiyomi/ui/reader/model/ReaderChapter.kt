@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.ui.reader.model
+package eu.mkonic.tachiyomi.ui.reader.model
 
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.ui.reader.loader.PageLoader
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.ui.reader.loader.PageLoader
 import kotlinx.coroutines.flow.MutableStateFlow
 import timber.log.Timber
 

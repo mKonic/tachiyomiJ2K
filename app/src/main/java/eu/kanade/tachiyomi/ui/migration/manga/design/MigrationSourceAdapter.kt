@@ -1,10 +1,10 @@
-package eu.kanade.tachiyomi.ui.migration.manga.design
+package eu.mkonic.tachiyomi.ui.migration.manga.design
 
 import android.os.Bundle
 import eu.davidea.flexibleadapter.FlexibleAdapter
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.extension.ExtensionManager
+import eu.mkonic.tachiyomi.source.SourceManager
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 import uy.kohesive.injekt.injectLazy

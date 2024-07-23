@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader
+package eu.mkonic.tachiyomi.ui.reader
 
 import android.content.Context
 import android.graphics.Canvas
@@ -10,8 +10,8 @@ import android.view.View
 import android.view.ViewPropertyAnimator
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
-import eu.kanade.tachiyomi.ui.reader.viewer.ViewerNavigation
-import eu.kanade.tachiyomi.ui.reader.viewer.navigation.DisabledNavigation
+import eu.mkonic.tachiyomi.ui.reader.viewer.ViewerNavigation
+import eu.mkonic.tachiyomi.ui.reader.viewer.navigation.DisabledNavigation
 import kotlin.math.abs
 
 class ReaderNavigationOverlayView(context: Context, attributeSet: AttributeSet) : View(context, attributeSet) {

@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.data.download.model
+package eu.mkonic.tachiyomi.data.download.model
 
 import com.jakewharton.rxrelay.PublishRelay
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.download.DownloadStore
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.download.DownloadStore
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch

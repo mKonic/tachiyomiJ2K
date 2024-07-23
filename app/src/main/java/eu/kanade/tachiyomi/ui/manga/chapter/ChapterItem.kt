@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.manga.chapter
+package eu.mkonic.tachiyomi.ui.manga.chapter
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
@@ -6,10 +6,10 @@ import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractHeaderItem
 import eu.davidea.flexibleadapter.items.IFlexible
 import eu.davidea.viewholders.FlexibleViewHolder
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.ui.manga.MangaDetailsAdapter
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.ui.manga.MangaDetailsAdapter
 
 class ChapterItem(chapter: Chapter, val manga: Manga) :
     BaseChapterItem<ChapterHolder, AbstractHeaderItem<FlexibleViewHolder>>(chapter) {

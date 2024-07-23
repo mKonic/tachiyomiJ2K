@@ -1,16 +1,16 @@
-package eu.kanade.tachiyomi.data.download
+package eu.mkonic.tachiyomi.data.download
 
 import android.content.Context
 import androidx.core.net.toUri
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.DatabaseHelper
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.util.storage.DiskUtil
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.DatabaseHelper
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.source.Source
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.util.storage.DiskUtil
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

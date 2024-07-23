@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.track.anilist
+package eu.mkonic.tachiyomi.data.track.anilist
 
 import kotlinx.serialization.Serializable
 

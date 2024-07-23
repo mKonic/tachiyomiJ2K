@@ -1,6 +1,6 @@
 -dontobfuscate
 
--keep class eu.kanade.tachiyomi.source.** { public protected *; } # Avoid access modification
+-keep class eu.mkonic.tachiyomi.source.** { public protected *; } # Avoid access modification
 -keep,allowoptimization class eu.kanade.** { public protected *; }
 -keep,allowoptimization class tachiyomi.** { public protected *; }
 
@@ -20,12 +20,12 @@
 -keep class io.requery.android.database.** { public protected *; }
 
 # From extensions-lib
--keep,allowoptimization class eu.kanade.tachiyomi.network.interceptor.RateLimitInterceptorKt { public protected *; }
--keep,allowoptimization class eu.kanade.tachiyomi.network.interceptor.SpecificHostRateLimitInterceptorKt { public protected *; }
--keep,allowoptimization class eu.kanade.tachiyomi.network.NetworkHelper { public protected *; }
--keep,allowoptimization class eu.kanade.tachiyomi.network.OkHttpExtensionsKt { public protected *; }
--keep,allowoptimization class eu.kanade.tachiyomi.network.RequestsKt { public protected *; }
--keep,allowoptimization class eu.kanade.tachiyomi.AppInfo { public protected *; }
+-keep,allowoptimization class eu.mkonic.tachiyomi.network.interceptor.RateLimitInterceptorKt { public protected *; }
+-keep,allowoptimization class eu.mkonic.tachiyomi.network.interceptor.SpecificHostRateLimitInterceptorKt { public protected *; }
+-keep,allowoptimization class eu.mkonic.tachiyomi.network.NetworkHelper { public protected *; }
+-keep,allowoptimization class eu.mkonic.tachiyomi.network.OkHttpExtensionsKt { public protected *; }
+-keep,allowoptimization class eu.mkonic.tachiyomi.network.RequestsKt { public protected *; }
+-keep,allowoptimization class eu.mkonic.tachiyomi.AppInfo { public protected *; }
 
 -keep class com.hippo.image.** { *; }
 -keep interface com.hippo.image.** { *; }

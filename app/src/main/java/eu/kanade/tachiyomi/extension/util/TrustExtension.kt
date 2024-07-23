@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.extension.util
+package eu.mkonic.tachiyomi.extension.util
 
 import android.content.pm.PackageInfo
 import androidx.core.content.pm.PackageInfoCompat
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 

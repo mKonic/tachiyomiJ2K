@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader
+package eu.mkonic.tachiyomi.ui.reader
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -8,11 +8,11 @@ import androidx.core.content.ContextCompat
 import coil.Coil
 import coil.request.CachePolicy
 import coil.request.ImageRequest
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.notification.NotificationHandler
-import eu.kanade.tachiyomi.data.notification.NotificationReceiver
-import eu.kanade.tachiyomi.data.notification.Notifications
-import eu.kanade.tachiyomi.util.system.notificationManager
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.notification.NotificationHandler
+import eu.mkonic.tachiyomi.data.notification.NotificationReceiver
+import eu.mkonic.tachiyomi.data.notification.Notifications
+import eu.mkonic.tachiyomi.util.system.notificationManager
 import java.io.File
 
 /**

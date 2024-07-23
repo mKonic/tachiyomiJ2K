@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.setting.database
+package eu.mkonic.tachiyomi.ui.setting.database
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -19,16 +19,16 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.Payload
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.ClearDatabaseControllerBinding
-import eu.kanade.tachiyomi.ui.base.controller.BaseCoroutineController
-import eu.kanade.tachiyomi.util.system.materialAlertDialog
-import eu.kanade.tachiyomi.util.system.rootWindowInsetsCompat
-import eu.kanade.tachiyomi.util.system.setCustomTitleAndMessage
-import eu.kanade.tachiyomi.util.view.activityBinding
-import eu.kanade.tachiyomi.util.view.fullAppBarHeight
-import eu.kanade.tachiyomi.util.view.scrollViewWith
-import eu.kanade.tachiyomi.util.view.snack
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.ClearDatabaseControllerBinding
+import eu.mkonic.tachiyomi.ui.base.controller.BaseCoroutineController
+import eu.mkonic.tachiyomi.util.system.materialAlertDialog
+import eu.mkonic.tachiyomi.util.system.rootWindowInsetsCompat
+import eu.mkonic.tachiyomi.util.system.setCustomTitleAndMessage
+import eu.mkonic.tachiyomi.util.view.activityBinding
+import eu.mkonic.tachiyomi.util.view.fullAppBarHeight
+import eu.mkonic.tachiyomi.util.view.scrollViewWith
+import eu.mkonic.tachiyomi.util.view.snack
 import kotlin.math.max
 import kotlin.math.roundToInt
 

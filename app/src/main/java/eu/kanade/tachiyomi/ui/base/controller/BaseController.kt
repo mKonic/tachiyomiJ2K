@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.base.controller
+package eu.mkonic.tachiyomi.ui.base.controller
 
 import android.app.Activity
 import android.graphics.drawable.Drawable
@@ -16,14 +16,14 @@ import androidx.viewbinding.ViewBinding
 import com.bluelinelabs.conductor.Controller
 import com.bluelinelabs.conductor.ControllerChangeHandler
 import com.bluelinelabs.conductor.ControllerChangeType
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.view.BackHandlerControllerInterface
-import eu.kanade.tachiyomi.util.view.activityBinding
-import eu.kanade.tachiyomi.util.view.backgroundColor
-import eu.kanade.tachiyomi.util.view.isControllerVisible
-import eu.kanade.tachiyomi.util.view.removeQueryListener
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.view.BackHandlerControllerInterface
+import eu.mkonic.tachiyomi.util.view.activityBinding
+import eu.mkonic.tachiyomi.util.view.backgroundColor
+import eu.mkonic.tachiyomi.util.view.isControllerVisible
+import eu.mkonic.tachiyomi.util.view.removeQueryListener
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.cancel

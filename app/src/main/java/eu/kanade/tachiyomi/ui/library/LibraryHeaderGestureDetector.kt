@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.library
+package eu.mkonic.tachiyomi.ui.library
 
 import android.os.Build
 import android.view.GestureDetector
 import android.view.HapticFeedbackConstants
 import android.view.MotionEvent
 import androidx.core.view.isVisible
-import eu.kanade.tachiyomi.databinding.LibraryCategoryHeaderItemBinding
-import eu.kanade.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.databinding.LibraryCategoryHeaderItemBinding
+import eu.mkonic.tachiyomi.util.system.dpToPx
 import kotlin.math.abs
 import kotlin.math.min
 import kotlin.math.pow

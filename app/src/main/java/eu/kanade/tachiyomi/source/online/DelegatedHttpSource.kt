@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.source.online
+package eu.mkonic.tachiyomi.source.online
 
 import android.net.Uri
-import eu.kanade.tachiyomi.data.database.DatabaseHelper
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.database.models.MangaImpl
-import eu.kanade.tachiyomi.network.NetworkHelper
-import eu.kanade.tachiyomi.source.model.SChapter
+import eu.mkonic.tachiyomi.data.database.DatabaseHelper
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.database.models.MangaImpl
+import eu.mkonic.tachiyomi.network.NetworkHelper
+import eu.mkonic.tachiyomi.source.model.SChapter
 import uy.kohesive.injekt.injectLazy
 
 abstract class DelegatedHttpSource {

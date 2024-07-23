@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.category
+package eu.mkonic.tachiyomi.ui.category
 
 import eu.davidea.flexibleadapter.FlexibleAdapter
 

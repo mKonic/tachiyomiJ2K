@@ -1,10 +1,10 @@
-package eu.kanade.tachiyomi.util.storage
+package eu.mkonic.tachiyomi.util.storage
 
 import android.content.Context
 import android.net.Uri
 import android.os.Build
 import androidx.core.content.FileProvider
-import eu.kanade.tachiyomi.BuildConfig
+import eu.mkonic.tachiyomi.BuildConfig
 import java.io.File
 
 /**

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.base.controller
+package eu.mkonic.tachiyomi.ui.base.controller
 
 import android.animation.Animator
 import android.animation.AnimatorSet
@@ -12,7 +12,7 @@ import androidx.core.animation.doOnEnd
 import androidx.interpolator.view.animation.LinearOutSlowInInterpolator
 import com.bluelinelabs.conductor.ControllerChangeHandler
 import com.bluelinelabs.conductor.changehandler.AnimatorChangeHandler
-import eu.kanade.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.ui.main.MainActivity
 import kotlin.math.roundToLong
 
 class CrossFadeChangeHandler : AnimatorChangeHandler {

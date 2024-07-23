@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.library
+package eu.mkonic.tachiyomi.ui.library
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.HapticFeedbackConstants
 import android.view.MotionEvent
-import eu.kanade.tachiyomi.ui.base.MaterialFastScroll
-import eu.kanade.tachiyomi.util.system.dpToPxEnd
-import eu.kanade.tachiyomi.util.system.isLTR
+import eu.mkonic.tachiyomi.ui.base.MaterialFastScroll
+import eu.mkonic.tachiyomi.util.system.dpToPxEnd
+import eu.mkonic.tachiyomi.util.system.isLTR
 import kotlin.math.abs
 import kotlin.math.min
 

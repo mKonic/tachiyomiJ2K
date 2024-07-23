@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.library.filter
+package eu.mkonic.tachiyomi.ui.library.filter
 
 data class LibraryFilter(
     val headerName: String,

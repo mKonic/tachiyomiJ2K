@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.track
+package eu.mkonic.tachiyomi.data.track
 
 import android.content.Context
 import androidx.work.BackoffPolicy
@@ -9,8 +9,8 @@ import androidx.work.NetworkType
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
-import eu.kanade.tachiyomi.data.database.DatabaseHelper
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.data.database.DatabaseHelper
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import timber.log.Timber

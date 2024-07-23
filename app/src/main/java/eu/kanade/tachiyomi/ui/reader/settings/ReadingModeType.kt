@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.ui.reader.settings
+package eu.mkonic.tachiyomi.ui.reader.settings
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.lang.next
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.lang.next
 
 enum class ReadingModeType(val prefValue: Int, @StringRes val stringRes: Int, @DrawableRes val iconRes: Int) {
     DEFAULT(0, R.string.default_value, R.drawable.ic_reader_default_24dp),

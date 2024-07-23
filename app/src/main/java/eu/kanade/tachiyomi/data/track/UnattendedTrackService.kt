@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.data.track
+package eu.mkonic.tachiyomi.data.track
 
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.source.Source
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.track.model.TrackSearch
+import eu.mkonic.tachiyomi.source.Source
 
 /**
  * An Unattended Track Service will never prompt the user to match a manga with the remote.

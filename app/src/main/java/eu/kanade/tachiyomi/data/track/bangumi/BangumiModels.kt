@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.data.track.bangumi
+package eu.mkonic.tachiyomi.data.track.bangumi
 
-import eu.kanade.tachiyomi.data.database.models.Track
+import eu.mkonic.tachiyomi.data.database.models.Track
 
 fun Track.toBangumiStatus() = when (status) {
     Bangumi.READING -> "do"

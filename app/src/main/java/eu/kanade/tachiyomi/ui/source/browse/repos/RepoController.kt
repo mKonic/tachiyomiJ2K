@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.source.browse.repos
+package eu.mkonic.tachiyomi.ui.source.browse.repos
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,17 +8,17 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.BaseTransientBottomBar
 import com.google.android.material.snackbar.Snackbar
 import eu.davidea.flexibleadapter.FlexibleAdapter
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.CategoriesControllerBinding
-import eu.kanade.tachiyomi.ui.base.SmallToolbarInterface
-import eu.kanade.tachiyomi.ui.base.controller.BaseController
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.util.system.isOnline
-import eu.kanade.tachiyomi.util.system.materialAlertDialog
-import eu.kanade.tachiyomi.util.system.openInBrowser
-import eu.kanade.tachiyomi.util.system.toast
-import eu.kanade.tachiyomi.util.view.liftAppbarWith
-import eu.kanade.tachiyomi.util.view.snack
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.CategoriesControllerBinding
+import eu.mkonic.tachiyomi.ui.base.SmallToolbarInterface
+import eu.mkonic.tachiyomi.ui.base.controller.BaseController
+import eu.mkonic.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.util.system.isOnline
+import eu.mkonic.tachiyomi.util.system.materialAlertDialog
+import eu.mkonic.tachiyomi.util.system.openInBrowser
+import eu.mkonic.tachiyomi.util.system.toast
+import eu.mkonic.tachiyomi.util.view.liftAppbarWith
+import eu.mkonic.tachiyomi.util.view.snack
 
 /**
  * Controller to manage the repos for the user's extensions.

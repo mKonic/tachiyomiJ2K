@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.widget.materialdialogs
+package eu.mkonic.tachiyomi.widget.materialdialogs
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import eu.kanade.tachiyomi.databinding.ListitemTristatechoiceBinding
-import eu.kanade.tachiyomi.widget.TriStateCheckBox
+import eu.mkonic.tachiyomi.databinding.ListitemTristatechoiceBinding
+import eu.mkonic.tachiyomi.widget.TriStateCheckBox
 
 private object CheckPayload
 private object InverseCheckPayload

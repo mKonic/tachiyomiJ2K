@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<eu.kanade.tachiyomi.widget.TriStateCheckBox xmlns:android="http://schemas.android.com/apk/res/android"
+<eu.mkonic.tachiyomi.widget.TriStateCheckBox xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/category_checkbox"
     android:layout_width="match_parent"

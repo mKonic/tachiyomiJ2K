@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi
+package eu.mkonic.tachiyomi
 
-import eu.kanade.tachiyomi.util.system.ImageUtil
+import eu.mkonic.tachiyomi.util.system.ImageUtil
 
 /**
  * Used by extensions.

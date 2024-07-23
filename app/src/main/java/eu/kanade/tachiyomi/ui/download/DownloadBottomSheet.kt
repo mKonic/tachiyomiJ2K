@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.download
+package eu.mkonic.tachiyomi.ui.download
 
 import android.app.Activity
 import android.content.Context
@@ -12,23 +12,23 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import eu.davidea.flexibleadapter.FlexibleAdapter
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.download.DownloadJob
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.databinding.DownloadBottomSheetBinding
-import eu.kanade.tachiyomi.ui.extension.ExtensionDividerItemDecoration
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.ui.recents.RecentsController
-import eu.kanade.tachiyomi.util.chapter.ChapterUtil.Companion.preferredChapterName
-import eu.kanade.tachiyomi.util.view.collapse
-import eu.kanade.tachiyomi.util.view.doOnApplyWindowInsetsCompat
-import eu.kanade.tachiyomi.util.view.expand
-import eu.kanade.tachiyomi.util.view.hide
-import eu.kanade.tachiyomi.util.view.isCollapsed
-import eu.kanade.tachiyomi.util.view.isExpanded
-import eu.kanade.tachiyomi.util.view.isHidden
-import eu.kanade.tachiyomi.util.view.toolbarHeight
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.download.DownloadJob
+import eu.mkonic.tachiyomi.data.download.model.Download
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.databinding.DownloadBottomSheetBinding
+import eu.mkonic.tachiyomi.ui.extension.ExtensionDividerItemDecoration
+import eu.mkonic.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.ui.recents.RecentsController
+import eu.mkonic.tachiyomi.util.chapter.ChapterUtil.Companion.preferredChapterName
+import eu.mkonic.tachiyomi.util.view.collapse
+import eu.mkonic.tachiyomi.util.view.doOnApplyWindowInsetsCompat
+import eu.mkonic.tachiyomi.util.view.expand
+import eu.mkonic.tachiyomi.util.view.hide
+import eu.mkonic.tachiyomi.util.view.isCollapsed
+import eu.mkonic.tachiyomi.util.view.isExpanded
+import eu.mkonic.tachiyomi.util.view.isHidden
+import eu.mkonic.tachiyomi.util.view.toolbarHeight
 import uy.kohesive.injekt.injectLazy
 
 class DownloadBottomSheet @JvmOverloads constructor(

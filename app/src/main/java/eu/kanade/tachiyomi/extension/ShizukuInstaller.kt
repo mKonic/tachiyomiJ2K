@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension
+package eu.mkonic.tachiyomi.extension
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -7,10 +7,10 @@ import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Build
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.extension.util.ExtensionInstaller.Companion.EXTRA_DOWNLOAD_ID
-import eu.kanade.tachiyomi.util.system.getUriSize
-import eu.kanade.tachiyomi.util.system.isPackageInstalled
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.extension.util.ExtensionInstaller.Companion.EXTRA_DOWNLOAD_ID
+import eu.mkonic.tachiyomi.util.system.getUriSize
+import eu.mkonic.tachiyomi.util.system.isPackageInstalled
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob

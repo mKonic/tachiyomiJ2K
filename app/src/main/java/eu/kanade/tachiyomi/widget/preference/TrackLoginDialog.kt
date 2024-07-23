@@ -1,14 +1,14 @@
-package eu.kanade.tachiyomi.widget.preference
+package eu.mkonic.tachiyomi.widget.preference
 
 import android.os.Bundle
 import android.view.View
 import androidx.annotation.StringRes
 import br.com.simplepass.loadingbutton.animatedDrawables.ProgressType
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.track.TrackManager
-import eu.kanade.tachiyomi.data.track.TrackService
-import eu.kanade.tachiyomi.util.system.toast
-import eu.kanade.tachiyomi.util.system.withIOContext
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.track.TrackManager
+import eu.mkonic.tachiyomi.data.track.TrackService
+import eu.mkonic.tachiyomi.util.system.toast
+import eu.mkonic.tachiyomi.util.system.withIOContext
 import kotlinx.coroutines.launch
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get

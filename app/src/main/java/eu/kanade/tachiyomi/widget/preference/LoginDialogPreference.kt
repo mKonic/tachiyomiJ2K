@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget.preference
+package eu.mkonic.tachiyomi.widget.preference
 
 import android.app.Dialog
 import android.os.Bundle
@@ -6,10 +6,10 @@ import android.view.View
 import androidx.annotation.StringRes
 import com.bluelinelabs.conductor.ControllerChangeHandler
 import com.bluelinelabs.conductor.ControllerChangeType
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.databinding.PrefAccountLoginBinding
-import eu.kanade.tachiyomi.ui.base.controller.DialogController
-import eu.kanade.tachiyomi.util.system.materialAlertDialog
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.databinding.PrefAccountLoginBinding
+import eu.mkonic.tachiyomi.ui.base.controller.DialogController
+import eu.mkonic.tachiyomi.util.system.materialAlertDialog
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

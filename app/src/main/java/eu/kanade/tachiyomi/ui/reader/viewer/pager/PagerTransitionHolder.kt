@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.pager
+package eu.mkonic.tachiyomi.ui.reader.viewer.pager
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -11,13 +11,13 @@ import android.widget.LinearLayout
 import android.widget.ProgressBar
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.core.view.updatePaddingRelative
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.reader.model.ChapterTransition
-import eu.kanade.tachiyomi.ui.reader.model.ReaderChapter
-import eu.kanade.tachiyomi.ui.reader.viewer.ReaderButton
-import eu.kanade.tachiyomi.ui.reader.viewer.ReaderTransitionView
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.widget.ViewPagerAdapter
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.ui.reader.model.ChapterTransition
+import eu.mkonic.tachiyomi.ui.reader.model.ReaderChapter
+import eu.mkonic.tachiyomi.ui.reader.viewer.ReaderButton
+import eu.mkonic.tachiyomi.ui.reader.viewer.ReaderTransitionView
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.widget.ViewPagerAdapter
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.flow.collectLatest

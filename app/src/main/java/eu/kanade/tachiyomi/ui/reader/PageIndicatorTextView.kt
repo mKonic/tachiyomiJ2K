@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader
+package eu.mkonic.tachiyomi.ui.reader
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -8,7 +8,7 @@ import android.text.SpannableString
 import android.text.style.ScaleXSpan
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatTextView
-import eu.kanade.tachiyomi.widget.OutlineSpan
+import eu.mkonic.tachiyomi.widget.OutlineSpan
 
 /**
  * Page indicator found at the bottom of the reader

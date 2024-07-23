@@ -1,16 +1,16 @@
-package eu.kanade.tachiyomi.network.interceptor
+package eu.mkonic.tachiyomi.network.interceptor
 
 import android.content.Context
 import android.os.Build
 import android.webkit.WebSettings
 import android.webkit.WebView
 import android.widget.Toast
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.DeviceUtil
-import eu.kanade.tachiyomi.util.system.WebViewUtil
-import eu.kanade.tachiyomi.util.system.launchUI
-import eu.kanade.tachiyomi.util.system.setDefaultSettings
-import eu.kanade.tachiyomi.util.system.toast
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.system.DeviceUtil
+import eu.mkonic.tachiyomi.util.system.WebViewUtil
+import eu.mkonic.tachiyomi.util.system.launchUI
+import eu.mkonic.tachiyomi.util.system.setDefaultSettings
+import eu.mkonic.tachiyomi.util.system.toast
 import okhttp3.Headers
 import okhttp3.Interceptor
 import okhttp3.Request

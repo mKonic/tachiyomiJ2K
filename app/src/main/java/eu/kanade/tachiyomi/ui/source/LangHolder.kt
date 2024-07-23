@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.source
+package eu.mkonic.tachiyomi.ui.source
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.databinding.SourceHeaderItemBinding
-import eu.kanade.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
-import eu.kanade.tachiyomi.util.system.LocaleHelper
+import eu.mkonic.tachiyomi.databinding.SourceHeaderItemBinding
+import eu.mkonic.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
+import eu.mkonic.tachiyomi.util.system.LocaleHelper
 
 class LangHolder(view: View, adapter: FlexibleAdapter<IFlexible<RecyclerView.ViewHolder>>) :
     BaseFlexibleViewHolder(view, adapter) {

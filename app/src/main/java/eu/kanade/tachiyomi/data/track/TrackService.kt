@@ -1,13 +1,13 @@
-package eu.kanade.tachiyomi.data.track
+package eu.mkonic.tachiyomi.data.track
 
 import androidx.annotation.CallSuper
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import eu.kanade.tachiyomi.data.database.DatabaseHelper
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.network.NetworkHelper
-import eu.kanade.tachiyomi.util.system.executeOnIO
+import eu.mkonic.tachiyomi.data.database.DatabaseHelper
+import eu.mkonic.tachiyomi.data.database.models.Track
+import eu.mkonic.tachiyomi.data.track.model.TrackSearch
+import eu.mkonic.tachiyomi.network.NetworkHelper
+import eu.mkonic.tachiyomi.util.system.executeOnIO
 import okhttp3.OkHttpClient
 import uy.kohesive.injekt.injectLazy
 

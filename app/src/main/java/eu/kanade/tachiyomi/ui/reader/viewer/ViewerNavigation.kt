@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.ui.reader.viewer
+package eu.mkonic.tachiyomi.ui.reader.viewer
 
 import android.graphics.PointF
 import android.graphics.RectF
 import androidx.annotation.StringRes
-import eu.kanade.tachiyomi.R
+import eu.mkonic.tachiyomi.R
 
 abstract class ViewerNavigation {
 

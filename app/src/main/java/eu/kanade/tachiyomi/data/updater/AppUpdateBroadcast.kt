@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.updater
+package eu.mkonic.tachiyomi.data.updater
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -7,9 +7,9 @@ import android.content.pm.PackageInstaller
 import androidx.core.content.edit
 import androidx.core.net.toUri
 import androidx.preference.PreferenceManager
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.localeContext
-import eu.kanade.tachiyomi.util.system.toast
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.system.localeContext
+import eu.mkonic.tachiyomi.util.system.toast
 
 class AppUpdateBroadcast : BroadcastReceiver() {
     override fun onReceive(context: Context, intent: Intent) {

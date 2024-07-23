@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension
+package eu.mkonic.tachiyomi.extension
 
 import android.content.Context
 import android.content.pm.ServiceInfo
@@ -13,17 +13,17 @@ import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
 import androidx.work.workDataOf
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.notification.Notifications
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.extension.model.Extension
-import eu.kanade.tachiyomi.extension.model.InstallStep
-import eu.kanade.tachiyomi.util.system.jobIsRunning
-import eu.kanade.tachiyomi.util.system.launchIO
-import eu.kanade.tachiyomi.util.system.localeContext
-import eu.kanade.tachiyomi.util.system.notificationManager
-import eu.kanade.tachiyomi.util.system.toast
-import eu.kanade.tachiyomi.util.system.tryToSetForeground
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.notification.Notifications
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.extension.model.Extension
+import eu.mkonic.tachiyomi.extension.model.InstallStep
+import eu.mkonic.tachiyomi.util.system.jobIsRunning
+import eu.mkonic.tachiyomi.util.system.launchIO
+import eu.mkonic.tachiyomi.util.system.localeContext
+import eu.mkonic.tachiyomi.util.system.notificationManager
+import eu.mkonic.tachiyomi.util.system.toast
+import eu.mkonic.tachiyomi.util.system.tryToSetForeground
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

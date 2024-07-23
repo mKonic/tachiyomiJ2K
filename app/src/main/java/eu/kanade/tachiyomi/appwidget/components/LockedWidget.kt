@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.appwidget.components
+package eu.mkonic.tachiyomi.appwidget.components
 
 import android.content.Intent
 import androidx.compose.runtime.Composable
@@ -15,10 +15,10 @@ import androidx.glance.text.Text
 import androidx.glance.text.TextAlign
 import androidx.glance.text.TextStyle
 import androidx.glance.unit.ColorProvider
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.appwidget.ContainerModifier
-import eu.kanade.tachiyomi.appwidget.util.stringResource
-import eu.kanade.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.appwidget.ContainerModifier
+import eu.mkonic.tachiyomi.appwidget.util.stringResource
+import eu.mkonic.tachiyomi.ui.main.MainActivity
 
 @Composable
 fun LockedWidget() {

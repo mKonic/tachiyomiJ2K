@@ -1,10 +1,10 @@
-package eu.kanade.tachiyomi.ui.manga.chapter
+package eu.mkonic.tachiyomi.ui.manga.chapter
 
 import eu.davidea.flexibleadapter.items.AbstractHeaderItem
 import eu.davidea.flexibleadapter.items.AbstractSectionableItem
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.source.model.Page
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.download.model.Download
+import eu.mkonic.tachiyomi.source.model.Page
 
 abstract class BaseChapterItem<T : BaseChapterHolder, H : AbstractHeaderItem<*>>(
     val chapter: Chapter,

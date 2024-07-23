@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.ui.reader.settings
+package eu.mkonic.tachiyomi.ui.reader.settings
 
 import androidx.annotation.StringRes
-import eu.kanade.tachiyomi.R
+import eu.mkonic.tachiyomi.R
 
 enum class PageLayout(
     val value: Int,

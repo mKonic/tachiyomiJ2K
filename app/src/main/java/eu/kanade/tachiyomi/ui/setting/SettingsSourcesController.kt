@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.setting
+package eu.mkonic.tachiyomi.ui.setting
 
 import android.graphics.drawable.Drawable
 import android.view.Menu
@@ -8,18 +8,18 @@ import androidx.appcompat.widget.SearchView
 import androidx.preference.CheckBoxPreference
 import androidx.preference.PreferenceGroup
 import androidx.preference.PreferenceScreen
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.preference.minusAssign
-import eu.kanade.tachiyomi.data.preference.plusAssign
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.source.icon
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.ui.main.FloatingSearchInterface
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.util.system.LocaleHelper
-import eu.kanade.tachiyomi.util.view.activityBinding
-import eu.kanade.tachiyomi.util.view.setOnQueryTextChangeListener
-import eu.kanade.tachiyomi.widget.preference.SwitchPreferenceCategory
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.preference.minusAssign
+import eu.mkonic.tachiyomi.data.preference.plusAssign
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.source.icon
+import eu.mkonic.tachiyomi.source.online.HttpSource
+import eu.mkonic.tachiyomi.ui.main.FloatingSearchInterface
+import eu.mkonic.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.util.system.LocaleHelper
+import eu.mkonic.tachiyomi.util.view.activityBinding
+import eu.mkonic.tachiyomi.util.view.setOnQueryTextChangeListener
+import eu.mkonic.tachiyomi.widget.preference.SwitchPreferenceCategory
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 import java.util.TreeMap

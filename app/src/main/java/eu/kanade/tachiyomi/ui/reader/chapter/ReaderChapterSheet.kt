@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.chapter
+package eu.mkonic.tachiyomi.ui.reader.chapter
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -17,18 +17,18 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.mikepenz.fastadapter.FastAdapter
 import com.mikepenz.fastadapter.adapters.ItemAdapter
 import com.mikepenz.fastadapter.listeners.ClickEventHook
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.ReaderChaptersSheetBinding
-import eu.kanade.tachiyomi.ui.reader.ReaderActivity
-import eu.kanade.tachiyomi.ui.reader.ReaderViewModel
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.system.isInNightMode
-import eu.kanade.tachiyomi.util.system.launchUI
-import eu.kanade.tachiyomi.util.view.collapse
-import eu.kanade.tachiyomi.util.view.expand
-import eu.kanade.tachiyomi.util.view.isCollapsed
-import eu.kanade.tachiyomi.util.view.isExpanded
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.ReaderChaptersSheetBinding
+import eu.mkonic.tachiyomi.ui.reader.ReaderActivity
+import eu.mkonic.tachiyomi.ui.reader.ReaderViewModel
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.isInNightMode
+import eu.mkonic.tachiyomi.util.system.launchUI
+import eu.mkonic.tachiyomi.util.view.collapse
+import eu.mkonic.tachiyomi.util.view.expand
+import eu.mkonic.tachiyomi.util.view.isCollapsed
+import eu.mkonic.tachiyomi.util.view.isExpanded
 import kotlinx.coroutines.launch
 import kotlin.math.abs
 import kotlin.math.max

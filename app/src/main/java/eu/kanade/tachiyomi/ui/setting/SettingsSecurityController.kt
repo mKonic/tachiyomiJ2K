@@ -1,13 +1,13 @@
-package eu.kanade.tachiyomi.ui.setting
+package eu.mkonic.tachiyomi.ui.setting
 
 import androidx.fragment.app.FragmentActivity
 import androidx.preference.PreferenceScreen
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.preference.PreferenceKeys
-import eu.kanade.tachiyomi.data.preference.PreferenceValues
-import eu.kanade.tachiyomi.data.preference.asImmediateFlowIn
-import eu.kanade.tachiyomi.ui.security.SecureActivityDelegate
-import eu.kanade.tachiyomi.util.system.AuthenticatorUtil.isAuthenticationSupported
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.preference.PreferenceKeys
+import eu.mkonic.tachiyomi.data.preference.PreferenceValues
+import eu.mkonic.tachiyomi.data.preference.asImmediateFlowIn
+import eu.mkonic.tachiyomi.ui.security.SecureActivityDelegate
+import eu.mkonic.tachiyomi.util.system.AuthenticatorUtil.isAuthenticationSupported
 
 class SettingsSecurityController : SettingsController() {
     override fun setupPreferenceScreen(screen: PreferenceScreen) = screen.apply {

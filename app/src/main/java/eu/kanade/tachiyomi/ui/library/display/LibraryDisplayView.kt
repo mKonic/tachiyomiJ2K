@@ -1,22 +1,22 @@
-package eu.kanade.tachiyomi.ui.library.display
+package eu.mkonic.tachiyomi.ui.library.display
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import com.google.android.material.slider.Slider
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.LibraryDisplayLayoutBinding
-import eu.kanade.tachiyomi.util.bindToPreference
-import eu.kanade.tachiyomi.util.lang.addBetaTag
-import eu.kanade.tachiyomi.util.lang.withSubtitle
-import eu.kanade.tachiyomi.util.system.bottomCutoutInset
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.isLandscape
-import eu.kanade.tachiyomi.util.system.topCutoutInset
-import eu.kanade.tachiyomi.util.view.checkHeightThen
-import eu.kanade.tachiyomi.util.view.numberOfRowsForValue
-import eu.kanade.tachiyomi.util.view.rowsForValue
-import eu.kanade.tachiyomi.widget.BaseLibraryDisplayView
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.LibraryDisplayLayoutBinding
+import eu.mkonic.tachiyomi.util.bindToPreference
+import eu.mkonic.tachiyomi.util.lang.addBetaTag
+import eu.mkonic.tachiyomi.util.lang.withSubtitle
+import eu.mkonic.tachiyomi.util.system.bottomCutoutInset
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.isLandscape
+import eu.mkonic.tachiyomi.util.system.topCutoutInset
+import eu.mkonic.tachiyomi.util.view.checkHeightThen
+import eu.mkonic.tachiyomi.util.view.numberOfRowsForValue
+import eu.mkonic.tachiyomi.util.view.rowsForValue
+import eu.mkonic.tachiyomi.widget.BaseLibraryDisplayView
 import kotlin.math.roundToInt
 
 class LibraryDisplayView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :

@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.setting.debug
+package eu.mkonic.tachiyomi.ui.setting.debug
 
 import android.app.Application
 import androidx.lifecycle.asFlow
 import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import androidx.work.WorkQuery
-import eu.kanade.tachiyomi.ui.base.presenter.BaseCoroutinePresenter
+import eu.mkonic.tachiyomi.ui.base.presenter.BaseCoroutinePresenter
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn

@@ -1,28 +1,28 @@
-package eu.kanade.tachiyomi.ui.setting
+package eu.mkonic.tachiyomi.ui.setting
 
 import androidx.preference.PreferenceScreen
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.DatabaseHelper
-import eu.kanade.tachiyomi.data.database.models.Category
-import eu.kanade.tachiyomi.data.library.LibraryUpdateJob
-import eu.kanade.tachiyomi.data.preference.DEVICE_BATTERY_NOT_LOW
-import eu.kanade.tachiyomi.data.preference.DEVICE_CHARGING
-import eu.kanade.tachiyomi.data.preference.DEVICE_ONLY_ON_WIFI
-import eu.kanade.tachiyomi.data.preference.DelayedLibrarySuggestionsJob
-import eu.kanade.tachiyomi.data.preference.MANGA_HAS_UNREAD
-import eu.kanade.tachiyomi.data.preference.MANGA_NON_COMPLETED
-import eu.kanade.tachiyomi.data.preference.MANGA_NON_READ
-import eu.kanade.tachiyomi.data.preference.asImmediateFlowIn
-import eu.kanade.tachiyomi.ui.category.CategoryController
-import eu.kanade.tachiyomi.ui.library.LibraryPresenter
-import eu.kanade.tachiyomi.ui.library.display.TabbedLibraryDisplaySheet
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.util.system.launchIO
-import eu.kanade.tachiyomi.util.system.launchUI
-import eu.kanade.tachiyomi.util.view.withFadeTransaction
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.DatabaseHelper
+import eu.mkonic.tachiyomi.data.database.models.Category
+import eu.mkonic.tachiyomi.data.library.LibraryUpdateJob
+import eu.mkonic.tachiyomi.data.preference.DEVICE_BATTERY_NOT_LOW
+import eu.mkonic.tachiyomi.data.preference.DEVICE_CHARGING
+import eu.mkonic.tachiyomi.data.preference.DEVICE_ONLY_ON_WIFI
+import eu.mkonic.tachiyomi.data.preference.DelayedLibrarySuggestionsJob
+import eu.mkonic.tachiyomi.data.preference.MANGA_HAS_UNREAD
+import eu.mkonic.tachiyomi.data.preference.MANGA_NON_COMPLETED
+import eu.mkonic.tachiyomi.data.preference.MANGA_NON_READ
+import eu.mkonic.tachiyomi.data.preference.asImmediateFlowIn
+import eu.mkonic.tachiyomi.ui.category.CategoryController
+import eu.mkonic.tachiyomi.ui.library.LibraryPresenter
+import eu.mkonic.tachiyomi.ui.library.display.TabbedLibraryDisplaySheet
+import eu.mkonic.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.util.system.launchIO
+import eu.mkonic.tachiyomi.util.system.launchUI
+import eu.mkonic.tachiyomi.util.view.withFadeTransaction
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
-import eu.kanade.tachiyomi.data.preference.PreferenceKeys as Keys
+import eu.mkonic.tachiyomi.data.preference.PreferenceKeys as Keys
 
 class SettingsLibraryController : SettingsController() {
 

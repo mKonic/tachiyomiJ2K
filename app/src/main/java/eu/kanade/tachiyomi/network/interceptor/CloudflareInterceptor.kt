@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.network.interceptor
+package eu.mkonic.tachiyomi.network.interceptor
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.webkit.WebView
 import android.widget.Toast
 import androidx.core.content.ContextCompat
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.network.AndroidCookieJar
-import eu.kanade.tachiyomi.util.system.WebViewClientCompat
-import eu.kanade.tachiyomi.util.system.isOutdated
-import eu.kanade.tachiyomi.util.system.toast
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.network.AndroidCookieJar
+import eu.mkonic.tachiyomi.util.system.WebViewClientCompat
+import eu.mkonic.tachiyomi.util.system.isOutdated
+import eu.mkonic.tachiyomi.util.system.toast
 import okhttp3.Cookie
 import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.Interceptor

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<eu.kanade.tachiyomi.ui.extension.ExtensionBottomSheet xmlns:android="http://schemas.android.com/apk/res/android"
+<eu.mkonic.tachiyomi.ui.extension.ExtensionBottomSheet xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ext_bottom_sheet"
@@ -37,7 +37,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <eu.kanade.tachiyomi.ui.base.CenteredToolbar
+        <eu.mkonic.tachiyomi.ui.base.CenteredToolbar
             android:id="@+id/sheet_toolbar"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -69,7 +69,7 @@
                 tools:drawableEnd="@drawable/ic_arrow_drop_down_24dp"
                 tools:drawableStart="@drawable/ic_blank_24dp"
                 tools:text="Title Text" />
-        </eu.kanade.tachiyomi.ui.base.CenteredToolbar>
+        </eu.mkonic.tachiyomi.ui.base.CenteredToolbar>
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabs"
@@ -91,4 +91,4 @@
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-</eu.kanade.tachiyomi.ui.extension.ExtensionBottomSheet>
+</eu.mkonic.tachiyomi.ui.extension.ExtensionBottomSheet>

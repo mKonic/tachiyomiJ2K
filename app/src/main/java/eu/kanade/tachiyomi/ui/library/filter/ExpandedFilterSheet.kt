@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.library.filter
+package eu.mkonic.tachiyomi.ui.library.filter
 
 import android.app.Activity
 import android.os.Bundle
@@ -18,16 +18,16 @@ import com.mikepenz.fastadapter.FastAdapter
 import com.mikepenz.fastadapter.adapters.ItemAdapter
 import com.mikepenz.fastadapter.listeners.ClickEventHook
 import eu.davidea.flexibleadapter.FlexibleAdapter
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.databinding.ExpandedFilterSheetBinding
-import eu.kanade.tachiyomi.ui.main.MainActivity
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.materialAlertDialog
-import eu.kanade.tachiyomi.util.system.rootWindowInsetsCompat
-import eu.kanade.tachiyomi.util.view.checkHeightThen
-import eu.kanade.tachiyomi.util.view.expand
-import eu.kanade.tachiyomi.widget.E2EBottomSheetDialog
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.databinding.ExpandedFilterSheetBinding
+import eu.mkonic.tachiyomi.ui.main.MainActivity
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.materialAlertDialog
+import eu.mkonic.tachiyomi.util.system.rootWindowInsetsCompat
+import eu.mkonic.tachiyomi.util.view.checkHeightThen
+import eu.mkonic.tachiyomi.util.view.expand
+import eu.mkonic.tachiyomi.widget.E2EBottomSheetDialog
 import uy.kohesive.injekt.injectLazy
 
 class ExpandedFilterSheet(

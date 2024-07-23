@@ -1,13 +1,13 @@
-package eu.kanade.tachiyomi.data.cache
+package eu.mkonic.tachiyomi.data.cache
 
 import android.content.Context
 import android.text.format.Formatter
 import com.jakewharton.disklrucache.DiskLruCache
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.util.storage.DiskUtil
-import eu.kanade.tachiyomi.util.storage.saveTo
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.source.model.Page
+import eu.mkonic.tachiyomi.util.storage.DiskUtil
+import eu.mkonic.tachiyomi.util.storage.saveTo
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

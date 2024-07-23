@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.source
+package eu.mkonic.tachiyomi.source
 
-import eu.kanade.tachiyomi.source.model.FilterList
-import eu.kanade.tachiyomi.source.model.MangasPage
-import eu.kanade.tachiyomi.util.system.awaitSingle
+import eu.mkonic.tachiyomi.source.model.FilterList
+import eu.mkonic.tachiyomi.source.model.MangasPage
+import eu.mkonic.tachiyomi.util.system.awaitSingle
 import rx.Observable
 
 interface CatalogueSource : Source {

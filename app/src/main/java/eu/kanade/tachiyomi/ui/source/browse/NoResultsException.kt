@@ -1,3 +1,3 @@
-package eu.kanade.tachiyomi.ui.source.browse
+package eu.mkonic.tachiyomi.ui.source.browse
 
 class NoResultsException : Exception()

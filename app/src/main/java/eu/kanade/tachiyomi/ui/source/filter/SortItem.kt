@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.source.filter
+package eu.mkonic.tachiyomi.ui.source.filter
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
@@ -6,9 +6,9 @@ import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractSectionableItem
 import eu.davidea.flexibleadapter.items.IFlexible
 import eu.davidea.viewholders.FlexibleViewHolder
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.source.model.Filter
-import eu.kanade.tachiyomi.widget.SortTextView
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.source.model.Filter
+import eu.mkonic.tachiyomi.widget.SortTextView
 
 class SortItem(val name: String, val group: SortGroup) : AbstractSectionableItem<SortItem.Holder, SortGroup>(group) {
 

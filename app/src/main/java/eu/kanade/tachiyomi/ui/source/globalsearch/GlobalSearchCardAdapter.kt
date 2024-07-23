@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.ui.source.globalsearch
+package eu.mkonic.tachiyomi.ui.source.globalsearch
 
 import eu.davidea.flexibleadapter.FlexibleAdapter
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
 import uy.kohesive.injekt.injectLazy
 
 /**

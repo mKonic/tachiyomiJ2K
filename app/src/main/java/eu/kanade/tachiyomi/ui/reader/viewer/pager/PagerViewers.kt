@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.pager
+package eu.mkonic.tachiyomi.ui.reader.viewer.pager
 
-import eu.kanade.tachiyomi.ui.reader.ReaderActivity
+import eu.mkonic.tachiyomi.ui.reader.ReaderActivity
 
 /**
  * Implementation of a left to right PagerViewer.

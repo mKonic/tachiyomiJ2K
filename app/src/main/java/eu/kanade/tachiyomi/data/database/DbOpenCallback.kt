@@ -1,13 +1,13 @@
-package eu.kanade.tachiyomi.data.database
+package eu.mkonic.tachiyomi.data.database
 
 import androidx.sqlite.db.SupportSQLiteDatabase
 import androidx.sqlite.db.SupportSQLiteOpenHelper
-import eu.kanade.tachiyomi.data.database.tables.CategoryTable
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable
-import eu.kanade.tachiyomi.data.database.tables.HistoryTable
-import eu.kanade.tachiyomi.data.database.tables.MangaCategoryTable
-import eu.kanade.tachiyomi.data.database.tables.MangaTable
-import eu.kanade.tachiyomi.data.database.tables.TrackTable
+import eu.mkonic.tachiyomi.data.database.tables.CategoryTable
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable
+import eu.mkonic.tachiyomi.data.database.tables.HistoryTable
+import eu.mkonic.tachiyomi.data.database.tables.MangaCategoryTable
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable
+import eu.mkonic.tachiyomi.data.database.tables.TrackTable
 
 class DbOpenCallback : SupportSQLiteOpenHelper.Callback(DATABASE_VERSION) {
 

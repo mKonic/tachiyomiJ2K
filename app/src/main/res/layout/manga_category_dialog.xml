@@ -20,7 +20,7 @@
         app:hintEnabled="false"
         app:hintTextColor="?attr/colorSecondary">
 
-        <eu.kanade.tachiyomi.widget.TachiyomiTextInputEditText
+        <eu.mkonic.tachiyomi.widget.TachiyomiTextInputEditText
             android:id="@+id/title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <eu.kanade.tachiyomi.widget.TriStateCheckBox
+    <eu.mkonic.tachiyomi.widget.TriStateCheckBox
         android:id="@+id/download_new"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
         android:layout_marginEnd="12dp"
         android:text="@string/download_new_chapters" />
 
-    <eu.kanade.tachiyomi.widget.TriStateCheckBox
+    <eu.mkonic.tachiyomi.widget.TriStateCheckBox
         android:id="@+id/include_global"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.database.mappers
+package eu.mkonic.tachiyomi.data.database.mappers
 
 import android.content.ContentValues
 import android.database.Cursor
@@ -9,13 +9,13 @@ import com.pushtorefresh.storio.sqlite.operations.put.DefaultPutResolver
 import com.pushtorefresh.storio.sqlite.queries.DeleteQuery
 import com.pushtorefresh.storio.sqlite.queries.InsertQuery
 import com.pushtorefresh.storio.sqlite.queries.UpdateQuery
-import eu.kanade.tachiyomi.data.database.models.History
-import eu.kanade.tachiyomi.data.database.models.HistoryImpl
-import eu.kanade.tachiyomi.data.database.tables.HistoryTable.COL_CHAPTER_ID
-import eu.kanade.tachiyomi.data.database.tables.HistoryTable.COL_ID
-import eu.kanade.tachiyomi.data.database.tables.HistoryTable.COL_LAST_READ
-import eu.kanade.tachiyomi.data.database.tables.HistoryTable.COL_TIME_READ
-import eu.kanade.tachiyomi.data.database.tables.HistoryTable.TABLE
+import eu.mkonic.tachiyomi.data.database.models.History
+import eu.mkonic.tachiyomi.data.database.models.HistoryImpl
+import eu.mkonic.tachiyomi.data.database.tables.HistoryTable.COL_CHAPTER_ID
+import eu.mkonic.tachiyomi.data.database.tables.HistoryTable.COL_ID
+import eu.mkonic.tachiyomi.data.database.tables.HistoryTable.COL_LAST_READ
+import eu.mkonic.tachiyomi.data.database.tables.HistoryTable.COL_TIME_READ
+import eu.mkonic.tachiyomi.data.database.tables.HistoryTable.TABLE
 
 class HistoryTypeMapping : SQLiteTypeMapping<History>(
     HistoryPutResolver(),

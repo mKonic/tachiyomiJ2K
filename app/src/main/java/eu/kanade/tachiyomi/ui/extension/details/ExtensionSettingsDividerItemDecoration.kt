@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.extension.details
+package eu.mkonic.tachiyomi.ui.extension.details
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -9,8 +9,8 @@ import android.view.View
 import androidx.preference.PreferenceGroupAdapter
 import androidx.preference.SwitchPreferenceCompat
 import androidx.recyclerview.widget.ConcatAdapter
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.isLTR
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.isLTR
 
 class ExtensionSettingsDividerItemDecoration(context: Context) : androidx.recyclerview.widget.RecyclerView.ItemDecoration() {
 

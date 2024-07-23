@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.ui.more.stats
+package eu.mkonic.tachiyomi.ui.more.stats
 
 import android.graphics.Color
 import android.text.SpannableStringBuilder
-import eu.kanade.tachiyomi.source.model.SManga
+import eu.mkonic.tachiyomi.source.model.SManga
 import java.util.concurrent.TimeUnit
 
 object StatsHelper {

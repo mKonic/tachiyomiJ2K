@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.manga
+package eu.mkonic.tachiyomi.ui.manga
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
@@ -34,13 +34,13 @@ import androidx.transition.ChangeImageTransform
 import androidx.transition.TransitionManager
 import androidx.transition.TransitionSet
 import com.google.android.material.shape.CornerFamily
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.databinding.FullCoverDialogBinding
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.powerManager
-import eu.kanade.tachiyomi.util.system.rootWindowInsetsCompat
-import eu.kanade.tachiyomi.util.view.animateBlur
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.databinding.FullCoverDialogBinding
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.powerManager
+import eu.mkonic.tachiyomi.util.system.rootWindowInsetsCompat
+import eu.mkonic.tachiyomi.util.view.animateBlur
 import uy.kohesive.injekt.injectLazy
 import kotlin.math.abs
 import kotlin.math.max

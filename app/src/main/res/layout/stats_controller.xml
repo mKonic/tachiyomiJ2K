@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<eu.kanade.tachiyomi.widget.StatefulNestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<eu.mkonic.tachiyomi.widget.StatefulNestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/stats_scroll_view"
@@ -8,7 +8,7 @@
     android:clipToPadding="false"
     android:background="?background"
     android:fitsSystemWindows="true"
-    tools:context="eu.kanade.tachiyomi.ui.more.stats.StatsController">
+    tools:context="eu.mkonic.tachiyomi.ui.more.stats.StatsController">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -473,4 +473,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</eu.kanade.tachiyomi.widget.StatefulNestedScrollView>
+</eu.mkonic.tachiyomi.widget.StatefulNestedScrollView>

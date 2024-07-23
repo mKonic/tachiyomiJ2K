@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.ui.source.browse
+package eu.mkonic.tachiyomi.ui.source.browse
 
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.model.FilterList
+import eu.mkonic.tachiyomi.source.CatalogueSource
+import eu.mkonic.tachiyomi.source.model.FilterList
 
 open class BrowseSourcePager(val source: CatalogueSource, val query: String, val filters: FilterList) : Pager() {
 

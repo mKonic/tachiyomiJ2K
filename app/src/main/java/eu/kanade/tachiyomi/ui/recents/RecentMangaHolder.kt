@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.recents
+package eu.mkonic.tachiyomi.ui.recents
 
 import android.animation.LayoutTransition
 import android.annotation.SuppressLint
@@ -15,23 +15,23 @@ import androidx.core.view.updateLayoutParams
 import androidx.core.view.updatePaddingRelative
 import androidx.transition.TransitionManager
 import androidx.transition.TransitionSet
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.database.models.ChapterHistory
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.data.image.coil.loadManga
-import eu.kanade.tachiyomi.databinding.RecentMangaItemBinding
-import eu.kanade.tachiyomi.databinding.RecentSubChapterItemBinding
-import eu.kanade.tachiyomi.ui.download.DownloadButton
-import eu.kanade.tachiyomi.ui.manga.chapter.BaseChapterHolder
-import eu.kanade.tachiyomi.util.chapter.ChapterUtil
-import eu.kanade.tachiyomi.util.chapter.ChapterUtil.Companion.preferredChapterName
-import eu.kanade.tachiyomi.util.isLocal
-import eu.kanade.tachiyomi.util.system.contextCompatColor
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.timeSpanFromNow
-import eu.kanade.tachiyomi.util.view.setAnimVectorCompat
-import eu.kanade.tachiyomi.util.view.setCards
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.database.models.ChapterHistory
+import eu.mkonic.tachiyomi.data.download.model.Download
+import eu.mkonic.tachiyomi.data.image.coil.loadManga
+import eu.mkonic.tachiyomi.databinding.RecentMangaItemBinding
+import eu.mkonic.tachiyomi.databinding.RecentSubChapterItemBinding
+import eu.mkonic.tachiyomi.ui.download.DownloadButton
+import eu.mkonic.tachiyomi.ui.manga.chapter.BaseChapterHolder
+import eu.mkonic.tachiyomi.util.chapter.ChapterUtil
+import eu.mkonic.tachiyomi.util.chapter.ChapterUtil.Companion.preferredChapterName
+import eu.mkonic.tachiyomi.util.isLocal
+import eu.mkonic.tachiyomi.util.system.contextCompatColor
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.timeSpanFromNow
+import eu.mkonic.tachiyomi.util.view.setAnimVectorCompat
+import eu.mkonic.tachiyomi.util.view.setCards
 import java.util.Date
 import java.util.concurrent.TimeUnit
 

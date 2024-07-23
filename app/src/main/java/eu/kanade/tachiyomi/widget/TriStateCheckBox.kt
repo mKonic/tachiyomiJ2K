@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget
+package eu.mkonic.tachiyomi.widget
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -8,11 +8,11 @@ import android.view.LayoutInflater
 import android.widget.FrameLayout
 import androidx.core.graphics.ColorUtils
 import androidx.core.view.updateLayoutParams
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.TriStateCheckBoxBinding
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.view.setAnimVectorCompat
-import eu.kanade.tachiyomi.util.view.setVectorCompat
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.TriStateCheckBoxBinding
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.view.setAnimVectorCompat
+import eu.mkonic.tachiyomi.util.view.setVectorCompat
 import kotlin.math.roundToInt
 
 class TriStateCheckBox constructor(context: Context, attrs: AttributeSet?) :

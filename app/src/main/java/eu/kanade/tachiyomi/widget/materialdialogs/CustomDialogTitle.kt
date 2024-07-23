@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.widget.materialdialogs
+package eu.mkonic.tachiyomi.widget.materialdialogs
 
 import android.content.Context
 import android.text.Layout
 import android.util.AttributeSet
 import android.util.TypedValue
 import com.google.android.material.textview.MaterialTextView
-import eu.kanade.tachiyomi.R
+import eu.mkonic.tachiyomi.R
 
 class CustomDialogTitle constructor(context: Context, attrs: AttributeSet? = null) :
     MaterialTextView(context, attrs) {

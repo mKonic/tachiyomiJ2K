@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <eu.kanade.tachiyomi.ui.library.category.CategoryRecyclerView
+            <eu.mkonic.tachiyomi.ui.library.category.CategoryRecyclerView
                 android:id="@+id/category_recycler"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
             tools:text="Category" />
     </com.google.android.material.card.MaterialCardView>
 
-    <eu.kanade.tachiyomi.widget.EmptyView
+    <eu.mkonic.tachiyomi.widget.EmptyView
         android:id="@+id/empty_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -125,7 +125,7 @@
 
     </FrameLayout>
 
-    <eu.kanade.tachiyomi.ui.library.LibraryFastScroll
+    <eu.mkonic.tachiyomi.ui.library.LibraryFastScroll
         android:id="@+id/fast_scroller"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

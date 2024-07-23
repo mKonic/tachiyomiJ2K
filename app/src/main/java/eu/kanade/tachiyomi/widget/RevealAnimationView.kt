@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget
+package eu.mkonic.tachiyomi.widget
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter

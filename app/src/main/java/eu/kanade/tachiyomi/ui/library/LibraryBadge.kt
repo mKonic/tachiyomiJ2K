@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.library
+package eu.mkonic.tachiyomi.ui.library
 
 import android.content.Context
 import android.content.res.ColorStateList
@@ -9,12 +9,12 @@ import androidx.core.view.updatePaddingRelative
 import com.google.android.material.card.MaterialCardView
 import com.google.android.material.imageview.ShapeableImageView
 import com.google.android.material.shape.MaterialShapeDrawable
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.UnreadDownloadBadgeBinding
-import eu.kanade.tachiyomi.util.system.contextCompatColor
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.view.makeShapeCorners
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.UnreadDownloadBadgeBinding
+import eu.mkonic.tachiyomi.util.system.contextCompatColor
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.view.makeShapeCorners
 
 class LibraryBadge @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :
     MaterialCardView(context, attrs) {

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.library
+package eu.mkonic.tachiyomi.ui.library
 
 import android.os.Bundle
 import android.view.Menu
@@ -8,13 +8,13 @@ import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.bluelinelabs.conductor.ControllerChangeHandler
 import com.bluelinelabs.conductor.ControllerChangeType
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.library.filter.FilterBottomSheet
-import eu.kanade.tachiyomi.ui.more.stats.details.StatsDetailsController
-import eu.kanade.tachiyomi.util.system.contextCompatDrawable
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.view.hide
-import eu.kanade.tachiyomi.util.view.previousController
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.ui.library.filter.FilterBottomSheet
+import eu.mkonic.tachiyomi.ui.more.stats.details.StatsDetailsController
+import eu.mkonic.tachiyomi.util.system.contextCompatDrawable
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.view.hide
+import eu.mkonic.tachiyomi.util.view.previousController
 
 class FilteredLibraryController(bundle: Bundle? = null) : LibraryController(bundle) {
 

@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.ui.download
+package eu.mkonic.tachiyomi.ui.download
 
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.data.download.model.DownloadQueue
-import eu.kanade.tachiyomi.ui.base.presenter.BaseCoroutinePresenter
+import eu.mkonic.tachiyomi.data.download.DownloadManager
+import eu.mkonic.tachiyomi.data.download.model.Download
+import eu.mkonic.tachiyomi.data.download.model.DownloadQueue
+import eu.mkonic.tachiyomi.ui.base.presenter.BaseCoroutinePresenter
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

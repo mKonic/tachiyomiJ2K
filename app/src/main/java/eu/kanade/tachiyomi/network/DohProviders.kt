@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.network
+package eu.mkonic.tachiyomi.network
 
 import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.OkHttpClient

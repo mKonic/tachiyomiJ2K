@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.util.view
+package eu.mkonic.tachiyomi.util.view
 
 import android.widget.ImageView
 import androidx.annotation.AttrRes
 import androidx.annotation.DrawableRes
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat
-import eu.kanade.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.getResourceColor
 
 /**
  * Set a vector on a [ImageView].

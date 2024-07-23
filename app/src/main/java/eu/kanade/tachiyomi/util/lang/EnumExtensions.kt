@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.lang
+package eu.mkonic.tachiyomi.util.lang
 
 inline fun <reified T : Enum<T>> T.next(): T {
     val values = enumValues<T>()

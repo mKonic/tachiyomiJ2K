@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.setting.database
+package eu.mkonic.tachiyomi.ui.setting.database
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
@@ -6,12 +6,12 @@ import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractFlexibleItem
 import eu.davidea.flexibleadapter.items.IFlexible
 import eu.davidea.viewholders.FlexibleViewHolder
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.ClearDatabaseSourceItemBinding
-import eu.kanade.tachiyomi.source.LocalSource
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.source.icon
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.ClearDatabaseSourceItemBinding
+import eu.mkonic.tachiyomi.source.LocalSource
+import eu.mkonic.tachiyomi.source.Source
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.source.icon
 
 data class ClearDatabaseSourceItem(val source: Source, val mangaCount: Int) : AbstractFlexibleItem<ClearDatabaseSourceItem.Holder>() {
 

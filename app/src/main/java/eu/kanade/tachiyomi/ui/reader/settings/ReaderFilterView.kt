@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.reader.settings
+package eu.mkonic.tachiyomi.ui.reader.settings
 
 import android.content.Context
 import android.graphics.Rect
@@ -7,10 +7,10 @@ import android.util.AttributeSet
 import android.view.Window
 import android.view.WindowManager
 import androidx.annotation.ColorInt
-import eu.kanade.tachiyomi.databinding.ReaderColorFilterBinding
-import eu.kanade.tachiyomi.ui.reader.ReaderActivity
-import eu.kanade.tachiyomi.util.bindToPreference
-import eu.kanade.tachiyomi.widget.BaseReaderSettingsView
+import eu.mkonic.tachiyomi.databinding.ReaderColorFilterBinding
+import eu.mkonic.tachiyomi.ui.reader.ReaderActivity
+import eu.mkonic.tachiyomi.util.bindToPreference
+import eu.mkonic.tachiyomi.widget.BaseReaderSettingsView
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.sample

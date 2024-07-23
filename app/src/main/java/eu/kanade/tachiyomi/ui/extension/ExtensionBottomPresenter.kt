@@ -1,16 +1,16 @@
-package eu.kanade.tachiyomi.ui.extension
+package eu.mkonic.tachiyomi.ui.extension
 
 import android.content.pm.PackageInstaller
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.extension.ExtensionInstallerJob
-import eu.kanade.tachiyomi.extension.ExtensionManager
-import eu.kanade.tachiyomi.extension.model.Extension
-import eu.kanade.tachiyomi.extension.model.InstallStep
-import eu.kanade.tachiyomi.extension.model.InstalledExtensionsOrder
-import eu.kanade.tachiyomi.extension.util.ExtensionLoader
-import eu.kanade.tachiyomi.ui.migration.BaseMigrationPresenter
-import eu.kanade.tachiyomi.util.system.LocaleHelper
-import eu.kanade.tachiyomi.util.system.withUIContext
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.extension.ExtensionInstallerJob
+import eu.mkonic.tachiyomi.extension.ExtensionManager
+import eu.mkonic.tachiyomi.extension.model.Extension
+import eu.mkonic.tachiyomi.extension.model.InstallStep
+import eu.mkonic.tachiyomi.extension.model.InstalledExtensionsOrder
+import eu.mkonic.tachiyomi.extension.util.ExtensionLoader
+import eu.mkonic.tachiyomi.ui.migration.BaseMigrationPresenter
+import eu.mkonic.tachiyomi.util.system.LocaleHelper
+import eu.mkonic.tachiyomi.util.system.withUIContext
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll

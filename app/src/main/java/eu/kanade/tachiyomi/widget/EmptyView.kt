@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.widget
+package eu.mkonic.tachiyomi.widget
 
 import android.content.Context
 import android.util.AttributeSet
@@ -11,9 +11,9 @@ import androidx.annotation.StringRes
 import androidx.core.view.isVisible
 import androidx.core.view.updateLayoutParams
 import com.google.android.material.button.MaterialButton
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.CommonViewEmptyBinding
-import eu.kanade.tachiyomi.util.view.setVectorCompat
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.CommonViewEmptyBinding
+import eu.mkonic.tachiyomi.util.view.setVectorCompat
 
 class EmptyView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :
     RelativeLayout(context, attrs) {

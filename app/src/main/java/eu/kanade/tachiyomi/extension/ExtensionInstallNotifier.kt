@@ -1,13 +1,13 @@
-package eu.kanade.tachiyomi.extension
+package eu.mkonic.tachiyomi.extension
 
 import android.content.Context
 import android.graphics.BitmapFactory
 import androidx.core.content.ContextCompat
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.notification.NotificationReceiver
-import eu.kanade.tachiyomi.data.notification.Notifications
-import eu.kanade.tachiyomi.util.system.notificationBuilder
-import eu.kanade.tachiyomi.util.system.notificationManager
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.notification.NotificationReceiver
+import eu.mkonic.tachiyomi.data.notification.Notifications
+import eu.mkonic.tachiyomi.util.system.notificationBuilder
+import eu.mkonic.tachiyomi.util.system.notificationManager
 
 class ExtensionInstallNotifier(private val context: Context) {
 

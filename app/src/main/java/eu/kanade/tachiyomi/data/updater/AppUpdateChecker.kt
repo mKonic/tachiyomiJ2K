@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.data.updater
+package eu.mkonic.tachiyomi.data.updater
 
 import android.content.Context
 import android.os.Build
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.network.GET
-import eu.kanade.tachiyomi.network.NetworkHelper
-import eu.kanade.tachiyomi.network.await
-import eu.kanade.tachiyomi.network.parseAs
-import eu.kanade.tachiyomi.util.system.localeContext
-import eu.kanade.tachiyomi.util.system.withIOContext
+import eu.mkonic.tachiyomi.BuildConfig
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.network.GET
+import eu.mkonic.tachiyomi.network.NetworkHelper
+import eu.mkonic.tachiyomi.network.await
+import eu.mkonic.tachiyomi.network.parseAs
+import eu.mkonic.tachiyomi.util.system.localeContext
+import eu.mkonic.tachiyomi.util.system.withIOContext
 import kotlinx.serialization.json.Json
 import uy.kohesive.injekt.injectLazy
 import java.util.Date

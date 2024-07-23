@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.ui.reader.loader
+package eu.mkonic.tachiyomi.ui.reader.loader
 
 import android.app.Application
 import android.net.Uri
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.download.DownloadManager
-import eu.kanade.tachiyomi.data.download.DownloadProvider
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.model.Page
-import eu.kanade.tachiyomi.ui.reader.model.ReaderChapter
-import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.download.DownloadManager
+import eu.mkonic.tachiyomi.data.download.DownloadProvider
+import eu.mkonic.tachiyomi.source.Source
+import eu.mkonic.tachiyomi.source.model.Page
+import eu.mkonic.tachiyomi.ui.reader.model.ReaderChapter
+import eu.mkonic.tachiyomi.ui.reader.model.ReaderPage
 import uy.kohesive.injekt.injectLazy
 import java.io.File
 

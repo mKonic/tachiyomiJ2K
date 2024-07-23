@@ -1,11 +1,11 @@
-package eu.kanade.tachiyomi.ui.manga.chapter
+package eu.mkonic.tachiyomi.ui.manga.chapter
 
 import android.view.View
 import androidx.appcompat.widget.PopupMenu
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Chapter
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Chapter
+import eu.mkonic.tachiyomi.data.download.model.Download
+import eu.mkonic.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
 
 open class BaseChapterHolder(
     view: View,

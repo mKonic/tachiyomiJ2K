@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.updater
+package eu.mkonic.tachiyomi.data.updater
 
 import android.os.Build
 import kotlinx.serialization.SerialName

@@ -1,16 +1,16 @@
-package eu.kanade.tachiyomi.ui.manga
+package eu.mkonic.tachiyomi.ui.manga
 
 import android.view.ActionMode
 import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.ItemTouchHelper
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.ui.manga.chapter.BaseChapterAdapter
-import eu.kanade.tachiyomi.ui.manga.chapter.ChapterItem
-import eu.kanade.tachiyomi.util.chapter.ChapterUtil
-import eu.kanade.tachiyomi.util.system.isLTR
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.ui.manga.chapter.BaseChapterAdapter
+import eu.mkonic.tachiyomi.ui.manga.chapter.ChapterItem
+import eu.mkonic.tachiyomi.util.chapter.ChapterUtil
+import eu.mkonic.tachiyomi.util.system.isLTR
 import uy.kohesive.injekt.injectLazy
 import java.text.DecimalFormat
 import java.text.DecimalFormatSymbols

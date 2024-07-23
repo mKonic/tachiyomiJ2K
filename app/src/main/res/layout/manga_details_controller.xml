@@ -67,7 +67,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
-    <eu.kanade.tachiyomi.ui.base.MaterialFastScroll
+    <eu.mkonic.tachiyomi.ui.base.MaterialFastScroll
         android:id="@+id/fast_scroller"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

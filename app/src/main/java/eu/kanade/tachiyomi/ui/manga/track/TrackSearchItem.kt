@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.manga.track
+package eu.mkonic.tachiyomi.ui.manga.track
 
 import android.view.View
 import androidx.core.view.isVisible
@@ -7,10 +7,10 @@ import coil.load
 import com.google.android.material.shape.CornerFamily
 import com.mikepenz.fastadapter.FastAdapter
 import com.mikepenz.fastadapter.items.AbstractItem
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.databinding.TrackSearchItemBinding
-import eu.kanade.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.track.model.TrackSearch
+import eu.mkonic.tachiyomi.databinding.TrackSearchItemBinding
+import eu.mkonic.tachiyomi.util.system.dpToPx
 import java.util.Locale
 
 class TrackSearchItem(val trackSearch: TrackSearch) : AbstractItem<TrackSearchItem.ViewHolder>() {

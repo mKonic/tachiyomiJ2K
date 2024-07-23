@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.pager
+package eu.mkonic.tachiyomi.ui.reader.viewer.pager
 
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.ui.reader.settings.PageLayout
-import eu.kanade.tachiyomi.ui.reader.viewer.ViewerConfig
-import eu.kanade.tachiyomi.ui.reader.viewer.ViewerNavigation
-import eu.kanade.tachiyomi.ui.reader.viewer.navigation.DisabledNavigation
-import eu.kanade.tachiyomi.ui.reader.viewer.navigation.EdgeNavigation
-import eu.kanade.tachiyomi.ui.reader.viewer.navigation.KindlishNavigation
-import eu.kanade.tachiyomi.ui.reader.viewer.navigation.LNavigation
-import eu.kanade.tachiyomi.ui.reader.viewer.navigation.RightAndLeftNavigation
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.ui.reader.settings.PageLayout
+import eu.mkonic.tachiyomi.ui.reader.viewer.ViewerConfig
+import eu.mkonic.tachiyomi.ui.reader.viewer.ViewerNavigation
+import eu.mkonic.tachiyomi.ui.reader.viewer.navigation.DisabledNavigation
+import eu.mkonic.tachiyomi.ui.reader.viewer.navigation.EdgeNavigation
+import eu.mkonic.tachiyomi.ui.reader.viewer.navigation.KindlishNavigation
+import eu.mkonic.tachiyomi.ui.reader.viewer.navigation.LNavigation
+import eu.mkonic.tachiyomi.ui.reader.viewer.navigation.RightAndLeftNavigation
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.drop
 import kotlinx.coroutines.flow.launchIn

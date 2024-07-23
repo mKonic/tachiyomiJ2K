@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.database.mappers
+package eu.mkonic.tachiyomi.data.database.mappers
 
 import android.content.ContentValues
 import android.database.Cursor
@@ -9,14 +9,14 @@ import com.pushtorefresh.storio.sqlite.operations.put.DefaultPutResolver
 import com.pushtorefresh.storio.sqlite.queries.DeleteQuery
 import com.pushtorefresh.storio.sqlite.queries.InsertQuery
 import com.pushtorefresh.storio.sqlite.queries.UpdateQuery
-import eu.kanade.tachiyomi.data.database.models.Category
-import eu.kanade.tachiyomi.data.database.models.CategoryImpl
-import eu.kanade.tachiyomi.data.database.tables.CategoryTable.COL_FLAGS
-import eu.kanade.tachiyomi.data.database.tables.CategoryTable.COL_ID
-import eu.kanade.tachiyomi.data.database.tables.CategoryTable.COL_MANGA_ORDER
-import eu.kanade.tachiyomi.data.database.tables.CategoryTable.COL_NAME
-import eu.kanade.tachiyomi.data.database.tables.CategoryTable.COL_ORDER
-import eu.kanade.tachiyomi.data.database.tables.CategoryTable.TABLE
+import eu.mkonic.tachiyomi.data.database.models.Category
+import eu.mkonic.tachiyomi.data.database.models.CategoryImpl
+import eu.mkonic.tachiyomi.data.database.tables.CategoryTable.COL_FLAGS
+import eu.mkonic.tachiyomi.data.database.tables.CategoryTable.COL_ID
+import eu.mkonic.tachiyomi.data.database.tables.CategoryTable.COL_MANGA_ORDER
+import eu.mkonic.tachiyomi.data.database.tables.CategoryTable.COL_NAME
+import eu.mkonic.tachiyomi.data.database.tables.CategoryTable.COL_ORDER
+import eu.mkonic.tachiyomi.data.database.tables.CategoryTable.TABLE
 
 class CategoryTypeMapping : SQLiteTypeMapping<Category>(
     CategoryPutResolver(),

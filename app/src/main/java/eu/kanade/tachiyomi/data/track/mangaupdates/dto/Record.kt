@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.data.track.mangaupdates.dto
+package eu.mkonic.tachiyomi.data.track.mangaupdates.dto
 
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.util.lang.htmlDecode
+import eu.mkonic.tachiyomi.data.track.model.TrackSearch
+import eu.mkonic.tachiyomi.util.lang.htmlDecode
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 

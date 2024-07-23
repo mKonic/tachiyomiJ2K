@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.source.globalsearch
+package eu.mkonic.tachiyomi.ui.source.globalsearch
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractFlexibleItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.source.CatalogueSource
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.source.CatalogueSource
 
 /**
  * Item that contains search result information.

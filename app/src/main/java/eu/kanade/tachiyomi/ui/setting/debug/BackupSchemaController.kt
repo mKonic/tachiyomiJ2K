@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.setting.debug
+package eu.mkonic.tachiyomi.ui.setting.debug
 
 import android.view.LayoutInflater
 import android.view.Menu
@@ -8,12 +8,12 @@ import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.mikepenz.fastadapter.FastAdapter
 import com.mikepenz.fastadapter.adapters.ItemAdapter
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.backup.models.Backup
-import eu.kanade.tachiyomi.databinding.SubDebugControllerBinding
-import eu.kanade.tachiyomi.ui.base.controller.BaseController
-import eu.kanade.tachiyomi.util.view.copyToClipboard
-import eu.kanade.tachiyomi.util.view.scrollViewWith
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.backup.models.Backup
+import eu.mkonic.tachiyomi.databinding.SubDebugControllerBinding
+import eu.mkonic.tachiyomi.ui.base.controller.BaseController
+import eu.mkonic.tachiyomi.util.view.copyToClipboard
+import eu.mkonic.tachiyomi.util.view.scrollViewWith
 import kotlinx.serialization.protobuf.schema.ProtoBufSchemaGenerator
 
 class BackupSchemaController : BaseController<SubDebugControllerBinding>() {

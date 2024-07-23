@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.util.system
+package eu.mkonic.tachiyomi.util.system
 
 import androidx.annotation.StringRes
 import androidx.annotation.StyleRes
 import androidx.appcompat.app.AppCompatDelegate
-import eu.kanade.tachiyomi.R
+import eu.mkonic.tachiyomi.R
 
 @Suppress("unused")
 enum class Themes(@StyleRes val styleRes: Int, val nightMode: Int, @StringRes val nameRes: Int, @StringRes altNameRes: Int? = null) {

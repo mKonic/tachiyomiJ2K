@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.recents.options
+package eu.mkonic.tachiyomi.ui.recents.options
 
 import android.content.Context
 import android.util.AttributeSet
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.RecentsHistoryViewBinding
-import eu.kanade.tachiyomi.util.bindToPreference
-import eu.kanade.tachiyomi.util.system.materialAlertDialog
-import eu.kanade.tachiyomi.widget.BaseRecentsDisplayView
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.RecentsHistoryViewBinding
+import eu.mkonic.tachiyomi.util.bindToPreference
+import eu.mkonic.tachiyomi.util.system.materialAlertDialog
+import eu.mkonic.tachiyomi.widget.BaseRecentsDisplayView
 
 class RecentsHistoryView @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null) :
     BaseRecentsDisplayView<RecentsHistoryViewBinding>(context, attrs) {

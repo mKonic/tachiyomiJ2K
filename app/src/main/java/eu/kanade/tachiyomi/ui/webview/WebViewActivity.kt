@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.webview
+package eu.mkonic.tachiyomi.ui.webview
 
 import android.content.Context
 import android.content.Intent
@@ -11,14 +11,14 @@ import android.webkit.WebView
 import androidx.activity.OnBackPressedCallback
 import androidx.activity.addCallback
 import androidx.core.graphics.ColorUtils
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.source.SourceManager
-import eu.kanade.tachiyomi.source.online.HttpSource
-import eu.kanade.tachiyomi.util.system.WebViewClientCompat
-import eu.kanade.tachiyomi.util.system.extensionIntentForText
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.system.openInBrowser
-import eu.kanade.tachiyomi.util.system.toast
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.source.SourceManager
+import eu.mkonic.tachiyomi.source.online.HttpSource
+import eu.mkonic.tachiyomi.util.system.WebViewClientCompat
+import eu.mkonic.tachiyomi.util.system.extensionIntentForText
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.openInBrowser
+import eu.mkonic.tachiyomi.util.system.toast
 import timber.log.Timber
 import uy.kohesive.injekt.injectLazy
 

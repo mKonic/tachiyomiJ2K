@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.recents
+package eu.mkonic.tachiyomi.ui.recents
 
 import android.text.format.DateUtils
 import android.view.View
@@ -10,10 +10,10 @@ import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractHeaderItem
 import eu.davidea.flexibleadapter.items.IFlexible
 import eu.davidea.viewholders.FlexibleViewHolder
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.spToPx
-import eu.kanade.tachiyomi.util.system.timeSpanFromNow
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.spToPx
+import eu.mkonic.tachiyomi.util.system.timeSpanFromNow
 import java.util.Date
 
 class DateItem(val date: Date, val addedString: Boolean = false) : AbstractHeaderItem<DateItem.Holder>() {

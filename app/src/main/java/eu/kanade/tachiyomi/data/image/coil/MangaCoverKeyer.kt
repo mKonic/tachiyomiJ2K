@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.data.image.coil
+package eu.mkonic.tachiyomi.data.image.coil
 
 import coil.key.Keyer
 import coil.request.Options
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.util.storage.DiskUtil
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.util.storage.DiskUtil
 
 class MangaCoverKeyer : Keyer<Manga> {
     override fun key(data: Manga, options: Options): String? {

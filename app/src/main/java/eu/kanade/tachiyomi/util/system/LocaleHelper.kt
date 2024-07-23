@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.util.system
+package eu.mkonic.tachiyomi.util.system
 
 import android.content.Context
 import androidx.core.os.LocaleListCompat
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.source.SourcePresenter
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.ui.source.SourcePresenter
 import java.util.Locale
 
 /**

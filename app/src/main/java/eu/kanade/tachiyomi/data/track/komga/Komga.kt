@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.data.track.komga
+package eu.mkonic.tachiyomi.data.track.komga
 
 import android.content.Context
 import android.graphics.Color
 import androidx.annotation.StringRes
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.database.models.Track
-import eu.kanade.tachiyomi.data.track.EnhancedTrackService
-import eu.kanade.tachiyomi.data.track.TrackService
-import eu.kanade.tachiyomi.data.track.model.TrackSearch
-import eu.kanade.tachiyomi.data.track.updateNewTrackInfo
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.database.models.Track
+import eu.mkonic.tachiyomi.data.track.EnhancedTrackService
+import eu.mkonic.tachiyomi.data.track.TrackService
+import eu.mkonic.tachiyomi.data.track.model.TrackSearch
+import eu.mkonic.tachiyomi.data.track.updateNewTrackInfo
 import okhttp3.Dns
 import okhttp3.OkHttpClient
 
@@ -103,7 +103,7 @@ class Komga(private val context: Context, id: Int) : TrackService(id), EnhancedT
         saveCredentials("user", "pass")
     }
 
-    override fun getAcceptedSources() = listOf("eu.kanade.tachiyomi.extension.all.komga.Komga")
+    override fun getAcceptedSources() = listOf("eu.mkonic.tachiyomi.extension.all.komga.Komga")
 
     override suspend fun match(manga: Manga): TrackSearch? =
         try {

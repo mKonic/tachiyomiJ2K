@@ -1,13 +1,13 @@
-package eu.kanade.tachiyomi.ui.category
+package eu.mkonic.tachiyomi.ui.category
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractFlexibleItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.database.models.Category
-import eu.kanade.tachiyomi.ui.category.CategoryPresenter.Companion.CREATE_CATEGORY_ORDER
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.database.models.Category
+import eu.mkonic.tachiyomi.ui.category.CategoryPresenter.Companion.CREATE_CATEGORY_ORDER
 
 /**
  * Category item for a recycler view.

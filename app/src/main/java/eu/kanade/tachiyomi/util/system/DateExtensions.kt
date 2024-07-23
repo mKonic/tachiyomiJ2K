@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.util.system
+package eu.mkonic.tachiyomi.util.system
 
 import android.content.Context
 import android.text.format.DateUtils
-import eu.kanade.tachiyomi.R
+import eu.mkonic.tachiyomi.R
 import java.util.Calendar
 import java.util.Locale
 import java.util.TimeZone

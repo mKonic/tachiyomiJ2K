@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.database.mappers
+package eu.mkonic.tachiyomi.data.database.mappers
 
 import android.content.ContentValues
 import android.database.Cursor
@@ -9,29 +9,29 @@ import com.pushtorefresh.storio.sqlite.operations.put.DefaultPutResolver
 import com.pushtorefresh.storio.sqlite.queries.DeleteQuery
 import com.pushtorefresh.storio.sqlite.queries.InsertQuery
 import com.pushtorefresh.storio.sqlite.queries.UpdateQuery
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.database.models.MangaImpl
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_ARTIST
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_AUTHOR
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_CHAPTER_FLAGS
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_DATE_ADDED
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_DESCRIPTION
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_FAVORITE
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_FILTERED_SCANLATORS
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_GENRE
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_HIDE_TITLE
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_ID
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_INITIALIZED
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_LAST_UPDATE
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_SOURCE
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_STATUS
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_THUMBNAIL_URL
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_TITLE
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_UPDATE_STRATEGY
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_URL
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.COL_VIEWER
-import eu.kanade.tachiyomi.data.database.tables.MangaTable.TABLE
-import eu.kanade.tachiyomi.data.database.updateStrategyAdapter
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.database.models.MangaImpl
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_ARTIST
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_AUTHOR
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_CHAPTER_FLAGS
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_DATE_ADDED
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_DESCRIPTION
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_FAVORITE
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_FILTERED_SCANLATORS
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_GENRE
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_HIDE_TITLE
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_ID
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_INITIALIZED
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_LAST_UPDATE
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_SOURCE
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_STATUS
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_THUMBNAIL_URL
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_TITLE
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_UPDATE_STRATEGY
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_URL
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.COL_VIEWER
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable.TABLE
+import eu.mkonic.tachiyomi.data.database.updateStrategyAdapter
 
 class MangaTypeMapping : SQLiteTypeMapping<Manga>(
     MangaPutResolver(),

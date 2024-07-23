@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.util
+package eu.mkonic.tachiyomi.extension.util
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -8,15 +8,15 @@ import android.content.pm.PackageManager
 import android.os.Build
 import androidx.core.content.pm.PackageInfoCompat
 import dalvik.system.PathClassLoader
-import eu.kanade.tachiyomi.BuildConfig
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.extension.model.Extension
-import eu.kanade.tachiyomi.extension.model.LoadResult
-import eu.kanade.tachiyomi.source.CatalogueSource
-import eu.kanade.tachiyomi.source.Source
-import eu.kanade.tachiyomi.source.SourceFactory
-import eu.kanade.tachiyomi.util.lang.Hash
-import eu.kanade.tachiyomi.util.system.withIOContext
+import eu.mkonic.tachiyomi.BuildConfig
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.extension.model.Extension
+import eu.mkonic.tachiyomi.extension.model.LoadResult
+import eu.mkonic.tachiyomi.source.CatalogueSource
+import eu.mkonic.tachiyomi.source.Source
+import eu.mkonic.tachiyomi.source.SourceFactory
+import eu.mkonic.tachiyomi.util.lang.Hash
+import eu.mkonic.tachiyomi.util.system.withIOContext
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.runBlocking

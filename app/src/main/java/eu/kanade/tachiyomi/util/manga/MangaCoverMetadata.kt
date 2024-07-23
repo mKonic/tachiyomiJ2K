@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.util.manga
+package eu.mkonic.tachiyomi.util.manga
 
 import android.graphics.BitmapFactory
 import androidx.annotation.ColorInt
 import androidx.palette.graphics.Palette
-import eu.kanade.tachiyomi.data.cache.CoverCache
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.data.image.coil.getBestColor
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.data.cache.CoverCache
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.data.image.coil.getBestColor
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
 import uy.kohesive.injekt.injectLazy
 import java.io.File
 import java.util.concurrent.ConcurrentHashMap

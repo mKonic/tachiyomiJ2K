@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.data.database.queries
+package eu.mkonic.tachiyomi.data.database.queries
 
-import eu.kanade.tachiyomi.data.database.resolvers.SourceIdMangaCountGetResolver
-import eu.kanade.tachiyomi.ui.recents.RecentsPresenter
-import eu.kanade.tachiyomi.data.database.tables.CategoryTable as Category
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable as Chapter
-import eu.kanade.tachiyomi.data.database.tables.HistoryTable as History
-import eu.kanade.tachiyomi.data.database.tables.MangaCategoryTable as MangaCategory
-import eu.kanade.tachiyomi.data.database.tables.MangaTable as Manga
+import eu.mkonic.tachiyomi.data.database.resolvers.SourceIdMangaCountGetResolver
+import eu.mkonic.tachiyomi.ui.recents.RecentsPresenter
+import eu.mkonic.tachiyomi.data.database.tables.CategoryTable as Category
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable as Chapter
+import eu.mkonic.tachiyomi.data.database.tables.HistoryTable as History
+import eu.mkonic.tachiyomi.data.database.tables.MangaCategoryTable as MangaCategory
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable as Manga
 
 /**
  * Query to get the manga from the library, with their categories and unread count.

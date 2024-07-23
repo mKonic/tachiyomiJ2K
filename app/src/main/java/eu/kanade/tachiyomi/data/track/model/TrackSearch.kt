@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.data.track.model
+package eu.mkonic.tachiyomi.data.track.model
 
-import eu.kanade.tachiyomi.data.database.models.Track
+import eu.mkonic.tachiyomi.data.database.models.Track
 
 class TrackSearch : Track {
 

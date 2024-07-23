@@ -1,10 +1,10 @@
-package eu.kanade.tachiyomi.data.database.resolvers
+package eu.mkonic.tachiyomi.data.database.resolvers
 
 import android.annotation.SuppressLint
 import android.database.Cursor
 import com.pushtorefresh.storio.sqlite.operations.get.DefaultGetResolver
-import eu.kanade.tachiyomi.data.database.models.SourceIdMangaCount
-import eu.kanade.tachiyomi.data.database.tables.MangaTable
+import eu.mkonic.tachiyomi.data.database.models.SourceIdMangaCount
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable
 
 class SourceIdMangaCountGetResolver : DefaultGetResolver<SourceIdMangaCount>() {
 

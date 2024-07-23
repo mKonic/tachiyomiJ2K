@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.data.preference
+package eu.mkonic.tachiyomi.data.preference
 
 import androidx.annotation.StringRes
-import eu.kanade.tachiyomi.R
+import eu.mkonic.tachiyomi.R
 
 // Library
 const val MANGA_NON_COMPLETED = "manga_ongoing"

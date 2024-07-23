@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.extension
+package eu.mkonic.tachiyomi.ui.extension
 
 import android.content.pm.PackageInstaller
 import android.view.View
@@ -6,10 +6,10 @@ import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractSectionableItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.extension.model.Extension
-import eu.kanade.tachiyomi.extension.model.InstallStep
-import eu.kanade.tachiyomi.source.CatalogueSource
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.extension.model.Extension
+import eu.mkonic.tachiyomi.extension.model.InstallStep
+import eu.mkonic.tachiyomi.source.CatalogueSource
 
 /**
  * Item that contains source information.

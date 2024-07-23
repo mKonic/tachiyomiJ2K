@@ -1,8 +1,8 @@
-package eu.kanade.tachiyomi.extension.model
+package eu.mkonic.tachiyomi.extension.model
 
 import androidx.annotation.StringRes
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
 
 enum class InstalledExtensionsOrder(val value: Int, @StringRes val nameRes: Int) {
     Name(0, R.string.name),

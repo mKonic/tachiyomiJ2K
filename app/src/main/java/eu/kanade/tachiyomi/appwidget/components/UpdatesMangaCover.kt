@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.appwidget.components
+package eu.mkonic.tachiyomi.appwidget.components
 
 import android.graphics.Bitmap
 import androidx.compose.runtime.Composable
@@ -10,8 +10,8 @@ import androidx.glance.layout.Box
 import androidx.glance.layout.ContentScale
 import androidx.glance.layout.fillMaxSize
 import androidx.glance.layout.size
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.appwidget.util.appWidgetInnerRadius
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.appwidget.util.appWidgetInnerRadius
 
 val CoverWidth = 58.dp
 val CoverHeight = 87.dp

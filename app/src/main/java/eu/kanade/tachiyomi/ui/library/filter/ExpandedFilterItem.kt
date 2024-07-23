@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.library.filter
+package eu.mkonic.tachiyomi.ui.library.filter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -10,10 +10,10 @@ import com.google.android.material.textview.MaterialTextView
 import com.mikepenz.fastadapter.FastAdapter
 import com.mikepenz.fastadapter.items.AbstractItem
 import com.mikepenz.fastadapter.listeners.ClickEventHook
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.ExpandedFilterItemBinding
-import eu.kanade.tachiyomi.databinding.ExpandedFilterItemTextViewBinding
-import eu.kanade.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.ExpandedFilterItemBinding
+import eu.mkonic.tachiyomi.databinding.ExpandedFilterItemTextViewBinding
+import eu.mkonic.tachiyomi.util.system.dpToPx
 
 class ExpandedFilterItem(val filter: LibraryFilter) : AbstractItem<FastAdapter.ViewHolder<ExpandedFilterItem>>() {
 

@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.ui.download
+package eu.mkonic.tachiyomi.ui.download
 
 import android.view.View
 import androidx.appcompat.widget.PopupMenu
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.ItemTouchHelper
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.databinding.DownloadItemBinding
-import eu.kanade.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
-import eu.kanade.tachiyomi.util.chapter.ChapterUtil.Companion.preferredChapterName
-import eu.kanade.tachiyomi.util.view.setVectorCompat
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.download.model.Download
+import eu.mkonic.tachiyomi.databinding.DownloadItemBinding
+import eu.mkonic.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
+import eu.mkonic.tachiyomi.util.chapter.ChapterUtil.Companion.preferredChapterName
+import eu.mkonic.tachiyomi.util.view.setVectorCompat
 
 /**
  * Class used to hold the data of a download.

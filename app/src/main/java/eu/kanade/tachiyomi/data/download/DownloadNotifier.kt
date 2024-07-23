@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.download
+package eu.mkonic.tachiyomi.data.download
 
 import android.app.PendingIntent
 import android.content.Context
@@ -6,18 +6,18 @@ import android.content.Intent
 import android.graphics.BitmapFactory
 import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.download.model.Download
-import eu.kanade.tachiyomi.data.library.LibraryUpdateNotifier
-import eu.kanade.tachiyomi.data.notification.NotificationHandler
-import eu.kanade.tachiyomi.data.notification.NotificationReceiver
-import eu.kanade.tachiyomi.data.notification.Notifications
-import eu.kanade.tachiyomi.data.preference.PreferencesHelper
-import eu.kanade.tachiyomi.util.chapter.ChapterUtil.Companion.preferredChapterName
-import eu.kanade.tachiyomi.util.lang.chop
-import eu.kanade.tachiyomi.util.system.localeContext
-import eu.kanade.tachiyomi.util.system.notificationBuilder
-import eu.kanade.tachiyomi.util.system.notificationManager
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.download.model.Download
+import eu.mkonic.tachiyomi.data.library.LibraryUpdateNotifier
+import eu.mkonic.tachiyomi.data.notification.NotificationHandler
+import eu.mkonic.tachiyomi.data.notification.NotificationReceiver
+import eu.mkonic.tachiyomi.data.notification.Notifications
+import eu.mkonic.tachiyomi.data.preference.PreferencesHelper
+import eu.mkonic.tachiyomi.util.chapter.ChapterUtil.Companion.preferredChapterName
+import eu.mkonic.tachiyomi.util.lang.chop
+import eu.mkonic.tachiyomi.util.system.localeContext
+import eu.mkonic.tachiyomi.util.system.notificationBuilder
+import eu.mkonic.tachiyomi.util.system.notificationManager
 import uy.kohesive.injekt.injectLazy
 import java.util.regex.Pattern
 

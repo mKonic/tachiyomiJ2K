@@ -1,6 +1,6 @@
-package eu.kanade.tachiyomi.data.backup.models
+package eu.mkonic.tachiyomi.data.backup.models
 
-import eu.kanade.tachiyomi.BuildConfig
+import eu.mkonic.tachiyomi.BuildConfig
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.protobuf.ProtoNumber
 import java.text.SimpleDateFormat

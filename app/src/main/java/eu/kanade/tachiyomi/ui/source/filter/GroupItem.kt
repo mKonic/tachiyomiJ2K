@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.source.filter
+package eu.mkonic.tachiyomi.ui.source.filter
 
 import android.view.View
 import android.widget.ImageView
@@ -9,9 +9,9 @@ import eu.davidea.flexibleadapter.items.AbstractExpandableHeaderItem
 import eu.davidea.flexibleadapter.items.IFlexible
 import eu.davidea.flexibleadapter.items.ISectionable
 import eu.davidea.viewholders.ExpandableViewHolder
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.source.model.Filter
-import eu.kanade.tachiyomi.util.view.setAnimVectorCompat
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.source.model.Filter
+import eu.mkonic.tachiyomi.util.view.setAnimVectorCompat
 
 class GroupItem(val filter: Filter.Group<*>) : AbstractExpandableHeaderItem<GroupItem.Holder, ISectionable<*, *>>() {
 

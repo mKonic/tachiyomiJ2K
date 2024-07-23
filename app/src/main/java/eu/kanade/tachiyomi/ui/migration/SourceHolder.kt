@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.ui.migration
+package eu.mkonic.tachiyomi.ui.migration
 
 import android.view.View
 import androidx.core.text.buildSpannedString
 import androidx.core.text.color
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.MigrationCardItemBinding
-import eu.kanade.tachiyomi.source.icon
-import eu.kanade.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
-import eu.kanade.tachiyomi.util.lang.withColor
-import eu.kanade.tachiyomi.util.system.LocaleHelper
-import eu.kanade.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.MigrationCardItemBinding
+import eu.mkonic.tachiyomi.source.icon
+import eu.mkonic.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
+import eu.mkonic.tachiyomi.util.lang.withColor
+import eu.mkonic.tachiyomi.util.system.LocaleHelper
+import eu.mkonic.tachiyomi.util.system.getResourceColor
 import java.util.Locale
 
 class SourceHolder(view: View, val adapter: SourceAdapter) :

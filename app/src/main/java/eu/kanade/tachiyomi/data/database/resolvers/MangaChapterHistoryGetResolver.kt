@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.data.database.resolvers
+package eu.mkonic.tachiyomi.data.database.resolvers
 
 import android.database.Cursor
 import com.pushtorefresh.storio.sqlite.operations.get.DefaultGetResolver
-import eu.kanade.tachiyomi.data.database.mappers.ChapterGetResolver
-import eu.kanade.tachiyomi.data.database.mappers.HistoryGetResolver
-import eu.kanade.tachiyomi.data.database.mappers.MangaGetResolver
-import eu.kanade.tachiyomi.data.database.models.ChapterImpl
-import eu.kanade.tachiyomi.data.database.models.HistoryImpl
-import eu.kanade.tachiyomi.data.database.models.MangaChapterHistory
-import eu.kanade.tachiyomi.data.database.tables.ChapterTable
-import eu.kanade.tachiyomi.data.database.tables.HistoryTable
+import eu.mkonic.tachiyomi.data.database.mappers.ChapterGetResolver
+import eu.mkonic.tachiyomi.data.database.mappers.HistoryGetResolver
+import eu.mkonic.tachiyomi.data.database.mappers.MangaGetResolver
+import eu.mkonic.tachiyomi.data.database.models.ChapterImpl
+import eu.mkonic.tachiyomi.data.database.models.HistoryImpl
+import eu.mkonic.tachiyomi.data.database.models.MangaChapterHistory
+import eu.mkonic.tachiyomi.data.database.tables.ChapterTable
+import eu.mkonic.tachiyomi.data.database.tables.HistoryTable
 
 class MangaChapterHistoryGetResolver : DefaultGetResolver<MangaChapterHistory>() {
     companion object {

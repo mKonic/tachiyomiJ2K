@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.util.system
+package eu.mkonic.tachiyomi.util.system
 
 import android.app.Activity
 import android.content.Context
@@ -24,7 +24,7 @@ import androidx.core.graphics.green
 import androidx.core.graphics.red
 import androidx.core.graphics.scale
 import com.hippo.unifile.UniFile
-import eu.kanade.tachiyomi.R
+import eu.mkonic.tachiyomi.R
 import tachiyomi.decoder.Format
 import tachiyomi.decoder.ImageDecoder
 import timber.log.Timber

@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.library.filter
+package eu.mkonic.tachiyomi.ui.library.filter
 
 import android.view.View
 import androidx.core.view.isVisible
@@ -6,9 +6,9 @@ import androidx.recyclerview.widget.RecyclerView
 import eu.davidea.flexibleadapter.FlexibleAdapter
 import eu.davidea.flexibleadapter.items.AbstractFlexibleItem
 import eu.davidea.flexibleadapter.items.IFlexible
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.databinding.CategoriesItemBinding
-import eu.kanade.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.databinding.CategoriesItemBinding
+import eu.mkonic.tachiyomi.ui.base.holder.BaseFlexibleViewHolder
 
 /**
  * Category item for a recycler view.

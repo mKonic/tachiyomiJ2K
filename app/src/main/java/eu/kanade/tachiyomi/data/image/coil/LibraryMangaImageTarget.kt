@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.image.coil
+package eu.mkonic.tachiyomi.data.image.coil
 
 import android.graphics.BitmapFactory
 import android.graphics.drawable.Drawable
@@ -10,9 +10,9 @@ import coil.memory.MemoryCache
 import coil.request.Disposable
 import coil.request.ImageRequest
 import coil.target.ImageViewTarget
-import eu.kanade.tachiyomi.data.cache.CoverCache
-import eu.kanade.tachiyomi.data.database.models.Manga
-import eu.kanade.tachiyomi.util.system.launchIO
+import eu.mkonic.tachiyomi.data.cache.CoverCache
+import eu.mkonic.tachiyomi.data.database.models.Manga
+import eu.mkonic.tachiyomi.util.system.launchIO
 import uy.kohesive.injekt.injectLazy
 
 class LibraryMangaImageTarget(

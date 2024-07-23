@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.network
+package eu.mkonic.tachiyomi.network
 
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.suspendCancellableCoroutine

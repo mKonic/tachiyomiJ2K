@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.ui.manga
+package eu.mkonic.tachiyomi.ui.manga
 
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Rect
 import android.graphics.drawable.Drawable
 import android.view.View
-import eu.kanade.tachiyomi.util.system.dpToPx
-import eu.kanade.tachiyomi.util.system.isLTR
+import eu.mkonic.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.util.system.isLTR
 
 class MangaDetailsDivider(context: Context, val padding: Int = 12.dpToPx) : androidx.recyclerview.widget.RecyclerView.ItemDecoration() {
 

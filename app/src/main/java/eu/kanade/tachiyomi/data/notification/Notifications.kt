@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.notification
+package eu.mkonic.tachiyomi.data.notification
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -7,8 +7,8 @@ import android.app.NotificationManager
 import android.content.Context
 import android.os.Build
 import androidx.core.app.NotificationManagerCompat
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.notificationManager
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.system.notificationManager
 
 /**
  * Class to manage the basic information of all the notifications used in the app.
@@ -25,7 +25,7 @@ object Notifications {
     const val CHANNEL_INSTALLING = "installing_channel"
     const val CHANNEL_UPDATED = "updated_channel"
     const val ID_INSTALLED = -6
-    const val GROUP_APP_UPDATES = "eu.kanade.tachiyomi.APP_UPDATES"
+    const val GROUP_APP_UPDATES = "eu.mkonic.tachiyomi.APP_UPDATES"
 
     /**
      * Notification channel and ids used by the downloader.
@@ -41,7 +41,7 @@ object Notifications {
     private const val GROUP_LIBRARY = "group_library"
     const val CHANNEL_NEW_CHAPTERS = "new_chapters_channel"
     const val ID_NEW_CHAPTERS = -301
-    const val GROUP_NEW_CHAPTERS = "eu.kanade.tachiyomi.NEW_CHAPTERS"
+    const val GROUP_NEW_CHAPTERS = "eu.mkonic.tachiyomi.NEW_CHAPTERS"
 
     /**
      * Notification channel and ids used by the library updater.

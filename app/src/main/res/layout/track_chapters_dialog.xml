@@ -5,7 +5,7 @@
               android:layout_height="match_parent"
               android:orientation="vertical">
 
-    <eu.kanade.tachiyomi.widget.MinMaxNumberPicker
+    <eu.mkonic.tachiyomi.widget.MinMaxNumberPicker
         android:id="@+id/chapters_picker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

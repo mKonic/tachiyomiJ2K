@@ -1,9 +1,9 @@
-package eu.kanade.tachiyomi.ui.library
+package eu.mkonic.tachiyomi.ui.library
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.ui.base.MaterialMenuSheet
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.ui.base.MaterialMenuSheet
 
 enum class LibrarySort(
     val mainValue: Int,

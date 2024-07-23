@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.webview
+package eu.mkonic.tachiyomi.ui.webview
 
 import android.annotation.SuppressLint
 import android.app.assist.AssistContent
@@ -26,16 +26,16 @@ import androidx.core.view.marginBottom
 import androidx.core.view.updateLayoutParams
 import androidx.core.view.updatePadding
 import androidx.lifecycle.lifecycleScope
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.data.preference.asImmediateFlowIn
-import eu.kanade.tachiyomi.databinding.WebviewActivityBinding
-import eu.kanade.tachiyomi.ui.base.activity.BaseActivity
-import eu.kanade.tachiyomi.ui.security.SecureActivityDelegate
-import eu.kanade.tachiyomi.util.system.getPrefTheme
-import eu.kanade.tachiyomi.util.system.getResourceColor
-import eu.kanade.tachiyomi.util.system.isInNightMode
-import eu.kanade.tachiyomi.util.system.setDefaultSettings
-import eu.kanade.tachiyomi.util.view.setStyle
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.data.preference.asImmediateFlowIn
+import eu.mkonic.tachiyomi.databinding.WebviewActivityBinding
+import eu.mkonic.tachiyomi.ui.base.activity.BaseActivity
+import eu.mkonic.tachiyomi.ui.security.SecureActivityDelegate
+import eu.mkonic.tachiyomi.util.system.getPrefTheme
+import eu.mkonic.tachiyomi.util.system.getResourceColor
+import eu.mkonic.tachiyomi.util.system.isInNightMode
+import eu.mkonic.tachiyomi.util.system.setDefaultSettings
+import eu.mkonic.tachiyomi.util.view.setStyle
 
 open class BaseWebViewActivity : BaseActivity<WebviewActivityBinding>() {
 

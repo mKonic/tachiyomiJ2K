@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.ui.library
+package eu.mkonic.tachiyomi.ui.library
 
 import android.annotation.SuppressLint
 import android.view.GestureDetector
@@ -6,7 +6,7 @@ import android.view.Gravity
 import android.view.MotionEvent
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.view.updateLayoutParams
-import eu.kanade.tachiyomi.util.view.hide
+import eu.mkonic.tachiyomi.util.view.hide
 import kotlin.math.abs
 import kotlin.math.pow
 import kotlin.math.sign

@@ -1,15 +1,15 @@
-package eu.kanade.tachiyomi.ui.reader.viewer.webtoon
+package eu.mkonic.tachiyomi.ui.reader.viewer.webtoon
 
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import eu.kanade.tachiyomi.ui.reader.model.ChapterTransition
-import eu.kanade.tachiyomi.ui.reader.model.ReaderChapter
-import eu.kanade.tachiyomi.ui.reader.model.ReaderPage
-import eu.kanade.tachiyomi.ui.reader.model.ViewerChapters
-import eu.kanade.tachiyomi.ui.reader.viewer.ReaderPageImageView
-import eu.kanade.tachiyomi.ui.reader.viewer.hasMissingChapters
+import eu.mkonic.tachiyomi.ui.reader.model.ChapterTransition
+import eu.mkonic.tachiyomi.ui.reader.model.ReaderChapter
+import eu.mkonic.tachiyomi.ui.reader.model.ReaderPage
+import eu.mkonic.tachiyomi.ui.reader.model.ViewerChapters
+import eu.mkonic.tachiyomi.ui.reader.viewer.ReaderPageImageView
+import eu.mkonic.tachiyomi.ui.reader.viewer.hasMissingChapters
 
 /**
  * RecyclerView Adapter used by this [viewer] to where [ViewerChapters] updates are posted.

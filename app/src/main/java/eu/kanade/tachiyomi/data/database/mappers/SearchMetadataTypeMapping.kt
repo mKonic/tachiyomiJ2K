@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.data.database.mappers
+package eu.mkonic.tachiyomi.data.database.mappers
 
 import android.content.ContentValues
 import android.database.Cursor
@@ -9,13 +9,13 @@ import com.pushtorefresh.storio.sqlite.operations.put.DefaultPutResolver
 import com.pushtorefresh.storio.sqlite.queries.DeleteQuery
 import com.pushtorefresh.storio.sqlite.queries.InsertQuery
 import com.pushtorefresh.storio.sqlite.queries.UpdateQuery
-import eu.kanade.tachiyomi.data.database.models.SearchMetadata
-import eu.kanade.tachiyomi.data.database.tables.SearchMetadataTable.COL_EXTRA
-import eu.kanade.tachiyomi.data.database.tables.SearchMetadataTable.COL_EXTRA_VERSION
-import eu.kanade.tachiyomi.data.database.tables.SearchMetadataTable.COL_INDEXED_EXTRA
-import eu.kanade.tachiyomi.data.database.tables.SearchMetadataTable.COL_MANGA_ID
-import eu.kanade.tachiyomi.data.database.tables.SearchMetadataTable.COL_UPLOADER
-import eu.kanade.tachiyomi.data.database.tables.SearchMetadataTable.TABLE
+import eu.mkonic.tachiyomi.data.database.models.SearchMetadata
+import eu.mkonic.tachiyomi.data.database.tables.SearchMetadataTable.COL_EXTRA
+import eu.mkonic.tachiyomi.data.database.tables.SearchMetadataTable.COL_EXTRA_VERSION
+import eu.mkonic.tachiyomi.data.database.tables.SearchMetadataTable.COL_INDEXED_EXTRA
+import eu.mkonic.tachiyomi.data.database.tables.SearchMetadataTable.COL_MANGA_ID
+import eu.mkonic.tachiyomi.data.database.tables.SearchMetadataTable.COL_UPLOADER
+import eu.mkonic.tachiyomi.data.database.tables.SearchMetadataTable.TABLE
 
 class SearchMetadataTypeMapping : SQLiteTypeMapping<SearchMetadata>(
     SearchMetadataPutResolver(),

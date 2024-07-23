@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.widget
+package eu.mkonic.tachiyomi.widget
 
-import eu.kanade.tachiyomi.R
-import eu.kanade.tachiyomi.util.system.dpToPx
+import eu.mkonic.tachiyomi.R
+import eu.mkonic.tachiyomi.util.system.dpToPx
 import kotlin.math.min
 import kotlin.math.roundToInt
 

@@ -52,7 +52,7 @@
                 android:paddingTop="6dp"
                 android:paddingBottom="6dp">
 
-                <eu.kanade.tachiyomi.widget.MenuSheetItemView
+                <eu.mkonic.tachiyomi.widget.MenuSheetItemView
                     android:id="@+id/incognito_mode_item"
                     android:layout_width="0dp"
                     app:layout_constraintWidth_min="wrap"
@@ -75,7 +75,7 @@
                     android:layout_height="1dp"
                     android:background="@color/divider" />
 
-                <eu.kanade.tachiyomi.widget.MenuSheetItemView
+                <eu.mkonic.tachiyomi.widget.MenuSheetItemView
                     android:id="@+id/settings_item"
                     android:layout_width="0dp"
                     app:layout_constraintWidth_min="wrap"
@@ -87,7 +87,7 @@
                     android:text="@string/settings"
                     app:icon="@drawable/ic_outline_settings_24dp" />
 
-                <eu.kanade.tachiyomi.widget.MenuSheetItemView
+                <eu.mkonic.tachiyomi.widget.MenuSheetItemView
                     android:id="@+id/stats_item"
                     android:layout_width="0dp"
                     app:layout_constraintWidth_min="wrap"
@@ -100,7 +100,7 @@
                     app:icon="@drawable/ic_query_stats_24dp" />
 
 
-                <eu.kanade.tachiyomi.widget.MenuSheetItemView
+                <eu.mkonic.tachiyomi.widget.MenuSheetItemView
                     android:id="@+id/about_item"
                     android:layout_width="0dp"
                     app:layout_constraintWidth_min="wrap"
@@ -112,7 +112,7 @@
                     android:text="@string/about"
                     app:icon="@drawable/ic_info_outline_24dp" />
 
-                <eu.kanade.tachiyomi.widget.MenuSheetItemView
+                <eu.mkonic.tachiyomi.widget.MenuSheetItemView
                     android:id="@+id/help_item"
                     android:layout_width="0dp"
                     app:layout_constraintWidth_min="wrap"

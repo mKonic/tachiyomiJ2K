@@ -1,7 +1,7 @@
-package eu.kanade.tachiyomi.extension.model
+package eu.mkonic.tachiyomi.extension.model
 
 import android.graphics.drawable.Drawable
-import eu.kanade.tachiyomi.source.Source
+import eu.mkonic.tachiyomi.source.Source
 import kotlinx.serialization.Serializable
 
 sealed class Extension {
