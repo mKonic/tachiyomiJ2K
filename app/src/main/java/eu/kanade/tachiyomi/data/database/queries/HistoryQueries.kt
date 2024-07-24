@@ -9,6 +9,7 @@ import eu.mkonic.tachiyomi.data.database.models.MangaChapterHistory
 import eu.mkonic.tachiyomi.data.database.resolvers.HistoryUpsertResolver
 import eu.mkonic.tachiyomi.data.database.resolvers.MangaChapterHistoryGetResolver
 import eu.mkonic.tachiyomi.data.database.tables.HistoryTable
+import eu.mkonic.tachiyomi.data.database.tables.MangaTable
 import eu.mkonic.tachiyomi.util.lang.sqLite
 
 interface HistoryQueries : DbProvider {
@@ -176,6 +177,14 @@ interface HistoryQueries : DbProvider {
         .byQuery(
             DeleteQuery.builder()
                 .table(HistoryTable.TABLE)
+                .build(),
+        )
+        .prepare()
+
+    fun deleteUpdates() = db.delete()
+        .byQuery(
+            DeleteQuery.builder()
+                .table(MangaTable.TABLE)
                 .build(),
         )
         .prepare()

@@ -680,6 +680,16 @@ class RecentsPresenter(
         }
     }
 
+    fun deleteAllUpdates() {
+        presenterScope.launchIO {
+            db.deleteUpdates().executeAsBlocking()
+            withUIContext {
+                view?.activity?.toast(R.string.clear_updates_completed)
+                getRecents()
+            }
+        }
+    }
+
     enum class GroupType {
         BySeries,
         ByWeek,

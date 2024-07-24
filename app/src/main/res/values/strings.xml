@@ -272,6 +272,8 @@
     <string name="show_download_button">Show download button</string>
     <string name="clear_history_completed">History deleted</string>
     <string name="clear_history_confirmation">Are you sure? All history will be lost.</string>
+    <string name="clear_updates_confirmation">Are you sure? All updates history will be lost.</string>
+    <string name="clear_updates_completed">Updates history deleted</string>
 
     <!-- Recents Settings -->
     <string name="show_reset_history_button">Show reset history button</string>
@@ -290,6 +292,7 @@
     <string name="only_downloaded">Only downloaded</string>
     <string name="unread_or_downloaded">Unread or downloaded</string>
     <string name="clear_history">Clear history</string>
+    <string name="clear_updates">Clear updates</string>
 
     <!-- Browse -->
     <string name="search_filters">Search filters</string>
